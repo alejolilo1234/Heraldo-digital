@@ -274,7 +274,7 @@
             window.open(data.url);
           break;
           case 'button':
-            $("#" + attr.buttonModal.containerIdToOpen).modal();
+            $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
           break;
           case 'table-content':
             // 

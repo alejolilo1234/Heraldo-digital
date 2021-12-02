@@ -1,24 +1,30 @@
 [
   {
     "id": 1,
-    "buttonModal": [
-      0.414,
-      0.372,
-      0.174,
-      0.041
-    ],
-    "className": "button",
-    "containerIdToOpen": "ex3"
+    "buttonModal": {
+      "className": "button",
+      "containerIdToOpen": "ex3",
+      "css":{
+        "left": "41.4%",
+        "top": "37.2%",
+        "width": "17.4%",
+        "height": "4.1%"
+      },
+      "content":"<p>Hola mundo</p>"
+    }
   },
   {
     "id": 2,
-    "buttonModal":[
-      0.414,
-      0.792,
-      0.174,
-      0.041
-    ],
-    "className": "button",
-    "containerIdToOpen": "ex4"
+    "buttonModal": {
+      "className": "button",
+      "containerIdToOpen": "ex4",
+      "css":{
+        "left": "41.4%",
+        "top": "79.2%",
+        "width": "17.4%",
+        "height": "4.1%"
+      },
+      "content":"<p>Imagen</p>"
+    }
   }
 ]

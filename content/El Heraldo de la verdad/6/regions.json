@@ -1,13 +1,16 @@
 [
   {
     "id": 1,
-    "buttonModal": [
-      0.414,
-      0.712,
-      0.174,
-      0.051
-    ],
-    "className": "button",
-    "containerIdToOpen": "ex2"
+    "buttonModal": {
+      "className": "button",
+      "containerIdToOpen": "ex2",
+      "css":{
+        "left": "41.4%",
+        "top": "71.2%",
+        "width": "17.4%",
+        "height": "5.1%"
+      },
+      "content":"<p>Hola mundo</p>"
+    }
   }
 ]
