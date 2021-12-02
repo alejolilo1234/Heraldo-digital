@@ -8,28 +8,29 @@
 .modal {
   max-height: 90%!important;
   overflow-y: auto;
+  text-align:justify!important;
 }
 
 .modal a.close-modal {
-  top: 10px!important;
-  right: 10px!important;
-  width: 15px!important;
-  height: 15px!important;
-  background-image: url('../../assets/img/close.svg')!important;
   display:none!important;
 }
 
-a.modal-close-button {
-  display: block;
+div.container-close-button{
   position: sticky;
   top: -20px;
-  /* padding: 20px 0 10px; */
-  margin: 0;
-  background: white;
+  padding: 15px 0 10px;
+  margin: -25px -20px;
+  text-align:right;
 }
 
-a.modal-close-button[stuck]{
-  padding:100px!important;
+a.modal-close-button {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image: url('../../assets/img/close.svg');
+  width:15px;
+  height:15px;
 }
 
 .modal::-webkit-scrollbar {

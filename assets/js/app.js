@@ -233,7 +233,7 @@
           let contentForButton = document.createElement("div");
           contentForButton.setAttribute("class","modal");
           contentForButton.setAttribute("id",attr.buttonModal.containerIdToOpen);
-          contentForButton.innerHTML = attr.buttonModal.content;
+          contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div>" + attr.buttonModal.content;
 
           $pageElement.append(contentForButton);
         }
