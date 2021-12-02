@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "buttonModal": {
+      "className": "button",
+      "containerIdToOpen": "ex1",
+      "css":{
+        "left": "64.4%",
+        "top": "78.2%",
+        "width": "23.4%",
+        "height": "5.1%"
+      },
+      "content":"<h1>FE SIEMPRE 2</h1><p>La fe es un principio que está presente en la relación con Dios siempre y es imprescindible.</p><p>“El que se acerca a Dios debe creer que Dios es...” así comienza. “Predicad el evangelio... el que creyere...” Desde la génesis de la vida cristiana la fe está ahí. No se puede pensar en “nuevo nacimiento” sin la intervención de la fe, porque a través de ella es como se conecta el ser humano con Dios.</p><p>Pero nuestro texto inicial nos sugiere que esta fe debe permanecer activa de “principio a fin”, convirtiéndose así en un estilo de vida.<br>No solo los pastores, sino todos los creyentes viven por la fe, porque entre otras cosas lo que no proviene de fe es pecado. Romanos 14:23.<br>El cristiano descubre en el diario vivir que no se turba su corazón porque cree en Jesús, que no se angustia por cómo suplirá sus necesidades básicas ni qué será del mañana, porque su Padre Celestial sabe que de todas estas cosas tiene necesidad. Cree que “...mayor es el que está en vosotros, que el que está en el mundo” (1 Juan 4:4). Y por lo tanto descansa confiado.</p><p>El cristiano no teme a la muerte porque ha creído en que Jesús es la resurrección y la vida, y que el que cree en Él, aunque esté muerto vivirá. Así que, esta fe es una poderosa ancla del alma que fortalece y afianza la esperanza de un mañana glorioso. Fe de principio a fin, este es el gran secreto... Y la gran fortaleza del creyente: ¡Fe siempre!</p><!-- <a href='#' rel='modal:close'>Cerrar</a> -->"
+    }
+  }
+]

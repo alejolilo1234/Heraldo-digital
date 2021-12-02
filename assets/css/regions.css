@@ -1,0 +1,31 @@
+.ui-region-button {
+  position: absolute;
+  overflow: hidden;
+  z-index: 1;
+  background-color: rgba(0, 102, 255, 0.15);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ui-region-table-content {
+  position: absolute;
+  z-index: 1;
+  overflow:auto;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  /* cursor: pointer; */
+  /* padding:20px; */
+}
+
+/* .ui-region-hover {
+  background-color: rgba(0, 102, 255, 0.3);
+}
+
+.ui-region-press {
+  background-color: rgba(0, 102, 255, 0.5);
+} */
+
+.ui-region-tooltip {
+  font-size: 13px !important;
+}

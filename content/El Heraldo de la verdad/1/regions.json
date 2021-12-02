@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "padding": "20px",
+        "background-image": "url('./content/El Heraldo de la verdad/1/1-region.png')",
+        "background-repeat": "no-repeat",
+        "background-size": "contain"
+      }
+    }
+  }
+]

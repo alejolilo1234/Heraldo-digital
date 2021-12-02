@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "padding":"20px"
+      },
+      "innerHTML":[{
+        "tag":"h1",
+        "className":"table-content-title",
+        "idTag":"",
+        "css":{
+          "color":"red"
+        },
+        "text":"Contenido"
+      },
+      {
+        "tag":"div",
+        "className":"",
+        "idTag":"",
+        "css":{
+          "color":"blue"
+        },
+        "text":"<p>Hola mundo!!</p>"
+      }]
+    }
+  }
+]
