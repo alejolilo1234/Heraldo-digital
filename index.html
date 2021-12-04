@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="assets/css/regions.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/table.css">
 
-     <!-- External CSS dependencies -->
-    <link href='assets/css/font.css' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    
     <!-- App CSS dependencies -->
     <link type="text/css" rel="stylesheet" href="assets/css/main.css"></link>
 
+    <!-- External CSS dependencies -->
+    <link href='assets/css/font.css' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    
     <!-- External JS dependencies -->
     <script type="text/javascript" src="assets/js/jquery-2.0.3.min.js"></script>
     <script type="text/javascript" src="assets/js/underscore-min.js"></script>
@@ -34,9 +35,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
   </head>
   <body>
+    <!-- Loading screen -->
     <div id="loading">
       <img id="loading-image" src="./assets/img/loader@2x.gif" alt="Loading..." />
     </div>
+    <!-- / Loading screen -->
     
     <div class="catalog-app">
     <div id="viewer">
@@ -47,7 +50,7 @@
       </div>
     </div>
 
-    <!-- controls -->
+    <!-- Controls -->
     <div id="controls">
       <div class="all">
           <div class="ui-slider" id="page-slider">
@@ -61,9 +64,9 @@
         </div>
 
         <div class="ui-options" id="options">
-          <!-- <a class="ui-icon" id="ui-icon-table-contents">
+          <a class="ui-icon" id="ui-icon-table-contents">
             <i class="fa fa-bars"></i>
-          </a> -->
+          </a>
           <a class="ui-icon show-hint" title="Miniaturas" id="ui-icon-miniature">
             <i class="fa fa-th"></i>
           </a>

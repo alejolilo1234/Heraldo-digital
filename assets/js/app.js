@@ -425,7 +425,7 @@
           this._itemPage[settings.table[itemNum].page] = itemNum;
         } else {
           var pages = $('#flipbook').turn('view', this._nextItemPage, true);
-          text = (pages.length==1) ? 'Page '+pages[0] : 'Pages '+pages.join('-');
+          text = (pages.length==1) ? 'Página '+pages[0] : 'Páginas '+pages.join('-');
           this._itemPage[pages[0]] = itemNum;
           this._nextItemPage = pages[pages.length-1] + 1;
         }

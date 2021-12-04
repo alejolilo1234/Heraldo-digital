@@ -1,8 +1,8 @@
 .ui-region-button {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
   transform: scale(1);
-  -webkit-animation: pulse 2s infinite;
-  animation: pulse 2s infinite;
+  -webkit-animation: pulse 2s;
+  animation: pulse 2s;
 }
 
 @-webkit-keyframes pulse {
@@ -39,13 +39,15 @@
 	}
 }
 
-.ui-region-table-content {
+/* .ui-region-table-content {
   animation: fadeIn 1.5s;
   -webkit-animation: fadeIn 1.5s;
   -moz-animation: fadeIn 1.5s;
   -o-animation: fadeIn 1.5s;
   -ms-animation: fadeIn 1.5s;
-}
+} */
+
+/* Fade in */
 
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -70,4 +72,39 @@
 @-ms-keyframes fadeIn {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+
+/* Swing */
+
+@-webkit-keyframes swing-in-right-fwd {
+  0% {
+    -webkit-transform: rotateY(-100deg);
+            transform: rotateY(-100deg);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    opacity: 1;
+  }
+}
+@keyframes swing-in-right-fwd {
+  0% {
+    -webkit-transform: rotateY(-100deg);
+            transform: rotateY(-100deg);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(0);
+            transform: rotateY(0);
+    -webkit-transform-origin: right;
+            transform-origin: right;
+    opacity: 1;
+  }
 }
