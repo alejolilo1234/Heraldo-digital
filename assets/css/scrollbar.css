@@ -1,0 +1,44 @@
+.modal::-webkit-scrollbar,
+.ui-menu::-webkit-scrollbar,
+.ui-region-html-content::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.modal::-webkit-scrollbar-thumb,
+.ui-menu::-webkit-scrollbar-thumb,
+.ui-region-html-content::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 4px;
+}
+
+.modal::-webkit-scrollbar-thumb:hover,
+.ui-menu::-webkit-scrollbar-thumb:hover,
+.ui-region-html-content::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.modal::-webkit-scrollbar-thumb:active,
+.ui-menu::-webkit-scrollbar-thumb:active,
+.ui-region-html-content::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+
+.modal::-webkit-scrollbar-track,
+.ui-menu::-webkit-scrollbar-track,
+.ui-region-html-content::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 4px;
+}
+
+.modal::-webkit-scrollbar-track:hover,
+.modal::-webkit-scrollbar-track:active,
+/* Contenido */
+.ui-menu::-webkit-scrollbar-track:hover,
+.ui-menu::-webkit-scrollbar-track:active,
+/* HTML content */
+.ui-region-html-content::-webkit-scrollbar-track:hover,
+.ui-region-html-content::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}

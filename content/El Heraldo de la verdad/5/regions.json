@@ -7,23 +7,75 @@
         "background-image": "url('./content/El Heraldo de la verdad/5/car-pre.png')",
         "background-repeat": "no-repeat",
         "background-size": "contain",
-        "animation": "swing-in-right-fwd 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
-        "-webkit-animation": "swing-in-right-fwd 1.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+        "animation": "swing-in-right-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
+        "-webkit-animation": "swing-in-right-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
       }
     }
   },
   {
     "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        
+      },
+      "innerHTML":[{
+        "tag":"div",
+        "className":"author",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "width":"69%",
+          "top":"86.5%",
+          "background-color":"blue",
+          "right":"0",
+          "padding":"7px 15px",
+          "border-top-left-radius":"55px",
+          "border-bottom-left-radius":"55px",
+          "color":"white",
+          "font-family":"sans-serif",
+          "font-size":".75em",
+          "white-space": "nowrap"
+        },
+        "text":"Por Álvaro Jesús Torres Forero. Presidente IPUC"
+      }]
+    }
+  },
+  {
+    "id": 3,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "box-shadow": "inset 0 0 10px -5px rgba(0,0,0,.5)",
+        "left": "33%",
+        "top": "37.2%",
+        "width": "59%",
+        "height": "40%",
+        "overflow":"hidden",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px"
+      },
+      "text":"<h2 class='subtitle' style='font-size: 2em;padding:0;margin:0;'>Fe siempre</h1><p class='paragraph-capitalized' style='padding:0;margin-top:20px;font-size:1em;line-height: 1.3;text-align:justify'>Queridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.<q class='bible-quote' style='padding:0;font-size:1em;text-align:right;color:var(--color-text-quote);display:inline-block'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</q><span style='color:#a95352;text-align:right;display:block;'>(Romanos 1:17 GNB).</span></p>"
+    }
+  },
+  {
+    "id": 4,
     "buttonModal": {
       "className": "button",
+      "modalButtonText":"Leer más",
       "containerIdToOpen": "ex1",
       "css":{
-        "left": "64.4%",
-        "top": "78.2%",
+        "left": "68.4%",
+        "top": "79.2%",
         "width": "23.4%",
-        "height": "5.1%"
+        "height": "5.1%",
+        "display":"flex",
+        "place-content":"center",
+        "align-items":"center"
       },
-      "content":"<h1>FE SIEMPRE</h1><p>La fe es un principio que está presente en la relación con Dios siempre y es imprescindible.</p><p>“El que se acerca a Dios debe creer que Dios es...” así comienza. “Predicad el evangelio... el que creyere...” Desde la génesis de la vida cristiana la fe está ahí. No se puede pensar en “nuevo nacimiento” sin la intervención de la fe, porque a través de ella es como se conecta el ser humano con Dios.</p><p>Pero nuestro texto inicial nos sugiere que esta fe debe permanecer activa de “principio a fin”, convirtiéndose así en un estilo de vida.<br>No solo los pastores, sino todos los creyentes viven por la fe, porque entre otras cosas lo que no proviene de fe es pecado. Romanos 14:23.<br>El cristiano descubre en el diario vivir que no se turba su corazón porque cree en Jesús, que no se angustia por cómo suplirá sus necesidades básicas ni qué será del mañana, porque su Padre Celestial sabe que de todas estas cosas tiene necesidad. Cree que “...mayor es el que está en vosotros, que el que está en el mundo” (1 Juan 4:4). Y por lo tanto descansa confiado.</p><p>El cristiano no teme a la muerte porque ha creído en que Jesús es la resurrección y la vida, y que el que cree en Él, aunque esté muerto vivirá. Así que, esta fe es una poderosa ancla del alma que fortalece y afianza la esperanza de un mañana glorioso. Fe de principio a fin, este es el gran secreto... Y la gran fortaleza del creyente: ¡Fe siempre!</p>"
+      "content":"<p>La fe es un principio que está presente en la relación con Dios siempre y es imprescindible.</p><p>“El que se acerca a Dios debe creer que Dios es...” así comienza. “Predicad el evangelio... el que creyere...” Desde la génesis de la vida cristiana la fe está ahí. No se puede pensar en “nuevo nacimiento” sin la intervención de la fe, porque a través de ella es como se conecta el ser humano con Dios.</p><p>Pero nuestro texto inicial nos sugiere que esta fe debe permanecer activa de “principio a fin”, convirtiéndose así en un estilo de vida.<br>No solo los pastores, sino todos los creyentes viven por la fe, porque entre otras cosas lo que no proviene de fe es pecado. Romanos 14:23.<br>El cristiano descubre en el diario vivir que no se turba su corazón porque cree en Jesús, que no se angustia por cómo suplirá sus necesidades básicas ni qué será del mañana, porque su Padre Celestial sabe que de todas estas cosas tiene necesidad. Cree que “...mayor es el que está en vosotros, que el que está en el mundo” (1 Juan 4:4). Y por lo tanto descansa confiado.</p><p>El cristiano no teme a la muerte porque ha creído en que Jesús es la resurrección y la vida, y que el que cree en Él, aunque esté muerto vivirá. Así que, esta fe es una poderosa ancla del alma que fortalece y afianza la esperanza de un mañana glorioso. Fe de principio a fin, este es el gran secreto... Y la gran fortaleza del creyente: ¡Fe siempre!</p>"
     }
   }
 ]

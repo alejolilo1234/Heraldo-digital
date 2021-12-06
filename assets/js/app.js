@@ -226,6 +226,8 @@
           this.$el.addClass('ui-region-' + attr.buttonModal.className);
 
           this.$el.css(attr.buttonModal.css);
+
+          this.$el.html(attr.buttonModal.modalButtonText);
     
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -237,7 +239,7 @@
 
           $pageElement.append(contentForButton);
         }
-        if (attr.tableContent) {
+        else if (attr.tableContent) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.tableContent.className);
 
@@ -260,6 +262,17 @@
           this.$el.data({view: this});
           $pageElement.append(this.$el);
         }
+        else if(attr.HTMLContent){
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+          this.$el.addClass('ui-region-' + attr.HTMLContent.className);
+
+          this.$el.css(attr.HTMLContent.css);
+
+          this.$el.html(attr.HTMLContent.text);
+          
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
+        }
       },
     
       processAction: function() {
@@ -277,7 +290,7 @@
             $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
           break;
           case 'table-content':
-            // 
+            console.log("Table content");
           break;
         }
     
