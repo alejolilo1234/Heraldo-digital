@@ -2,9 +2,10 @@
   position: absolute;
   overflow: hidden;
   z-index: 1;
-  background-color: rgba(0, 102, 255, 0.15);
+  /* background-color: rgba(0, 102, 255, 0.15); */
   border-radius: 5px;
   cursor: pointer;
+  font-family: 'Bebas Neue',cursive;
 }
 
 .ui-region-table-content {
@@ -14,6 +15,20 @@
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.ui-region-page-number::before {
+  content: "";
+  height: 6px;
+  width: 500px;
+  background-color: #9e1f1e;
+  position: absolute;
+  bottom: 7px;
+  left: 20px;
+}
+
+.ui-region-page-number.left::before {
+  left: -500px;
 }
 
 /* .ui-region-hover {

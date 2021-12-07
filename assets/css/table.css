@@ -1,6 +1,7 @@
 .ui-menu {
   inset: 10% 10% 10% 76%!important;
   overflow-y: auto;
+  display:none!important;
 }
 
 @media screen and (max-width:576px){

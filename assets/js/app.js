@@ -273,25 +273,46 @@
           this.$el.data({view: this});
           $pageElement.append(this.$el);
         }
+        else if(attr.pagesNumber){
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+          this.$el.addClass('ui-region-' + attr.pagesNumber);
+
+          let pageNumberText = this.model.pageNumber - 2;
+
+          if(pageNumberText % 2 == 0){
+            this.$el.css({"left":"9%"});
+            this.$el.addClass("left");
+          } else this.$el.css({"right":"9%"});
+          
+          this.$el.css({
+            "position": "absolute",
+            "bottom": "3%",
+            "color": "white",
+            "background": "#9e1f1e",
+            "border-radius": "50%",
+            "height": "22px",
+            "width": "22px",
+            "font-family": "'Bebas Neue'",
+            "padding": "3px 5px",
+            "z-index": "99999999"
+          });
+          this.$el.html("0" + pageNumberText);
+          
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
+
+        }
       },
     
       processAction: function() {
         var attr = this.model.attributes,
           data = attr.data;
-      
-        switch (attr.buttonModal.className) {
-          case 'page':
-            $('#flipbook').turn('page', data.page);
-          break;
-          case 'link':
-            window.open(data.url);
-          break;
-          case 'button':
-            $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
-          break;
-          case 'table-content':
-            console.log("Table content");
-          break;
+
+        if(attr.buttonModal){
+          $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
+        }  
+        else if(attr.pagesNumber){
+          $('#flipbook').turn('page', 1);
         }
     
         $('#flipbook').tooltips('hide');
