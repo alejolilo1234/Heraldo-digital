@@ -294,7 +294,8 @@
             "width": "22px",
             "font-family": "'Bebas Neue'",
             "padding": "3px 5px",
-            "z-index": "99999999"
+            "z-index": "99999999",
+            "cursor":"pointer"
           });
           this.$el.html("0" + pageNumberText);
           
