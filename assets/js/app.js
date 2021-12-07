@@ -297,7 +297,9 @@
             "z-index": "99999999",
             "cursor":"pointer"
           });
-          this.$el.html("0" + pageNumberText);
+
+          if(pageNumberText < 9) this.$el.html("0" + pageNumberText);
+          else this.$el.html(pageNumberText);
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
