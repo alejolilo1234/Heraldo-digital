@@ -1,6 +1,7 @@
 // Change these settings
 
-let pageTitle = 'El Heraldo de la verdad';
+let pageTitle = 'El Heraldo de la verdad | Edición digital';
+let contentTitle = 'El Heraldo de la verdad';
 let divText = '|';
 let pageText = 'Página';
 
@@ -11,7 +12,7 @@ FlipbookSettings = {
     pages: 65
   },
   shareMessage: pageTitle,
-  pageFolder: 'content/'+pageTitle+'/',
+  pageFolder: 'content/'+ contentTitle +'/',
   loadRegions: true,
   loadHTML: true
 };

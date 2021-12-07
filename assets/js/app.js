@@ -642,7 +642,7 @@
         if (!event.donotFade) {
           var that = this;
     
-          if (event.pageY > $('#viewer').height()-20) {
+          if (event.pageY > $('#viewer').height()+20) {
             if (this.$el.hasClass('hidden-controls')) {
               this.$el.removeClass('hidden-controls');
             }

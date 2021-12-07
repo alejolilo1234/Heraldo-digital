@@ -5,8 +5,6 @@
       "className": "table-content",
       "css":{
         "background-image": "url('./content/El Heraldo de la verdad/1/1-region.png')",
-        "background-repeat": "no-repeat",
-        "background-size": "contain",
         "animation": "fadeIn 1.5s",
         "-webkit-animation": "fadeIn 1.5s"
       }
