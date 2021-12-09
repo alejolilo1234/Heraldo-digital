@@ -4,7 +4,6 @@
     "tableContent":{
       "className": "table-content",
       "css":{
-        "padding":"20px",
         "animation": "fadeIn 1.5s",
         "-webkit-animation": "fadeIn 1.5s"
       },
@@ -13,7 +12,15 @@
         "className":"table-content-title",
         "idTag":"",
         "css":{
-          "color":"red"
+          "margin": "5px",
+          "padding": "15px",
+          "font-family": "'Bebas Neue'",
+          "color":"white",
+          "font-size": "3em",
+          "font-weight": "100",
+          "text-align": "center",
+          "background-color":"#2d3875",
+          "border-radius": "10px"
         },
         "text":"Contenido"
       },

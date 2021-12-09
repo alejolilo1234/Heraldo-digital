@@ -1,30 +1,124 @@
 [
   {
     "id": 1,
-    "buttonModal": {
-      "className": "button",
-      "containerIdToOpen": "ex3",
-      "css":{
-        "left": "41.4%",
-        "top": "37.2%",
-        "width": "17.4%",
-        "height": "4.1%"
-      },
-      "content":"<p>Hola mundo</p>"
-    }
+    "pagesNumber":"page-number"
   },
   {
     "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/6/title.png')",
+        "-webkit-animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
+        "animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        
+      },
+      "innerHTML":[{
+        "tag":"div",
+        "className":"author",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "top":"86.5%",
+          "right":"0",
+          "padding":"7px 15px",
+          "border-top-left-radius":"55px",
+          "border-bottom-left-radius":"55px",
+          "color":"white",
+          "font-family":"sans-serif",
+          "white-space": "nowrap",
+          "font-size": ".65em",
+          "background-color": "#2d3875",
+          "width": "50%",
+          "animation": "fadeIn 1.5s",
+          "-webkit-animation": "fadeIn 1.5s"
+        },
+        "text":"Por Edilberto Ortiz Sanmartín. Primer Vicepresidente IPUC"
+      }]
+    }
+  },
+  {
+    "id": 4,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "10%",
+        "top": "23.2%",
+        "width": "90%",
+        "height": "100%",
+        "overflow":"hidden",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p>Dios se ha acercado a cada persona con su poder y su misericordia, alcanzando incluso a sus respectivas familias. El Señor hizo un milagro en la vida de Pablo y Silas, el carcelero lo vio y creyó, al saberlo toda su familia, también creyeron y fueron bautizados. “… Cree en el Señor Jesucristo, y serás salvo, tú y tu casa” (Hechos 16:31).</p>"
+    }
+  },
+  {
+    "id": 5,
     "buttonModal": {
       "className": "button",
-      "containerIdToOpen": "ex4",
+      "modalButtonText":"Leer más",
+      "containerIdToOpen": "EJds",
       "css":{
-        "left": "41.4%",
-        "top": "79.2%",
-        "width": "17.4%",
-        "height": "4.1%"
+        "right": "35%",
+        "top": "43.2%",
+        "height": "5.1%",
+        "align-items":"center",
+        "color": "white",
+        "background": "#2d3875",
+        "padding": "5px 8px 0"
       },
-      "content":"<p>Imagen</p>"
+      "content":"<p>Ejercitar la fe poniéndola en práctica en una familia, afirma los cimientos de esta. Es decir, es una gran bendición para una familia que las costumbres, estilo de vida y forma de pensar, están impregnados de una fe verdadera.</p>"
+    }
+  },
+  {
+    "id": 6,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "10%",
+        "top": "53.2%",
+        "width": "90%",
+        "height": "100%",
+        "overflow":"hidden",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<img src='./content/El%20Heraldo%20de%20la%20verdad/7/image.jpg' width=200>"
+    }
+  },
+  {
+    "id": 7,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Ampliar",
+      "containerIdToOpen": "EJdetw",
+      "css":{
+        "right": "35%",
+        "top": "73.2%",
+        "height": "5.1%",
+        "align-items":"center",
+        "color": "white",
+        "background": "#2d3875",
+        "padding": "5px 8px 0"
+      },
+      "content":"<p>Imagen aquí</p>"
     }
   }
 ]

@@ -98,12 +98,14 @@
       _turnedEvent: function(event, page) {
         AppRouter.getInstance().navigate('page/' + page, {trigger: false});
         if (window.FlipbookSettings.loadRegions) {
-          this._loadRegions(page);
-          this._loadRegions(page + 1);
-        }
-        if (window.FlipbookSettings.loadHTML) {
-          this._loadHTML(page);
-          this._loadHTML(page + 1);
+          if(page % 2 == 0 || page == 1){
+            this._loadRegions(page);
+            this._loadRegions(page + 1);
+
+          } else if(page % 2 != 0 && page != 1){
+            this._loadRegions(page - 1);
+            this._loadRegions(page);
+          }
         }
       },
     

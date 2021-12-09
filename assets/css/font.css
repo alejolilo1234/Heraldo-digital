@@ -6,37 +6,3 @@
   src: url(https://fonts.gstatic.com/s/carroisgothicsc/v10/ZgNJjOVHM6jfUZCmyUqT2A2HVKjc-18gPnc.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
-:root{
-  --color-subtitle: #9d221b;
-  --color-text: #535152;
-  --color-text-quote:#a95352;
-}
-
-.subtitle {
-  font-family:'Bebas Neue',cursive;
-  color:var(--color-subtitle);
-  /* font-size: 3vw; */
-}
-
-.paragraph-capitalized {
-  font-family:'Times New Roman', Times, serif;
-  color:var(--color-text);
-}
-
-.bible-quote {
-  font-family:'Times New Roman', Times, serif;
-  color:var(--color-text);
-  font-style: italic;
-}
-
-.quote {
-}
-
-.paragraph-capitalized::first-letter {
-  font-size: 3em;
-  font-family:'Bebas Neue',cursive;
-  color:var(--color-subtitle);
-  margin-right:4px;
-  line-height: 0.5;
-}

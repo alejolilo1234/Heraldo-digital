@@ -1,0 +1,40 @@
+:root{
+  --color-subtitle: #9d221b;
+  --color-text: #535152;
+  --color-text-quote:#a95352;
+}
+
+p {
+  color: var(--color-text);
+}
+
+.subtitle {
+  font-family:'Bebas Neue',cursive;
+  color:var(--color-subtitle);
+  padding:0;
+  margin:0;
+}
+
+.paragraph {
+  font-family:'Times New Roman', Times, serif;
+  padding:0;
+  margin:0;
+}
+
+.paragraph-capitalized {
+  color:var(--color-text);
+}
+
+.paragraph-capitalized::first-letter {
+  font-size: 3em;
+  font-family:'Bebas Neue',cursive;
+  color:var(--color-subtitle);
+  margin-right:4px;
+  line-height: 0.5;
+}
+
+.bible-quote {
+  font-family:'Times New Roman', Times, serif;
+  color:var(--color-text);
+  font-style: italic;
+}

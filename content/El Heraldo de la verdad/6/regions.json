@@ -1,16 +1,86 @@
 [
   {
     "id": 1,
+    "pagesNumber":"page-number"
+  },
+  {
+    "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/6/title.png')",
+        "-webkit-animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
+        "animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        
+      },
+      "innerHTML":[{
+        "tag":"div",
+        "className":"author",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "top":"86.5%",
+          "right":"0",
+          "padding":"7px 15px",
+          "border-top-left-radius":"55px",
+          "border-bottom-left-radius":"55px",
+          "color":"white",
+          "font-family":"sans-serif",
+          "white-space": "nowrap",
+          "font-size": ".65em",
+          "background-color": "#2d3875",
+          "width": "50%",
+          "animation": "fadeIn 1.5s",
+          "-webkit-animation": "fadeIn 1.5s"
+        },
+        "text":"Por Angelmiro Camacho Isaza. Coordinador Nacional DECOM"
+      }]
+    }
+  },
+  {
+    "id": 4,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "10%",
+        "top": "23.2%",
+        "width": "90%",
+        "height": "100%",
+        "overflow":"hidden",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p>“No perdáis, pues, vuestra confianza, que tiene grande galardón; porque os es necesaria la paciencia, para que habiendo hecho la voluntad de Dios, obtengáis la promesa. Porque aún un poquito, Y el que ha de venir vendrá, y no tardará. Mas el justo vivirá por fe; Y si retrocediere, no agradará a mi alma” (Hebreos 10:35-38).</p><p>El honorable Consistorio de Ancianos de nuestra Iglesia, en este año 2021, ha querido acuñar una frase muy significativa como es, “Fe siempre”, motivando a la Iglesia a no perder nuestra fe en estos momentos tan difíciles que vive el mundo, donde la duda y la incertidumbre han golpeado a toda la humanidad, y la Iglesia no ha sido ajena.</p><p>El escritor de la carta a los hebreos está escribiendo a quienes querían apostatar o retroceder de la fe cristiana y volverse al judaísmo, a no perder la confianza en Cristo que tiene gran galardón y les aconseja a tener paciencia hasta obtener la promesa: “porque un poquito, y el que ha de venir vendrá, y no tardará” (Hebreos 10:37).</p>"
+    }
+  },
+  {
+    "id": 5,
     "buttonModal": {
       "className": "button",
-      "containerIdToOpen": "ex2",
+      "modalButtonText":"Leer más",
+      "containerIdToOpen": "ex124",
       "css":{
-        "left": "41.4%",
-        "top": "71.2%",
-        "width": "17.4%",
-        "height": "5.1%"
+        "right": "35%",
+        "top": "72.2%",
+        "height": "5.1%",
+        "align-items":"center",
+        "color": "white",
+        "background": "#2d3875",
+        "padding": "5px 8px 0"
       },
-      "content":"<p>Hola mundo</p>"
+      "content":"<p>“No perdáis, pues, vuestra confianza, que tiene grande galardón; porque os es necesaria la paciencia, para que habiendo hecho la voluntad de Dios, obtengáis la promesa. Porque aún un poquito, Y el que ha de venir vendrá, y no tardará. Mas el justo vivirá por fe; Y si retrocediere, no agradará a mi alma” (Hebreos 10:35-38).</p><p>El honorable Consistorio de Ancianos de nuestra Iglesia, en este año 2021, ha querido acuñar una frase muy significativa como es, “Fe siempre”, motivando a la Iglesia a no perder nuestra fe en estos momentos tan difíciles que vive el mundo, donde la duda y la incertidumbre han golpeado a toda la humanidad, y la Iglesia no ha sido ajena.</p><p>El escritor de la carta a los hebreos está escribiendo a quienes querían apostatar o retroceder de la fe cristiana y volverse al judaísmo, a no perder la confianza en Cristo que tiene gran galardón y les aconseja a tener paciencia hasta obtener la promesa: “porque un poquito, y el que ha de venir vendrá, y no tardará” (Hebreos 10:37).</p><p>Y les advierte que volver atrás no agrada a Dios ya que este camino es de fe, porque “…el justo vivirá por fe…” (Hebreos 10:38).</p><p>En estas notas quiero traer a nuestro contexto del mundo en que vivimos, estas palabras, para animar a todos los lectores no solo en nuestro país, sino hasta donde lleguen estas palabras, a continuar creyendo “…que el que comenzó en nosotros esta obra la perfeccionará hasta el día de Jesucristo” (Filipenses 1:6).</p><p>El libro de los Hebreos en su capítulo once nos relata la experiencia de hombres y mujeres tanto en el Antiguo Testamento, como en el Nuevo Testamento, nos dieron ejemplo de lo que es permanecer y sostenerse en la fe, logrando ganar grandes batallas.</p><p>“¿Y qué más digo? Porque el tiempo me faltaría contando de Gedeón, de Barac, de Sansón, de Jefté, de David, así como de Samuel y de los profetas; que por fe conquistaron reinos, hicieron justicia, alcanzaron promesas, taparon bocas de leones, apagaron fuegos impetuosos, evitaron filo de espada, sacaron fuerzas de debilidad, se hicieron fuertes en batallas, pusieron en fuga ejércitos extranjeros. Las mujeres recibieron sus muertos mediante resurrección; mas otros fueron atormentados, no aceptando el rescate, a fin de obtener mejor resurrección. Otros experimentaron vituperios y azotes, y a más de esto prisiones y cárceles. Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra. Y todos éstos, aunque alcanzaron buen testimonio mediante la fe, no recibieron lo prometido proveyendo Dios alguna cosa mejor para nosotros, para que no fuesen ellos perfeccionados aparte de nosotros” (Hebreos 11:32-40).</p><p>Hoy en las postrimerías de la gracia, sí podemos decir que vale la pena seguir sosteniéndonos en la fe, creyendo en las promesas de nuestro Señor Jesucristo, que son fieles y verdaderas, y así obtengamos la promesa, como lo dice el escritor:</p><p>“No perdáis, pues, vuestra confianza, que tiene grande galardón; porque os es necesaria la paciencia, para que habiendo hecho la voluntad de Dios, obtengáis la promesa” (Hebreos 10:35-36).</p><p>La Iglesia de Señor ha tenido que enfrentar momentos muy difíciles durante su peregrinaje por la tierra, y estamos a punto de terminar nuestra carrera, cuando escucharemos la trompeta final, llamando a su pueblo para reunirnos con Él.</p><p>“En un momento, en un abrir y cerrar de ojos, a la final trompeta; porque se tocará la trompeta, y los muertos serán resucitados incorruptibles, y nosotros seremos transformados” (1 Corintios 15:52).</p><p>Cada artículo que usted podrá leer en este ejemplar le animará a alimentar su fe, a no desmayar, a no permitir que la duda lo lleve a retroceder, por el contrario, queremos animarle a seguir perseverando en este Evangelio de la gracia, como es la recomendación del apóstol Pablo en su primera carta a los tesalonicenses.</p><p>“Porque no nos ha puesto Dios para ira, sino para alcanzar salvación por medio de nuestro Señor Jesucristo, quien murió por nosotros para que ya sea que velemos, o que durmamos, vivamos juntamente con él. Por lo cual, animaos unos a otros, y edificaos unos a otros, así como lo hacéis” (1 Tesalonicenses 5:9-11).</p>"
     }
   }
 ]
