@@ -1,1 +1,69 @@
-[]
+[
+  {
+    "id": 1,
+    "pagesNumber":"page-number"
+  },
+  {
+    "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/8/title.png')",
+        "-webkit-animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
+        "animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        
+      },
+      "innerHTML":[{
+        "tag":"div",
+        "className":"author",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "top":"56.5%",
+          "left":"0",
+          "padding":"7px 15px",
+          "border-top-right-radius":"55px",
+          "border-bottom-right-radius":"55px",
+          "color":"white",
+          "font-family":"sans-serif",
+          "white-space": "nowrap",
+          "font-size": ".65em",
+          "background-color": "#2d3875",
+          "width": "50%",
+          "animation": "fadeIn 1.5s",
+          "-webkit-animation": "fadeIn 1.5s",
+          "overflow": "hidden"
+        },
+        "text":"Por Edilberto Ortiz Sanmartín. Primer Vicepresidente IPUC"
+      }]
+    }
+  },
+  {
+    "id": 4,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "10%",
+        "top": "70.2%",
+        "width": "80%",
+        "height": "25%",
+        "overflow":"hidden",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p>Un maestro de la iglesia hizo un aporte etimológico de la expresión fe, afirmando que fe y fidelidad son de la misma familia, y explicó que fe es la convicción, mientras que fidelidad es esa fe en acción. De esto se desprende que un hombre fiel es aquel que está dispuesto a actuar de acuerdo a lo que afirma creer.</p>"
+    }
+  }
+]

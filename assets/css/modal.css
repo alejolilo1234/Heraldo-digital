@@ -6,8 +6,10 @@
 }
 
 .modal {
+  max-width: 600px!important;
   max-height: 90%!important;
   overflow-y: auto;
+  width:0;
   text-align:justify!important;
 }
 

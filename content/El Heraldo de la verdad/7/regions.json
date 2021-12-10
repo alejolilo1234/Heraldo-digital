@@ -8,7 +8,7 @@
     "tableContent":{
       "className": "table-content",
       "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/6/title.png')",
+        "background-image": "url('./content/El Heraldo de la verdad/7/title.png')",
         "-webkit-animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
         "animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
       }
@@ -42,6 +42,66 @@
           "-webkit-animation": "fadeIn 1.5s"
         },
         "text":"Por Edilberto Ortiz Sanmartín. Primer Vicepresidente IPUC"
+      },
+      {
+        "tag":"p",
+        "className":"text",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "top":"45.5%",
+          "left":"12%",
+          "padding":"7px 15px",
+          "border-radius":"10px",
+          "color":"#2d3875",
+          "font-family":"sans-serif",
+          "font-size": ".65em",
+          "border": "1px solid #2d3875",
+          "animation": "fadeIn 1.5s",
+          "-webkit-animation": "fadeIn 1.5s",
+          "max-width": "80%"
+        },
+        "text":"- La fe en Cristo es el motor de nuestra familia."
+      },
+      {
+        "tag":"p",
+        "className":"text",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "top":"50.5%",
+          "left":"12%",
+          "padding":"7px 15px",
+          "border-radius":"10px",
+          "color":"#2d3875",
+          "font-family":"sans-serif",
+          "font-size": ".65em",
+          "border": "1px solid #2d3875",
+          "animation": "fadeIn 1.5s",
+          "-webkit-animation": "fadeIn 1.5s",
+          "max-width": "80%"
+        },
+        "text":"- Dar ejemplo de fe a nuestra familia, es permitir que cada uno desarrolle una relación personal con Dios."
+      },
+      {
+        "tag":"p",
+        "className":"text",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "top":"57.2%",
+          "left":"12%",
+          "padding":"7px 15px",
+          "border-radius":"10px",
+          "color":"#2d3875",
+          "font-family":"sans-serif",
+          "font-size": ".65em",
+          "border": "1px solid #2d3875",
+          "animation": "fadeIn 1.5s",
+          "-webkit-animation": "fadeIn 1.5s",
+          "max-width": "80%"
+        },
+        "text":"- Direccionar la fe de nuestra familia."
       }]
     }
   },
@@ -50,10 +110,10 @@
     "HTMLContent":{
       "className": "html-content",
       "css":{
-        "left": "10%",
+        "left": "8%",
         "top": "23.2%",
         "width": "90%",
-        "height": "100%",
+        "height": "25%",
         "overflow":"hidden",
         "position": "absolute",
         "z-index": "1",
@@ -72,15 +132,15 @@
       "modalButtonText":"Leer más",
       "containerIdToOpen": "EJds",
       "css":{
-        "right": "35%",
-        "top": "43.2%",
+        "right": "39%",
+        "top": "40.2%",
         "height": "5.1%",
         "align-items":"center",
         "color": "white",
         "background": "#2d3875",
         "padding": "5px 8px 0"
       },
-      "content":"<p>Ejercitar la fe poniéndola en práctica en una familia, afirma los cimientos de esta. Es decir, es una gran bendición para una familia que las costumbres, estilo de vida y forma de pensar, están impregnados de una fe verdadera.</p>"
+      "content":"<p>Dios se ha acercado a cada persona con su poder y su misericordia, alcanzando incluso a sus respectivas familias. El Señor hizo un milagro en la vida de Pablo y Silas, el carcelero lo vio y creyó, al saberlo toda su familia, también creyeron y fueron bautizados. “… Cree en el Señor Jesucristo, y serás salvo, tú y tu casa” (Hechos 16:31).</p><p>Ejercitar la fe poniéndola en práctica en una familia, afirma los cimientos de esta. Es decir, es una gran bendición para una familia que las costumbres, estilo de vida y forma de pensar, están impregnados de una fe verdadera.</p><p>“con tal de que se mantengan firmes en la fe, bien cimentados y estables, sin abandonar la esperanza que ofrece el evangelio…” (Colosenses 1:23 NVI).</p><p>Cuando una familia está firme en la fe, está llamada a ver la vida con esperanza, paz y alegría, ya que sabemos que Dios está siempre con nosotros. Un ejemplo fue Noé y su familia:</p><p>“Por la fe Noé, cuando fue advertido por Dios acerca de cosas que aún no se veían, con temor preparó el arca en que su casa se salvase…” (Hebreos 11:7).</p><p>El Señor ofrece un plan de amor y salvación perfecto para todos los miembros de cada familia, sin embargo, es necesario abrir los oídos y los ojos de la fe, para apreciar cómo el Señor está actuando permanentemente en la vida de cada uno.</p><p>“Que el Dios de la esperanza los llene de toda alegría y paz a ustedes que como familia creen en él” (Romanos 15:13).</p><p>Tenemos nuestra confianza puesta en Dios, aunque en la vida diaria estemos experimentando diferentes situaciones en nuestros hogares, como escasez, problemas de salud o la falta de un ser querido; una mirada con fe nos hará ver la realidad familiar y nos ayudará a enfrentar las circunstancias de manera objetiva.</p><p>Por lo cual, la fe nos hará mantener como familia toda nuestra esperanza en el Señor y en su voluntad.</p><p>“Así dice la Escritura: «Todo el que confíe en él no será jamás defraudado»” (Romanos 10:11 NVI)</p><p>La fe nos lleva a estar seguros y a tener esperanza; nos ayuda a confiar en el Señor, a no desesperarnos frente a las dificultades y los sufrimientos de esta vida.</p><p>“¿Por qué voy a inquietarme? ¿Por qué me voy a angustiar? En Dios pondré mi esperanza, y todavía lo alabaré. ¡Él es mi Salvador y mi Dios!” (Salmos 42:11 NVI).</p><p>Al enfrentarnos como familia a diferentes situaciones actuando con fe, seremos capaces de tomar decisiones dirigidas por Dios, siendo instrumentos de Él, lo que se verá reflejado en la victoria que Dios nos concederá.</p><p>“Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien, esto es, a los que conforme a su propósito son llamados” (Romanos 8:28).</p><p>Una familia que ama a Dios será protegida, dirigida y bendecida, en todos los aspectos de la vida. “… El te corona de favores y misericordias” (Salmos 103:4).</p><p>De esta manera, la fe permite distinguir claramente las maravillas que Dios hace en cada miembro de la familia y nos compromete a ser ejemplo, como verdaderos hijos de Dios.</p><p>Al dejar que Jesús entre en el corazón de nuestra familia, veremos y sentiremos la presencia de Dios en el hogar. Es decir que, siendo ejemplo en fe, edificaremos y formaremos a cada familia en el temor a Dios, por lo tanto, su fe será incrementada y los favores de Dios serán innumerables.</p><p>“Y el arca de Dios estuvo con la familia de Obed-edom, en su casa, tres meses; y bendijo Jehová la casa de Obed-Edom, y todo lo que tenía” (1 Crónicas 13:14).</p><p>“Todos éstos de los hijos de Obed-edom; ellos con sus hijos y sus hermanos, hombres robustos y fuertes para el servicio a Dios…” (1 Crónicas 26:8).</p><p>Por lo tanto, ser ejemplo en fe abrirá una puerta para conocer a Dios, y mientras más cerca estemos de Dios en familia, en un clima de fe compartida, más fácil será para todos abrirse a los demás para amar, ayudar y perdonar, ya que nuestra unión está en Dios y nuestra esperanza puesta en Él.</p><p>“Y estas palabras que yo te mando hoy, estarán sobre tu corazón; y las repetirás a tus hijos, y hablarás de ellas estando en tu casa, y andando por el camino, y al acostarte, y cuando te levantes” (Deuteronomio 6:6-7).</p><p>Recordemos que la fe en Dios construye familias con fe verdadera no fingida en nosotros, ejemplo claro la familia de Timoteo:</p><p>“trayendo a la memoria la fe no fingida que hay en ti, la cual habitó primero en tu abuela Loida, y en tu Madre Eunice, y estoy seguro que en ti también” (2 Timoteo 1:5).</p><p>Es una gran responsabilidad, pues debemos hacer que la fe de nuestra familia sea direccionada hacia Cristo Jesús, a través del conocimiento de la Palabra.</p><p>“puestos los ojos en Jesús, el autor y consumador de la fe…” (Hebreos 12:2).</p><p>Un vivo ejemplo del direccionamiento de fe en la familia lo encontramos en Génesis 22, cuando Abraham a pesar de la circunstancia en que se encontraba, ayudó a fortalecer la fe de su hijo Isaac:</p><p>“Entonces habló Isaac a Abraham su padre, y dijo: Padre mío. Y él respondió: Heme aquí, mi hijo. Y él dijo: He aquí el fuego y la leña; mas ¿dónde está el cordero para el holocausto? Y respondió Abraham: Dios se proveerá de cordero para el holocausto, hijo mío…” (Génesis 22:7-8).</p><p>Así mismo, cada uno de nosotros debemos ser creyentes de fe que aporten al crecimiento de la misma en nuestra familia, y tomarlo como una responsabilidad que vale la pena cumplir, ya que la familia mantendrá el gozo, el amor y sobre todo permanecerá firme.</p><p>“Así que, hermanos míos amados y deseados, gozo y corona mía, estad así firmes en el Señor, amados” (Filipenses 4:1).</p>"
     }
   },
   {
@@ -88,10 +148,10 @@
     "HTMLContent":{
       "className": "html-content",
       "css":{
-        "left": "10%",
-        "top": "53.2%",
-        "width": "90%",
-        "height": "100%",
+        "left": "30%",
+        "top": "64%",
+        "width": "45%",
+        "height": "50%",
         "overflow":"hidden",
         "position": "absolute",
         "z-index": "1",
@@ -110,15 +170,15 @@
       "modalButtonText":"Ampliar",
       "containerIdToOpen": "EJdetw",
       "css":{
-        "right": "35%",
-        "top": "73.2%",
+        "right": "39%",
+        "top": "76.2%",
         "height": "5.1%",
         "align-items":"center",
         "color": "white",
         "background": "#2d3875",
         "padding": "5px 8px 0"
       },
-      "content":"<p>Imagen aquí</p>"
+      "content":"<img src='./content/El%20Heraldo%20de%20la%20verdad/7/image.jpg' width=500>"
     }
   }
 ]
