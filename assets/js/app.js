@@ -300,7 +300,7 @@
             "cursor":"pointer"
           });
 
-          if(pageNumberText < 9) this.$el.html("0" + pageNumberText);
+          if(pageNumberText <= 9) this.$el.html("0" + pageNumberText);
           else this.$el.html(pageNumberText);
           
           this.$el.data({view: this});

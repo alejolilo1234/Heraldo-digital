@@ -1,1 +1,61 @@
-[]
+[
+  {
+    "id": 1,
+    "pagesNumber":"page-number"
+  },
+  {
+    "id": 2,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "48%",
+        "top": "22.2%",
+        "width": "47%",
+        "height": "60%",
+        "overflow":"hidden",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p>Una mirada rápida a esta frase me genera el conocimiento de lo que no muestra el texto, pero sí de lo que Jesús puede hacer cuando alguien solo tiene fe, solo puede creer en Él. Cuando Él no encuentra fe, que es lo único que anhela para obrar, el clamor parece que sobra, así lo demostró cuando a Moisés le dijo ...en el cruce del mar: ...¿Por qué clamas a mí? Dile al pueblo que marche; en otras palabras, la fe es un camino para avanzar donde no podemos detenernos.</p>"
+    }
+  },
+  {
+    "id": 3,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "77%",
+        "top": "6.2%",
+        "position": "absolute",
+        "z-index": "1",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s",
+        "display": "flex",
+        "grid-gap": "10px"
+      },
+      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
+    }
+  },
+  {
+    "id": 4,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Leer más",
+      "containerIdToOpen": "e2zx4355",
+      "css":{
+        "right": "19%",
+        "top": "80.2%",
+        "height": "5.1%",
+        "align-items":"center",
+        "color": "white",
+        "background": "#2d3875",
+        "padding": "5px 8px 0"
+      },
+      "content":"<p>“Y no hizo allí muchos milagros, a causa de la incredulidad de ellos” (Mateo 13:58).</p><p>Una mirada rápida a esta frase me genera el conocimiento de lo que no muestra el texto, pero sí de lo que Jesús puede hacer cuando alguien solo tiene fe, solo puede creer en Él. Cuando Él no encuentra fe, que es lo único que anhela para obrar, el clamor parece que sobra, así lo demostró cuando a Moisés le dijo ...en el cruce del mar: ...¿Por qué clamas a mí? Dile al pueblo que marche; en otras palabras, la fe es un camino para avanzar donde no podemos detenernos.</p><p>Su gran deseo por cumplir sus propósitos, por mostrar su ayuda, por dejar ver su misericordia para los que tienen fe le hace trasladarse, dirigirse al escenario del necesitado. Él siempre quiere hacer algo ante la súplica; cuando el centurión rogó por su criado que era paralítico, pero por su condición se encontraba en casa, Jesús le dijo: Yo iré y le sanaré, a lo cual el centurión le respondió: No soy digno que entres bajo mi techo; solamente di la palabra y mi criado sanará.</p>"
+    }
+  }
+]
