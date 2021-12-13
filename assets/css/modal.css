@@ -34,13 +34,3 @@ a.modal-close-button {
   width:15px;
   height:15px;
 }
-
-/* AÑADE SAMUEL */
-/* MEDIA QUERIES */
-/* On screens that are 600px or less, set the background color to olive */
-@media screen and (max-width: 600px) {
-  .modal {
-    width:100% !important;
-  }
-}
-
