@@ -1,1 +1,52 @@
-[]
+[
+  {
+    "id": 1,
+    "pagesNumber":"page-number"
+  },
+  {
+    "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/14/title.png')",
+        "-webkit-animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
+        "animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "27%",
+        "top": "26.9%",
+        "width": "33%",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p>Antes de hablar de la fe como don, es necesario hacer un análisis del propósito de los dones del Espíritu Santo, el apóstol Pablo trata de los dones del Espíritu Santo dados a la Iglesia como cuerpo de Cristo en 1 Corintios, capítulos 12 al 14. Estamos frente a un tema trascendental, puesto que se trata de algo de procedencia Divina. El apóstol escribe que no quiere que ignoremos acerca de los dones del Espíritu Santo;</p>"
+    }
+  },
+  {
+    "id": 4,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "70%",
+        "top": "61.2%",
+        "position": "absolute",
+        "z-index": "1",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s",
+        "display": "flex",
+        "grid-gap": "10px"
+      },
+      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
+    }
+  }
+]
