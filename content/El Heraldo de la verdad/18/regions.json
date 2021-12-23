@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/18/title.png')",
+        "-webkit-animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
+        "animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "9%",
+        "top": "53.9%",
+        "width": "90%",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p>“Jesús le dijo: Si puedes creer, al que cree todo le es posible. E inmediatamente el padre del muchacho clamó y dijo: Creo; ayuda mi incredulidad” (Marcos 9:23-24).</p><p>Incredulidad, del griego Apisto (no creyente), Apistia (falta de fe), se entiende como la resistencia o la imposibilidad que se reserva una persona a aceptar algo que físicamente no es percibido a la vista humana, tomando una actitud negativa en cuanto al creer en algo; igualmente, es el antónimo de la fe direccionada a Dios o algo intangible, visible o tocable.</p>"
+    }
+  },
+  {
+    "id": 3,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        
+      },
+      "innerHTML":[{
+        "tag":"div",
+        "className":"author",
+        "idTag":"",
+        "css":{
+          "position":"absolute",
+          "top":"92.5%",
+          "right":"0",
+          "padding":"7px 15px",
+          "border-top-left-radius":"55px",
+          "border-bottom-left-radius":"55px",
+          "color":"white",
+          "font-family":"sans-serif",
+          "white-space": "nowrap",
+          "font-size": ".65em",
+          "background-color": "#2d3875",
+          "width": "50%"
+        },
+        "text":"Por Edwin Algemiro García Acuña. Pastor IPUC"
+      }]
+    }
+  },
+  {
+    "id": 4,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Leer más",
+      "containerIdToOpen": "page18",
+      "css":{
+        "right": "40%",
+        "top": "82.2%",
+        "height": "5.1%",
+        "align-items":"center",
+        "color": "white",
+        "background": "#2d3875",
+        "padding": "5px 8px 0"
+      },
+      "content":"<p>...</p>"
+    }
+  },
+  {
+    "id": 5,
+    "pagesNumber":"page-number"
+  }
+]

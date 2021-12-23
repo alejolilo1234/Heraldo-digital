@@ -1,7 +1,7 @@
 .ui-region-button {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  animation: pulse 2s;
-  -webkit-animation: pulse 2s;
+  animation: pulse 2s 3;
+  -webkit-animation: pulse 2s 3;
 }
 
 @-webkit-keyframes pulse {
@@ -31,14 +31,6 @@
 		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 	}
 }
-
-/* .ui-region-table-content {
-  animation: fadeIn 1.5s;
-  -webkit-animation: fadeIn 1.5s;
-  -moz-animation: fadeIn 1.5s;
-  -o-animation: fadeIn 1.5s;
-  -ms-animation: fadeIn 1.5s;
-} */
 
 /* Fade in */
 
@@ -155,6 +147,33 @@
     transform: rotateX(0deg);
     -webkit-transform-origin: top;
     transform-origin: top;
+    opacity: 1;
+  }
+}
+
+/* Slide in right */
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
     opacity: 1;
   }
 }

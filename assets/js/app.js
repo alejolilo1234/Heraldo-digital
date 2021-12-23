@@ -229,7 +229,7 @@
 
           this.$el.css(attr.buttonModal.css);
 
-          this.$el.html(attr.buttonModal.modalButtonText);
+          this.$el.html(buttonModalSVG(attr.buttonModal.modalButtonText, attr.buttonModal.textX,  attr.buttonModal.textY, attr.buttonModal.fontSize, attr.buttonModal.backgroundColor, attr.buttonModal.borderColor, attr.buttonModal.textColor));
     
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -281,32 +281,41 @@
 
           let pageNumberText = this.model.pageNumber - 2;
 
-          if(pageNumberText % 2 == 0){
-            this.$el.css({"left":"9%"});
-            this.$el.addClass("left");
-          } else this.$el.css({"right":"9%"});
-          
-          this.$el.css({
-            "position": "absolute",
-            "bottom": "3%",
-            "color": "white",
-            "background": "#9e1f1e",
-            "border-radius": "50%",
-            "height": "22px",
-            "width": "22px",
-            "font-family": "'Bebas Neue'",
-            "padding": "3px 5px",
-            "z-index": "99999999",
-            "cursor":"pointer"
-          });
+          if(pageNumberText <= 9) pageNumberText = "0" + pageNumberText;
 
-          if(pageNumberText <= 9) this.$el.html("0" + pageNumberText);
-          else this.$el.html(pageNumberText);
+          this.$el.css({
+            "bottom": "1.5%",
+            "width": "22%",
+            "position": "absolute",
+            "z-index": "1",
+            "cursor": "pointer"
+          });
+          
+
+          if(pageNumberText % 2 == 0){
+            this.$el.css({"left":"-9%"});
+            this.$el.html(pageNumberLeftSVG(pageNumberText));
+            this.$el.addClass("left");
+          } else {
+            this.$el.html(pageNumberRightSVG(pageNumberText));
+            this.$el.css({"right":"-9%"});
+          }
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
 
-        }
+        } 
+        // else if(attr.buttonModal) {
+        //   var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+        //   this.$el.addClass('ui-region-' + attr.HTMLContent.className);
+
+        //   this.$el.css(attr.HTMLContent.css);
+
+        //   this.$el.html(attr.HTMLContent.text);
+          
+        //   this.$el.data({view: this});
+        //   $pageElement.append(this.$el);
+        // }
       },
     
       processAction: function() {
@@ -911,7 +920,6 @@
           html +='<a title="Facebook" class="ui-icon show-hint"><i class="fab fa-facebook"></i></a>';
           html +='<a title="WhatsApp" class="ui-icon show-hint"><i class="fab fa-whatsapp"></i></a>';
           html +='<a title="Twitter" class="ui-icon show-hint"><i class="fab fa-twitter"></i></a>';
-          // html +='<a title="Google+" class="ui-icon show-hint"><i class="fa fa-google-plus-square"></i></a>';
           html +='<a title="Linkedin" class="ui-icon show-hint"><i class="fab fa-linkedin-in"></i></a>';
           html +='<a title="Email" class="ui-icon show-hint"><i class="fa fa-envelope"></i></a>';
         html +='</div>';
@@ -1026,3 +1034,15 @@
     $(document).ready(bootstrap);
     
     })(window, jQuery, Backbone);
+  
+function pageNumberRightSVG(text){
+  return "<?xml version='1.0' encoding='utf-8'?><svg version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1051.5 216' xml:space='preserve'><path fill='#9d221b' d='M1040.5,78H202.32C189.64,38.55,152.66,10,109,10c-54.12,0-98,43.88-98,98s43.88,98,98,98	c43.66,0,80.64-28.55,93.32-68h838.18V78z'/><text x='50' y='165' class='subtitle' style='font-size:10em;fill:white'>" + text + "</text></svg>";
+}
+
+function pageNumberLeftSVG(text){
+  return "<?xml version='1.0' encoding='utf-8'?><svg version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1051.5 216' xml:space='preserve'><path fill='#9d221b' d='M11,78h838.18c12.67-39.45,49.66-68,93.32-68c54.12,0,98,43.88,98,98s-43.88,98-98,98 c-43.66,0-80.64-28.55-93.32-68H11V78z'/><text x='880' y='165' class='subtitle' style='font-size:10em;fill:white'>" + text + "</text></svg>";
+}
+
+function buttonModalSVG(text,x,y,size,bg,border,textColor){
+  return "<?xml version='1.0' encoding='utf-8'?><svg width='100%' version='1.2' baseProfile='tiny' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 459 150' xml:space='preserve'><path fill='" + bg + "' d='M424.01,150H34.99C15.67,150,0,134.33,0,115.01V34.99C0,15.67,15.67,0,34.99,0h389.01	C443.33,0,459,15.67,459,34.99v80.01C459,134.33,443.33,150,424.01,150z'/><path fill='" + border + "' d='M424.01,10C437.79,10,449,21.21,449,34.99v80.01c0,13.78-11.21,24.99-24.99,24.99H34.99	C21.21,140,10,128.79,10,115.01V34.99C10,21.21,21.21,10,34.99,10H424.01 M424.01,0H34.99C15.67,0,0,15.67,0,34.99v80.01 C0,134.33,15.67,150,34.99,150h389.01c19.33,0,34.99-15.67,34.99-34.99V34.99C459,15.67,443.33,0,424.01,0L424.01,0z'/><text x='" + x + "' y='" + y + "' class='subtitle' style='font-size:" + size + ";fill:" + textColor + "'>" + text + "</text></svg>";
+}

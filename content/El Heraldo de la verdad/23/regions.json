@@ -1,1 +1,23 @@
-[]
+[
+  {
+    "id": 1,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "83%",
+        "top": "3.2%",
+        "position": "absolute",
+        "z-index": "1",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s",
+        "display": "flex",
+        "grid-gap": "10px"
+      },
+      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
+    }
+  },
+  {
+    "id": 2,
+    "pagesNumber":"page-number"
+  }
+]

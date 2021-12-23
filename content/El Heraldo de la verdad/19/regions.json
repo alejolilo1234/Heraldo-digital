@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "id": 1,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "6%",
+        "top": "10.9%",
+        "width": "90%",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Incredulidad en el Antiguo Testamento.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Consecuencia de la incredulidad.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Imposibilidades al ser incrédulo.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>La incredulidad en el Nuevo Testamento.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Antídoto de la incredulidad.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>El resultado de la fe.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Recomendaciones bíblicas.</p>"
+    }
+  },
+  {
+    "id": 2,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Leer más",
+      "containerIdToOpen": "page19",
+      "css":{
+        "right": "40%",
+        "top": "4.2%",
+        "height": "5.1%",
+        "align-items":"center",
+        "color": "white",
+        "background": "#2d3875",
+        "padding": "5px 8px 0"
+      },
+      "content":"<p>.</p>"
+    }
+  },
+  {
+    "id": 3,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "45%",
+        "top": "94.2%",
+        "position": "absolute",
+        "z-index": "1",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s",
+        "display": "flex",
+        "grid-gap": "10px"
+      },
+      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
+    }
+  },
+  {
+    "id": 4,
+    "pagesNumber":"page-number"
+  }
+]

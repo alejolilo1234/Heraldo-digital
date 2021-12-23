@@ -1,1 +1,70 @@
-[]
+[
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/21/title-02.png')",
+        "-webkit-animation": "fadeIn 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
+        "animation": "fadeIn 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "9%",
+        "top": "62.9%",
+        "width": "90%",
+        "position": "absolute",
+        "z-index": "1",
+        "border-radius": "5px",
+        "padding": "0 10px",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s"
+      },
+      "text":"<p>¿Quién es nacido de Dios?</p><p>Nos toca hablar sobre El Nuevo Nacimiento, es el comienzo de una nueva vida, de una persona regenerada por Dios. El apóstol Pedro nos enseña con respecto a los cristianos:</p><p>“Siendo renacidos, no de simiente corruptible, sino de incorruptible, por la palabra de Dios que vive y permanece para siempre” (l Pedro 1:23).</p>"
+    }
+  },
+  {
+    "id": 3,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Leer más",
+      "containerIdToOpen": "page19",
+      "css":{
+        "right": "40%",
+        "top": "89.2%",
+        "height": "5.1%",
+        "align-items":"center",
+        "color": "white",
+        "background": "#2d3875",
+        "padding": "5px 8px 0"
+      },
+      "content":"<p>.</p>"
+    }
+  },
+  {
+    "id": 4,
+    "HTMLContent":{
+      "className": "html-content",
+      "css":{
+        "left": "68%",
+        "top": "35.2%",
+        "position": "absolute",
+        "z-index": "1",
+        "animation": "fadeIn 1.5s",
+        "-webkit-animation": "fadeIn 1.5s",
+        "display": "flex",
+        "grid-gap": "10px"
+      },
+      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
+    }
+  },
+  {
+    "id": 5,
+    "pagesNumber":"page-number"
+  }
+]
