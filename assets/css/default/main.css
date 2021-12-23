@@ -390,7 +390,7 @@ body {
   top: calc(50% - 30px);
   right: -40px;
   z-index: 10;
-  background-image: url(../img/arrows@2x.png);
+  background-image: url(../../img/arrows@2x.png);
   background-size: 60px 120px;
   background-position: 0 0;
   opacity: 0.5;
@@ -430,7 +430,7 @@ body {
 }
 
 .ui-spinner {
-  background-image: url(../img/loader@2x.gif);
+  background-image: url(../../img/loader@2x.gif);
   width: 24px;
   height: 24px;
   position: absolute;
