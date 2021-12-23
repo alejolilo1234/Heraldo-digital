@@ -70,7 +70,7 @@
         "position": "absolute",
         "z-index": "1"
       },
-      "text":"<img src='./content/El%20Heraldo%20de%20la%20verdad/5/text.svg'>"
+      "text":"<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1114 1025.5' style='enable-background:new 0 0 1114 1025.5;' xml:space='preserve'><foreignObject x='50' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width: 93%; font-size: 3.4em;'><h2 style='font-size:2.6em;padding:0;margin:0;' class='subtitle'>Fe siempre</h2><p class='paragraph-capitalized' style='padding:30px 0;margin:0;text-align:justify;line-height:1.3'>Queridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.<q class='bible-quote' style='padding:25px 0;font-size:.9em;text-align:right;color:var(--color-text-quote);display:inline-block'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</q><span style='color:var(--color-subtitle);text-align:right;display:block;font-size:.9em;'>(Romanos 1:17 GNB).</span></p></div></foreignObject></svg>"
     }
   },
   {
