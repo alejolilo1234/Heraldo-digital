@@ -12,35 +12,6 @@
   },
   {
     "id": 2,
-    "tableContent":{
-      "className": "table-content",
-      "css":{
-        
-      },
-      "innerHTML":[{
-        "tag":"div",
-        "className":"author",
-        "idTag":"",
-        "css":{
-          "position":"absolute",
-          "top":"86.5%",
-          "right":"0",
-          "padding":"7px 15px",
-          "border-top-left-radius":"55px",
-          "border-bottom-left-radius":"55px",
-          "color":"white",
-          "font-family":"sans-serif",
-          "white-space": "nowrap",
-          "font-size": ".65em",
-          "background-color": "#2d3875",
-          "width": "50%"
-        },
-        "text":"Por Álvaro Jesús Torres Forero. Presidente IPUC"
-      }]
-    }
-  },
-  {
-    "id": 3,
     "buttonModal": {
       "className": "button",
       "modalButtonText":"Leer más",
@@ -52,14 +23,14 @@
       "textY": 120,
       "containerIdToOpen": "page5",
       "css":{
-        "top": "78.2%",
+        "top": "79.2%",
         "right": "10%"
       },
-      "content":"<h2 class='subtitle' style='font-size: 2em;'>Fe siempre</h1><p class='paragraph-capitalized paragraph' style='margin-top:18px;font-size:1em;line-height: 1.3;text-align:justify;'>Queridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.<q class='bible-quote' style='padding:14px 0;font-size:.9em;text-align:right;color:var(--color-text-quote);display:inline-block'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</q><span style='color:var(--color-subtitle);text-align:right;display:block;font-size:.9em;'>(Romanos 1:17 GNB).</span></p><p>La fe es un principio que está presente en la relación con Dios siempre y es imprescindible.</p><p>“El que se acerca a Dios debe creer que Dios es...” así comienza. “Predicad el evangelio... el que creyere...” Desde la génesis de la vida cristiana la fe está ahí. No se puede pensar en “nuevo nacimiento” sin la intervención de la fe, porque a través de ella es como se conecta el ser humano con Dios.</p><p>Pero nuestro texto inicial nos sugiere que esta fe debe permanecer activa de “principio a fin”, convirtiéndose así en un estilo de vida.<br>No solo los pastores, sino todos los creyentes viven por la fe, porque entre otras cosas lo que no proviene de fe es pecado. Romanos 14:23.<br>El cristiano descubre en el diario vivir que no se turba su corazón porque cree en Jesús, que no se angustia por cómo suplirá sus necesidades básicas ni qué será del mañana, porque su Padre Celestial sabe que de todas estas cosas tiene necesidad. Cree que “...mayor es el que está en vosotros, que el que está en el mundo” (1 Juan 4:4). Y por lo tanto descansa confiado.</p><p>El cristiano no teme a la muerte porque ha creído en que Jesús es la resurrección y la vida, y que el que cree en Él, aunque esté muerto vivirá. Así que, esta fe es una poderosa ancla del alma que fortalece y afianza la esperanza de un mañana glorioso. Fe de principio a fin, este es el gran secreto... Y la gran fortaleza del creyente: ¡Fe siempre!</p>"
+      "content":"<!-- EXTRACTO AQUÍ --><h2 class='subtitle' style='font-size: 2em;margin-top:10px;'>Fe siempre</h1><p class='paragraph-capitalized' style='margin-top:18px;'><span style='color:var(--color-subtitle);font-family:var(--bebas-neue);'>Q</span>ueridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.</p><q class='bible-quote' style='font-size:.9em;text-align:right;'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</q><p style='color:var(--color-subtitle);text-align:right;display:block;font-size:.9em;'>(Romanos 1:17 GNB).</p><!-- EXTRACTO AQUÍ --><p>La fe es un principio que está presente en la relación con Dios siempre y es imprescindible.</p><p>“El que se acerca a Dios debe creer que Dios es...” así comienza. “Predicad el evangelio... el que creyere...” Desde la génesis de la vida cristiana la fe está ahí. No se puede pensar en “nuevo nacimiento” sin la intervención de la fe, porque a través de ella es como se conecta el ser humano con Dios.</p><p>Pero nuestro texto inicial nos sugiere que esta fe debe permanecer activa de “principio a fin”, convirtiéndose así en un estilo de vida.<br>No solo los pastores, sino todos los creyentes viven por la fe, porque entre otras cosas lo que no proviene de fe es pecado. Romanos 14:23.<br>El cristiano descubre en el diario vivir que no se turba su corazón porque cree en Jesús, que no se angustia por cómo suplirá sus necesidades básicas ni qué será del mañana, porque su Padre Celestial sabe que de todas estas cosas tiene necesidad. Cree que “...mayor es el que está en vosotros, que el que está en el mundo” (1 Juan 4:4). Y por lo tanto descansa confiado.</p><p>El cristiano no teme a la muerte porque ha creído en que Jesús es la resurrección y la vida, y que el que cree en Él, aunque esté muerto vivirá. Así que, esta fe es una poderosa ancla del alma que fortalece y afianza la esperanza de un mañana glorioso. Fe de principio a fin, este es el gran secreto... Y la gran fortaleza del creyente: ¡Fe siempre!</p>"
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "HTMLContent":{
       "className": "html-content",
       "css":{
@@ -70,11 +41,23 @@
         "position": "absolute",
         "z-index": "1"
       },
-      "text":"<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1114 1025.5' style='enable-background:new 0 0 1114 1025.5;' xml:space='preserve'><foreignObject x='50' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width: 93%; font-size: 3.4em;'><h2 style='font-size:2.6em;padding:0;margin:0;' class='subtitle'>Fe siempre</h2><p class='paragraph-capitalized' style='padding:30px 0;margin:0;text-align:justify;line-height:1.3'>Queridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.<q class='bible-quote' style='padding:25px 0;font-size:.9em;text-align:right;color:var(--color-text-quote);display:inline-block'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</q><span style='color:var(--color-subtitle);text-align:right;display:block;font-size:.9em;'>(Romanos 1:17 GNB).</span></p></div></foreignObject></svg>"
+      "text":"<svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1114 1025.5' style='enable-background:new 0 0 1114 1025.5;' xml:space='preserve'><foreignObject x='50' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width: 93%; font-size: 3.4em;'><!-- EXTRACTO AQUÍ --><h2 class='subtitle' style='font-size: 2em;margin-top:10px;'>Fe siempre</h1><p class='paragraph-capitalized' style='margin-top:18px;'><span style='color:var(--color-subtitle);font-family:var(--bebas-neue);'>Q</span>ueridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.</p><q class='bible-quote' style='font-size:.9em;text-align:right;'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</q><p style='color:var(--color-subtitle);text-align:right;display:block;font-size:.9em;'>(Romanos 1:17 GNB).</p><!-- EXTRACTO AQUÍ --></div></foreignObject></svg>"
     }
   },
   {
-    "id": 5,
+    "id": 4,
     "pagesNumber":"page-number"
+  },
+  {
+    "id": 5,
+    "articleAuthor":{
+      "className": "author",
+      "text": "Por Álvaro Jesús Torres Forero. Presidente IPUC",
+      "backgroundColor": "#2d3875",
+      "css": {
+        "bottom": "8%",
+        "right": "-15%"
+      }
+    }
   }
 ]
