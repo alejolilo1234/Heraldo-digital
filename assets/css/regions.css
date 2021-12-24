@@ -18,6 +18,10 @@
   background-size: contain;
 }
 
+.ui-region-page-number.left::before {
+  left: -498px;
+}
+
 /* .ui-region-hover {
   background-color: rgba(0, 102, 255, 0.3);
 }
