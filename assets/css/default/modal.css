@@ -11,6 +11,10 @@
   overflow-y: auto;
   width:0;
   text-align:justify!important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-image:url('../../../assets/img/bg-modal.jpg')!important;
 }
 
 .modal a.close-modal {
