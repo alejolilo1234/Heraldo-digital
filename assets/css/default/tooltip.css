@@ -17,8 +17,8 @@
   font-family:sans-serif;
 }
 
-.tooltip::after {
-  content:"";
+.triangle {
+  /* content:""; */
   position:absolute;
   top:1.6em;
   left:2.5em;
