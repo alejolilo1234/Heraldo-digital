@@ -316,12 +316,12 @@
           
 
           if(pageNumberText % 2 == 0){
-            this.$el.css({"left":"-9%"});
-            this.$el.html(pageNumberLeftSVG(pageNumberText));
+            this.$el.css({"left":"-8%"});
+            this.$el.html(pageNumberLeftSVG(pageNumberText) + "<svg version='1.2' baseProfile='tiny' id='pageNumberLeft' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1051.5 416' xml:space='preserve' style='position:absolute;top:-130%;left:55%;width:100%;opacity:0;transition:opacity 0.25s, top 0.25s;'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width: 93%;font-size:7.4em;'><div class='tooltip'>Ir al indice</div></div></foreignObject></svg>");
             this.$el.addClass("left");
           } else {
-            this.$el.html(pageNumberRightSVG(pageNumberText));
-            this.$el.css({"right":"-9%"});
+            this.$el.html(pageNumberRightSVG(pageNumberText) + "<svg version='1.2' baseProfile='tiny' id='pageNumberRight' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1051.5 416' xml:space='preserve' style='position:absolute;top:-130%;right:25%;width:100%;opacity:0;transition:opacity 0.25s, top 0.25s;'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width: 93%;font-size:7.4em;'><div class='tooltip'>Ir al indice</div></div></foreignObject></svg>");
+            this.$el.css({"right":"-8%"});
           }
           
           this.$el.data({view: this});
@@ -372,7 +372,7 @@
           $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
         }  
         else if(attr.pagesNumber){
-          $('#flipbook').turn('page', 1);
+          $('#flipbook').turn('page', 3);
         }
     
         $('#flipbook').tooltips('hide');
