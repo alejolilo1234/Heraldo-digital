@@ -38,3 +38,11 @@ q {
   color:var(--color-text-quote);
   font-style: italic;
 }
+
+.audio,
+.print{
+  padding:25px;
+  border-radius:55%;
+  text-decoration:none;
+  cursor:pointer;
+}

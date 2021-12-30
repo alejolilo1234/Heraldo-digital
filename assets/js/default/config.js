@@ -17,8 +17,11 @@ FlipbookSettings = {
   loadHTML: true
 };
 
+let turnPage = document.getElementById("turnPage");
+
 $("#flipbook").bind("turning", function(event, page, view) {
   window.document.title = pageText+' '+ view.join(" y ") + ' ' + divText + ' ' + pageTitle;
+  turnPage.play();
 });
 
 document.addEventListener("DOMContentLoaded",() => {
