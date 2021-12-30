@@ -19,9 +19,7 @@
   opacity: 1;
   top: -30%;
   left: -30%;
-  transition-property: left, top, opacity;
-  transition-duration: 0.7s, 0.7s, 0.15s;
-  transition-timing-function: ease;
+  transition: left 0.7s ease, top 0.7s ease, opacity 0.15s ease;
 }
 
 .shine:active:after {
