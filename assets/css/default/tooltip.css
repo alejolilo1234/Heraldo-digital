@@ -26,5 +26,6 @@
   height:1em;
   background-color:#9d221b;
   transform: rotate(45deg);
+  z-index:-1;
   border-top-left-radius: 100%;
 }
