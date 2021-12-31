@@ -213,6 +213,8 @@
       idAttribute: 'id',
       className: 'none'
     });
+
+
     
     var RegionView = Backbone.View.extend({
       tagName: 'div',
@@ -291,6 +293,11 @@
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.HTMLContent.className);
 
+          this.$el.css({
+            "position": "absolute",
+            "z-index": "1"
+          });
+
           this.$el.css(attr.HTMLContent.css);
 
           this.$el.html(attr.HTMLContent.text);
@@ -340,7 +347,11 @@
 
           this.$el.css(attr.articleAuthor.css);
 
-          this.$el.html(authorSVG(attr.articleAuthor.text,attr.articleAuthor.backgroundColor));
+          if(attr.articleAuthor.direction == "right") {
+            this.$el.html(authorRightSVG(attr.articleAuthor.text,attr.articleAuthor.backgroundColor));
+          } else if(attr.articleAuthor.direction == "left") {
+            this.$el.html(authorLeftSVG(attr.articleAuthor.text,attr.articleAuthor.backgroundColor));
+          }
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -358,6 +369,21 @@
           this.$el.css(attr.buttonsForAudioPrint.css);
 
           this.$el.html(audioPrintSVG(attr.buttonsForAudioPrint.audio.bgColor,attr.buttonsForAudioPrint.audio.border,attr.buttonsForAudioPrint.audio.link,attr.buttonsForAudioPrint.print.bgColor,attr.buttonsForAudioPrint.print.border,attr.buttonsForAudioPrint.print.link));
+
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
+        }
+        else if(attr.stylesForPage) {
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+          this.$el.addClass('ui-region-' + "styles");
+
+          let elementForEL = "";
+
+          for(let i = 0; i < attr.stylesForPage.length; i++) {
+            elementForEL += attr.stylesForPage[i];
+          }
+
+          this.$el.html("<style>" + elementForEL + "</style>");
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -1082,19 +1108,23 @@
     })(window, jQuery, Backbone);
   
 function pageNumberRightSVG(text){
-  return "<svg version='1.2' baseProfile='tiny' id='pageNumberRight' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1051.5 216' xml:space='preserve'><path fill='#9d221b' d='M1040.5,78H202.32C189.64,38.55,152.66,10,109,10c-54.12,0-98,43.88-98,98s43.88,98,98,98	c43.66,0,80.64-28.55,93.32-68h838.18V78z'/><text x='50' y='165' style='font-family:var(--bebas-neue);font-size:10em;fill:white'>" + text + "</text></svg>";
+  return "<svg version='1.2' baseProfile='tiny' id='pageNumberRight' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1051.5 216' xml:space='preserve'><path fill='var(--color-red)' d='M1040.5,78H202.32C189.64,38.55,152.66,10,109,10c-54.12,0-98,43.88-98,98s43.88,98,98,98	c43.66,0,80.64-28.55,93.32-68h838.18V78z'/><text x='50' y='165' style='font-family:var(--bebas-neue);font-size:10em;fill:white'>" + text + "</text></svg>";
 }
 
 function pageNumberLeftSVG(text){
-  return "<svg version='1.2' baseProfile='tiny' id='pageNumberLeft' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1051.5 216' xml:space='preserve'><path fill='#9d221b' d='M11,78h838.18c12.67-39.45,49.66-68,93.32-68c54.12,0,98,43.88,98,98s-43.88,98-98,98 c-43.66,0-80.64-28.55-93.32-68H11V78z'/><text x='880' y='165' style='font-family:var(--bebas-neue);font-size:10em;fill:white'>" + text + "</text></svg>";
+  return "<svg version='1.2' baseProfile='tiny' id='pageNumberLeft' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 1051.5 216' xml:space='preserve'><path fill='var(--color-red)' d='M11,78h838.18c12.67-39.45,49.66-68,93.32-68c54.12,0,98,43.88,98,98s-43.88,98-98,98 c-43.66,0-80.64-28.55-93.32-68H11V78z'/><text x='880' y='165' style='font-family:var(--bebas-neue);font-size:10em;fill:white'>" + text + "</text></svg>";
 }
 
 function buttonModalSVG(text,x,y,size,bg,border,textColor){
   return "<svg width='100%' version='1.2' baseProfile='tiny' id='buttonModal' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 459 150' xml:space='preserve'><path fill='" + bg + "' d='M424.01,150H34.99C15.67,150,0,134.33,0,115.01V34.99C0,15.67,15.67,0,34.99,0h389.01	C443.33,0,459,15.67,459,34.99v80.01C459,134.33,443.33,150,424.01,150z'/><path fill='" + border + "' d='M424.01,10C437.79,10,449,21.21,449,34.99v80.01c0,13.78-11.21,24.99-24.99,24.99H34.99	C21.21,140,10,128.79,10,115.01V34.99C10,21.21,21.21,10,34.99,10H424.01 M424.01,0H34.99C15.67,0,0,15.67,0,34.99v80.01 C0,134.33,15.67,150,34.99,150h389.01c19.33,0,34.99-15.67,34.99-34.99V34.99C459,15.67,443.33,0,424.01,0L424.01,0z'/><text x='" + x + "' y='" + y + "' style='font-family:var(--bebas-neue);font-size:" + size + ";fill:" + textColor + "'>" + text + "</text></svg>";
 }
 
-function authorSVG(text,bg){
+function authorRightSVG(text,bg){
   return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M2457.7,202.9H105.9C53.5,202.9,11,160.4,11,108v0c0-52.4,42.5-94.9,94.9-94.9h2351.9V202.9z'/><text x='100' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
+}
+
+function authorLeftSVG(text,bg){
+  return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M11,202.9V13.1h2351.9c52.4,0,94.9,42.5,94.9,94.9l0,0c0,52.4-42.5,94.9-94.9,94.9H11L11,202.9z'/><text x='450' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
 }
 
 function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint){

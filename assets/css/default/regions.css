@@ -1,0 +1,18 @@
+.audio,
+.print{
+  padding:25px;
+  border-radius:55%;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+foreignObject {
+  width: 100%;
+  height: 100%;
+  overflow:visible;
+}
+
+.div-for-SVG {
+  font-size:3.4em;
+  width: 93%;
+}

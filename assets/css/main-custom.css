@@ -1,6 +1,8 @@
 :root{
   /* Colors */
-  --color-subtitle: #9d221b;
+  --color-blue:#2d3875;
+  --color-blue-transparent:#4d99b9c4;
+  --color-red: #9d221b;
   --color-text: #535152;
   --color-text-quote:#a95352;
   /* Fonts */
@@ -10,7 +12,7 @@
 
 .subtitle {
   font-family:var(--bebas-neue);
-  color:var(--color-subtitle);
+  color:var(--color-red);
   padding:0;
   margin:0;
 }
@@ -35,14 +37,5 @@ q {
 }
 
 .bible-quote {
-  color:var(--color-text-quote);
   font-style: italic;
-}
-
-.audio,
-.print{
-  padding:25px;
-  border-radius:55%;
-  text-decoration:none;
-  cursor:pointer;
 }
