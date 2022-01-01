@@ -1,6 +1,51 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 2470.5 216" style="enable-background:new 0 0 2470.5 216;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#2D3875;}
+<details id='toggle' class='toggle' open>
+<summary class='title'>title identidad corporativa</summary>
+  <div class='content'>
+    <p>Hola mundo!!</p>
+  </div>
+</details>
+<details id='toggle' class='toggle'>
+<summary class='title'>Hola</summary>
+  <div class='content'>
+    <p>Otra etiqueta</p>
+  </div>
+</details>
+<style>
+  :root {
+    --color-blue: #2d3875;
+    --color-blue-hover: #22349e;
+    --color-red: #9d221b;
+  }
+  summary:target{
+    background-color:var(--color-red)!important;
+  }
+  details.toggle[open] {
+    box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.5) inset;
+  }
+  details.toggle[open] > .title {
+    background-color: var(--color-blue-hover);
+  }
+  details.toggle {
+    background-color: white;
+    border-radius: 5px;
+    overflow: auto;
+    margin-top:10px;
+  }
+  summary.title {
+    padding: 10px 20px;
+    background-color: var(--color-blue);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  summary.title:hover {
+    background-color: var(--color-blue-hover);
+  }
+  div.content {
+    margin: 10px;
+  }
 </style>
-<path class="st0" d="M11,202.9V13.1h2351.9c52.4,0,94.9,42.5,94.9,94.9l0,0c0,52.4-42.5,94.9-94.9,94.9H11L11,202.9z"/>
-</svg>
+
+<script>
+let details = document.querySelectorAll('#toggle'); details.forEach((targetDetail) => { targetDetail.addEventListener('click', () => { details.forEach((detail) => { if (detail !== targetDetail) { detail.removeAttribute('open'); }});});});
+</script>
