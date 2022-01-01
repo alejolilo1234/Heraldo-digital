@@ -4,8 +4,7 @@
     "tableContent":{
       "className": "table-content",
       "css":{
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s"
+        
       },
       "innerHTML":[{
         "tag":"h1",
@@ -14,12 +13,12 @@
         "css":{
           "margin": "5px",
           "padding": "15px",
-          "font-family": "'Bebas Neue'",
+          "font-family": "var(--bebas-neue)",
           "color":"white",
           "font-size": "3em",
           "font-weight": "100",
           "text-align": "center",
-          "background-color":"#2d3875",
+          "background-color":"var(--color-blue)",
           "border-radius": "10px"
         },
         "text":"Contenido"
@@ -29,9 +28,9 @@
         "className":"",
         "idTag":"",
         "css":{
-          "color":"blue"
+          
         },
-        "text":"<p>Hola mundo!!</p>"
+        "text":"<p>...</p>"
       }]
     }
   }

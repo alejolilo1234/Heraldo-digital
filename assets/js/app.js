@@ -214,8 +214,6 @@
       className: 'none'
     });
 
-
-    
     var RegionView = Backbone.View.extend({
       tagName: 'div',
       className: 'ui-region',
@@ -224,11 +222,13 @@
       },
       render: function() {
         var attr = this.model.attributes;
+
+        
     
         if (attr.buttonModal) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.buttonModal.className);
-
+          
           this.$el.css({
             "box-shadow": "0 0 0 0 rgba(0, 0, 0, 0)",
             "animation": "pulse 2s 3",
@@ -252,7 +252,12 @@
           let contentForButton = document.createElement("div");
           contentForButton.setAttribute("class","modal");
           contentForButton.setAttribute("id",attr.buttonModal.containerIdToOpen);
-          contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div>" + attr.buttonModal.content;
+
+          if(pageForArticle == this.model.pageNumber){
+            contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div>" + textForArticle + attr.buttonModal.content;
+          } else {
+            contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div>" + attr.buttonModal.content;
+          }
 
           $pageElement.append(contentForButton);
         }
@@ -292,7 +297,7 @@
         else if(attr.HTMLContent){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.HTMLContent.className);
-
+          
           this.$el.css({
             "position": "absolute",
             "z-index": "1"
@@ -304,6 +309,26 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
+        }
+        else if(attr.contentArticle){
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+          this.$el.addClass('ui-region-' + attr.contentArticle.className);
+
+          textForArticle = attr.contentArticle.excerpt;
+          pageForArticle = this.model.pageNumber;
+
+          this.$el.css({
+            "position": "absolute",
+            "z-index": "1"
+          });
+
+          this.$el.css(attr.contentArticle.css);
+
+          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1114 1025.5' xml:space='preserve'><foreignObject><div style='font-size:" + attr.contentArticle.fontSize + ";width: 93%;'>" + attr.contentArticle.excerpt + "</div></foreignObject></svg>");
+          
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
+          
         }
         else if(attr.pagesNumber){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
@@ -1130,3 +1155,6 @@ function authorLeftSVG(text,bg){
 function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint){
   return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='enable-background:new 0 0 327.6 150;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span class='audio' id='audioPage4' style='background-color:" + bgColorAudio + ";color:white;box-shadow:0px 0px 0px 10px " + borderColorAudio + " inset;'><i class='fas fa-volume-up'></i></span><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow:0px 0px 0px 10px " + borderColorPrint + " inset;' href='" + linkPrint + "' download='Carta-del-presidente'><i class='fas fa-print'></i></a></div></foreignObject></svg><audio id='audioCartaDelPresidente' src='../../../assets/audio/carta-del-presidente.mp4'></audio><script>let buttonAudio = document.getElementById('audioPage4');let audioPage4 = document.getElementById('audioCartaDelPresidente');buttonAudio.addEventListener('click',() => {audioPage4.play();});</script>";
 }
+
+let textForArticle = "";
+let pageForArticle = 0;

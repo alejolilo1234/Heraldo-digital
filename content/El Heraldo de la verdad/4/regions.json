@@ -4,14 +4,14 @@
     "buttonsForAudioPrint":{
       "className":"buttons-audio-print",
       "audio":{
-        "bgColor":"#2d3875",
-        "border":"#2d3875",
+        "bgColor":"var(--color-blue)",
+        "border":"var(--color-blue)",
         "id":"audioPage4",
         "idToReproduce":"audioCartaDelPresidente"
       },
       "print":{
-        "bgColor":"#2d3875",
-        "border":"#2d3875",
+        "bgColor":"var(--color-blue)",
+        "border":"var(--color-blue)",
         "link":"assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
       },
       "css":{
