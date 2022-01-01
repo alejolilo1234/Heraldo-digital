@@ -444,6 +444,9 @@
         }  
         else if(attr.buttonModalHTML){
           $("#" + attr.buttonModalHTML.containerIdToOpen).modal({fadeDuration: 500});
+
+          setTimeout(function(){window.location.hash = '#first';},600);
+
         }  
         else if(attr.pagesNumber){
           $('#flipbook').turn('page', 3);
