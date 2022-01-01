@@ -261,6 +261,26 @@
 
           $pageElement.append(contentForButton);
         }
+        else if (attr.buttonModalHTML) {
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+          this.$el.addClass('ui-region-' + attr.buttonModalHTML.className);
+          
+          this.$el.css({
+            "box-shadow": "0 0 0 0 rgba(0, 0, 0, 0)",
+            "animation": "pulse 2s 3",
+            "-webkit-animation": "pulse 2s 3",
+            "position": "absolute",
+            "z-index": "1",
+            "cursor": "pointer"
+          });
+
+          this.$el.css(attr.buttonModalHTML.css);
+
+          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1114 1025.5' xml:space='preserve'><foreignObject width='100%' height='100%' style='overflow:visible;'><div style='font-size:" + attr.buttonModalHTML.fontSize + ";width: 93%;'>" + attr.buttonModalHTML.text + "</div></foreignObject></svg>");
+    
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
+        }
         else if (attr.tableContent) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.tableContent.className);
@@ -324,7 +344,7 @@
 
           this.$el.css(attr.contentArticle.css);
 
-          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1114 1025.5' xml:space='preserve'><foreignObject><div style='font-size:" + attr.contentArticle.fontSize + ";width: 93%;'>" + attr.contentArticle.excerpt + "</div></foreignObject></svg>");
+          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1114 1025.5' xml:space='preserve'><foreignObject width='100%' height='100%' style='overflow:visible;'><div style='font-size:" + attr.contentArticle.fontSize + ";width: 93%;'>" + attr.contentArticle.excerpt + "</div></foreignObject></svg>");
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -421,6 +441,9 @@
 
         if(attr.buttonModal){
           $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
+        }  
+        else if(attr.buttonModalHTML){
+          $("#" + attr.buttonModalHTML.containerIdToOpen).modal({fadeDuration: 500});
         }  
         else if(attr.pagesNumber){
           $('#flipbook').turn('page', 3);

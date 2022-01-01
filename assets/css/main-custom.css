@@ -14,7 +14,7 @@ p {
   color:var(--color-text);
   font-family:var(--times-new-roman);
   text-align:justify;
-  line-height:1.3;
+  line-height:1.2;
 }
 
 .paragraph-capitalized::first-letter {

@@ -5,9 +5,3 @@
   text-decoration:none;
   cursor:pointer;
 }
-
-foreignObject {
-  width: 100%;
-  height: 100%;
-  overflow:visible;
-}
