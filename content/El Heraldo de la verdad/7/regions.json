@@ -82,7 +82,7 @@
     "stylesForPage":[
       ".div-p7 { border: 6px solid var(--color-blue);border-radius:20px;width:107.6%;padding: 1% 2%;white-space: nowrap;text-overflow: ellipsis;overflow:hidden; }",
       ".button-html-modal-p7 { color:var(--color-blue); }",
-      ".button-html-modal-p7:before { content:'-';margin-right:20px; }",
+      ".button-html-modal-p7:before { content:'-';margin-right:20px;color:transparent;background-image:url(assets/img/closed.svg);background-repeat:no-repeat; }",
       ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-blue); }",
       ".italic-p7 { font-style:italic; }"
     ]

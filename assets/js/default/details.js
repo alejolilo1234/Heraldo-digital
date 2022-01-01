@@ -1,1 +1,0 @@
-let details = document.querySelectorAll('#toggle'); details.forEach((targetDetail) => { targetDetail.addEventListener('click', () => { details.forEach((detail) => { if (detail !== targetDetail) { detail.removeAttribute('open'); }});});});
