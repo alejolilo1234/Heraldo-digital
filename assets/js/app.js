@@ -271,12 +271,13 @@
             "-webkit-animation": "pulse 2s 3",
             "position": "absolute",
             "z-index": "1",
-            "cursor": "pointer"
+            "cursor": "pointer",
+            "overflow": "visible"
           });
 
           this.$el.css(attr.buttonModalHTML.css);
 
-          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1114 1025.5' xml:space='preserve'><foreignObject width='100%' height='100%' style='overflow:visible;'><div style='font-size:" + attr.buttonModalHTML.fontSize + ";width: 93%;'>" + attr.buttonModalHTML.text + "</div></foreignObject></svg>");
+          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 " + attr.buttonModalHTML.widthSVG + " " + attr.buttonModalHTML.heightSVG + "' xml:space='preserve'><foreignObject width='100%' x='0' y='0' style='overflow:visible;'><div style='font-size:" + attr.buttonModalHTML.fontSize + ";width: 93%;'>" + attr.buttonModalHTML.text + "</div></foreignObject></svg>");
     
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -344,11 +345,10 @@
 
           this.$el.css(attr.contentArticle.css);
 
-          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1114 1025.5' xml:space='preserve'><foreignObject width='100%' height='100%' style='overflow:visible;'><div style='font-size:" + attr.contentArticle.fontSize + ";width: 93%;'>" + attr.contentArticle.excerpt + "</div></foreignObject></svg>");
+          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 " + attr.contentArticle.ViewX + " " + attr.contentArticle.ViewY + "' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='" + attr.contentArticle.foreignX + "' height='" + attr.contentArticle.foreignY + "' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml'>" + attr.contentArticle.excerpt + "</div></foreignObject></svg>");
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-          
         }
         else if(attr.pagesNumber){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
@@ -428,6 +428,7 @@
             elementForEL += attr.stylesForPage[i];
           }
 
+          this.$el.css({"display":"absolute"});
           this.$el.html("<style>" + elementForEL + "</style>");
 
           this.$el.data({view: this});
@@ -445,8 +446,16 @@
         else if(attr.buttonModalHTML){
           $("#" + attr.buttonModalHTML.containerIdToOpen).modal({fadeDuration: 500});
 
-          setTimeout(function(){window.location.hash = '#first';},600);
+          let detail = document.querySelector("." + attr.buttonModalHTML.detail);
 
+          let elements = document.querySelectorAll('#toggle'); 
+          elements.forEach(element => {
+            element.removeAttribute('open'); 
+          });
+
+          detail.setAttribute("open","");
+        
+          setTimeout(function(){window.location.hash = '#' + attr.buttonModalHTML.link;},600);
         }  
         else if(attr.pagesNumber){
           $('#flipbook').turn('page', 3);

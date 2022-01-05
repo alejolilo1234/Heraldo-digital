@@ -14,14 +14,17 @@
     "id": 2,
     "contentArticle":{
       "className": "content-article",
-      "fontSize":"2.2em",
+      "ViewX":"1200",
+      "ViewY":"1000",
+      "foreignX":"220%",
+      "foreignY":"220%",
       "css":{
-        "left": "12%",
-        "top": "23.6%",
-        "width": "77%",
-        "height": "45%"
+        "left": "13.5%",
+        "top": "25%",
+        "width": "32.5%",
+        "font-size": "5.7em"
       },
-      "excerpt":"<blockquote class='bible-quote-p6'>No perdáis, pues, vuestra confianza, que tiene grande galardón; porque os es necesaria la paciencia, para que habiendo hecho la voluntad de Dios, obtengáis la promesa. Porque aún un poquito, Y el que ha de venir vendrá, y no tardará. Mas el justo vivirá por fe; Y si retrocediere, no agradará a mi alma</blockquote><span class='verse-p6'>(Hebreos 10:35-38).</span><p class='paragraph-capitalized paragraph-capitalized-p6'><span class='first-letter-p6'>E</span>l honorable Consistorio de Ancianos de nuestra Iglesia, en este año 2021, ha querido acuñar una frase muy significativa como es, <q>Fe siempre</q>, motivando a la Iglesia a no perder nuestra fe en estos momentos tan difíciles que vive el mundo, donde la duda y la incertidumbre han golpeado a toda la humanidad, y la Iglesia no ha sido ajena.</p><p class='paragraph-capitalized-p6 justify-p6'>El escritor de la carta a los hebreos está escribiendo a quienes querían apostatar o retroceder de la fe cristiana y volverse al judaísmo, a no perder la confianza en Cristo que tiene gran galardón y les aconseja a tener paciencia hasta obtener la promesa: <q class='italic-p6'>porque un poquito, y el que ha de venir vendrá, y no tardará</q> (Hebreos 10:37).</p>"
+      "excerpt":"<blockquote class='bible-quote-p6'>No perdáis, pues, vuestra confianza, que tiene grande galardón; porque os es necesaria la paciencia, para que habiendo hecho la voluntad de Dios, obtengáis la promesa. Porque aún un poquito, Y el que ha de venir vendrá, y no tardará. Mas el justo vivirá por fe; Y si retrocediere, no agradará a mi alma</blockquote><span class='verse-p6'>(Hebreos 10:35-38).</span><p class='paragraph-capitalized'><span class='first-letter-p6'>E</span>l honorable Consistorio de Ancianos de nuestra Iglesia, en este año 2021, ha querido acuñar una frase muy significativa como es, <q>Fe siempre</q>, motivando a la Iglesia a no perder nuestra fe en estos momentos tan difíciles que vive el mundo, donde la duda y la incertidumbre han golpeado a toda la humanidad, y la Iglesia no ha sido ajena.</p><p class='paragraph'>El escritor de la carta a los hebreos está escribiendo a quienes querían apostatar o retroceder de la fe cristiana y volverse al judaísmo, a no perder la confianza en Cristo que tiene gran galardón y les aconseja a tener paciencia hasta obtener la promesa: <q class='italic-p6'>porque un poquito, y el que ha de venir vendrá, y no tardará</q> (Hebreos 10:37).</p>"
     }
   },
   {
@@ -63,12 +66,12 @@
   {
     "id": 6,
     "stylesForPage":[
-      ".bible-quote-p6 { font-size:1.12em;color:var(--color-blue);text-align:center;line-height:1.24; }",
-      "span.verse-p6 { color:var(--color-blue);display:block;text-align:center; }",
-      "span.verse-bold-p6 { font-weight:bold;color:var(--color-blue); }",
-      "p.paragraph-capitalized-p6 { line-height:1.2;margin-top:4.6%;text-align:center; }",
-      "span.first-letter-p6 { color:var(--color-blue);font-style:italic; }",
-      "p.justify-p6 { text-align:justify!important; }",
+      ".bible-quote-p6 { color:var(--color-blue);text-align:center; }",
+      ".verse-p6 { color:var(--color-blue);display:block;text-align:center; }",
+      ".verse-bold-p6 { font-weight:bold;color:var(--color-blue); }",
+      ".paragraph-capitalized-p6 { margin-top:4.6%;text-align:center; }",
+      ".first-letter-p6 { color:var(--color-blue);font-style:italic; }",
+      ".justify-p6 { text-align:justify!important; }",
       ".italic-p6 { font-style:italic; }",
       ".divider { border: 2px solid var(--color-blue);text-align:center;border-radius:15px;padding:20px; }",
       ".color-red { color:var(--color-red); }"

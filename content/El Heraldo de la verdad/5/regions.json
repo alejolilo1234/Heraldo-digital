@@ -14,12 +14,15 @@
     "id": 2,
     "contentArticle":{
       "className": "content-article",
-      "fontSize":"3.4em",
+      "ViewX":"1114",
+      "ViewY":"1025.5",
+      "foreignX":"100%",
+      "foreignY":"100%",
       "css":{
         "left": "35.5%",
         "top": "37.2%",
-        "width": "59%",
-        "height": "42%"
+        "width": "54.5%",
+        "font-size": "3.7em"
       },
       "excerpt":"<h2 class='subtitle-p5'>Fe siempre</h2><p class='paragraph-capitalized'><span class='first-letter-p5'>Q</span>ueridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.</p><blockquote class='bible-quote-p5'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</blockquote><span class='verse-p5'>(Romanos 1:17 GNB).</span>"
     }

@@ -1,15 +1,18 @@
 summary:target{
   background-color:var(--color-red)!important;
 }
+
 details.toggle[open] {
   box-shadow: 0 0 10px -5px rgba(0, 0, 0, 0.5) inset;
 }
+
 details.toggle {
   /* background-color: white; */
   border-radius: 5px;
   overflow: auto;
   margin-top:10px;
 }
+
 summary.title {
   padding: 10px 20px;
   background-color: var(--color-blue);
@@ -17,6 +20,7 @@ summary.title {
   border-radius: 5px;
   cursor: pointer;
 }
+
 div.content {
   margin: 30px;
 }

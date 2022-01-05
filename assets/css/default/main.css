@@ -2,7 +2,7 @@
 *::before,
 *::after{
   box-sizing: border-box;
-  outline: 0;
+  outline:0;
 }
 
 .no-selection {
