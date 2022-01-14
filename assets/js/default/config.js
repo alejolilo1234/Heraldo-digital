@@ -9,7 +9,7 @@ FlipbookSettings = {
   options: {
     pageWidth: 1115,
     pageHeight: 1443,
-    pages: 65
+    pages: 41
   },
   shareMessage: pageTitle,
   pageFolder: 'content/'+ contentTitle +'/',
