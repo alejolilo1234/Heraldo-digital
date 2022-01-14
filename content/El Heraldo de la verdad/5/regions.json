@@ -24,7 +24,7 @@
         "width": "54.5%",
         "font-size": "3.7em"
       },
-      "excerpt":"<h2 class='subtitle-p5'>Fe siempre</h2><p class='paragraph-capitalized'><span class='first-letter-p5'>Q</span>ueridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.</p><blockquote class='bible-quote-p5'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</blockquote><span class='verse-p5'>(Romanos 1:17 GNB).</span>"
+      "excerpt": "<h2 class='subtitle-p5'>Fe siempre</h2><p class='paragraph-capitalized'><span class='first-letter-p5'>Q</span>ueridos hermanos en la fe, los que formamos esta gran familia de la confianza en Jesús: Que Dios los bendiga con mucha paz y salud de lo alto. Consuelo y paz de nuestro Señor Jesucristo a aquellos que han sido atravesados por el dolor. Dios los bendiga.</p><blockquote class='bible-quote-p5'>Porque en el evangelio la justicia de Dios se revela por fe de principio a fin, como está escrito: Mas el justo por la fe vivirá</blockquote><span class='verse-p5'>(Romanos 1:17 GNB).</span>"
     }
   },
   {
@@ -43,7 +43,8 @@
         "top": "78.5%",
         "right": "10%"
       },
-      "content":"<!-- EXTRACTO AQUÍ --><p>La fe es un principio que está presente en la relación con Dios siempre y es imprescindible.</p><p><q>El que se acerca a Dios debe creer que Dios es...</q> así comienza. <q>Predicad el evangelio... el que creyere...</q> Desde la génesis de la vida cristiana la fe está ahí. No se puede pensar en <q>nuevo nacimiento</q> sin la intervención de la fe, porque a través de ella es como se conecta el ser humano con Dios.</p><p>Pero nuestro texto inicial nos sugiere que esta fe debe permanecer activa de <q>principio a fin</q>, convirtiéndose así en un estilo de vida.<br>No solo los pastores, sino todos los creyentes viven por la fe, porque entre otras cosas lo que no proviene de fe es pecado. Romanos 14:23.<br>El cristiano descubre en el diario vivir que no se turba su corazón porque cree en Jesús, que no se angustia por cómo suplirá sus necesidades básicas ni qué será del mañana, porque su Padre Celestial sabe que de todas estas cosas tiene necesidad. Cree que <q>...mayor es el que está en vosotros, que el que está en el mundo</q> (1 Juan 4:4). Y por lo tanto descansa confiado.</p><p>El cristiano no teme a la muerte porque ha creído en que Jesús es la resurrección y la vida, y que el que cree en Él, aunque esté muerto vivirá. Así que, esta fe es una poderosa ancla del alma que fortalece y afianza la esperanza de un mañana glorioso. Fe de principio a fin, este es el gran secreto... Y la gran fortaleza del creyente: ¡Fe siempre!</p>"
+      "content":"<!-- EXTRACTO AQUÍ --><p>La fe es un principio que está presente en la relación con Dios siempre y es imprescindible.</p><p><q>El que se acerca a Dios debe creer que Dios es...</q> así comienza. <q>Predicad el evangelio... el que creyere...</q> Desde la génesis de la vida cristiana la fe está ahí. No se puede pensar en <q>nuevo nacimiento</q> sin la intervención de la fe, porque a través de ella es como se conecta el ser humano con Dios.</p><p>Pero nuestro texto inicial nos sugiere que esta fe debe permanecer activa de <q>principio a fin</q>, convirtiéndose así en un estilo de vida.<br>No solo los pastores, sino todos los creyentes viven por la fe, porque entre otras cosas lo que no proviene de fe es pecado. Romanos 14:23.<br>El cristiano descubre en el diario vivir que no se turba su corazón porque cree en Jesús, que no se angustia por cómo suplirá sus necesidades básicas ni qué será del mañana, porque su Padre Celestial sabe que de todas estas cosas tiene necesidad. Cree que <q>...mayor es el que está en vosotros, que el que está en el mundo</q> (1 Juan 4:4). Y por lo tanto descansa confiado.</p><p>El cristiano no teme a la muerte porque ha creído en que Jesús es la resurrección y la vida, y que el que cree en Él, aunque esté muerto vivirá. Así que, esta fe es una poderosa ancla del alma que fortalece y afianza la esperanza de un mañana glorioso. Fe de principio a fin, este es el gran secreto... Y la gran fortaleza del creyente: ¡Fe siempre!</p>",
+      "state": "true"
     }
   },
   {
@@ -51,6 +52,7 @@
     "articleAuthor":{
       "className": "author",
       "direction": "right",
+      "XPosition": "100",
       "text": "Por Álvaro Jesús Torres Forero. Presidente IPUC",
       "backgroundColor": "var(--color-blue)",
       "css": {

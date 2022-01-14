@@ -5,22 +5,19 @@
   },
   {
     "id": 2,
-    "HTMLContent":{
-      "className": "html-content",
+    "contentArticle":{
+      "className": "content-article",
+      "ViewX":"1200",
+      "ViewY":"1000",
+      "foreignX":"220%",
+      "foreignY":"50%",
       "css":{
-        "left": "10%",
-        "top": "70.2%",
-        "width": "80%",
-        "height": "25%",
-        "overflow":"hidden",
-        "position": "absolute",
-        "z-index": "1",
-        "border-radius": "5px",
-        "padding": "0 10px",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s"
+        "left": "11.5%",
+        "top": "68.2%",
+        "width": "35.5%",
+        "font-size": "6.78em"
       },
-      "text":"<p>Pensé de inmediato que la fidelidad se constituye en los pies de la fe, recordé lo que la Biblia afirma: La fe sin obras es muerta. Es posible vivir de acuerdo a lo que se cree.</p>"
+      "excerpt":"<p style='line-height:1.22;'>Pensé de inmediato que la fidelidad se constituye en los pies de la fe, recordé lo que la Biblia afirma: La fe sin obras es muerta. Es posible vivir de acuerdo a lo que se cree.</p>"
     }
   },
   {
@@ -28,17 +25,25 @@
     "buttonModal": {
       "className": "button",
       "modalButtonText":"Leer más",
-      "containerIdToOpen": "e2342f5",
+      "textColor": "white",
+      "backgroundColor": "var(--color-blue)",
+      "borderColor": "var(--color-blue)",
+      "fontSize":"7.5em",
+      "textX": 50,
+      "textY": 120,
+      "containerIdToOpen": "page9",
       "css":{
-        "right": "35%",
-        "top": "85.2%",
-        "height": "5.1%",
-        "align-items":"center",
-        "color": "white",
-        "background": "#2d3875",
-        "padding": "5px 8px 0"
+        "right": "40%",
+        "top": "85.5%"
       },
-      "content":"<p>Un maestro de la iglesia hizo un aporte etimológico de la expresión fe, afirmando que fe y fidelidad son de la misma familia, y explicó que fe es la convicción, mientras que fidelidad es esa fe en acción. De esto se desprende que un hombre fiel es aquel que está dispuesto a actuar de acuerdo a lo que afirma creer.</p><p>Pensé de inmediato que la fidelidad se constituye en los pies de la fe, recordé lo que la Biblia afirma: La fe sin obras es muerta. Es posible vivir de acuerdo a lo que se cree.</p><p>En ese orden de ideas, el título de este artículo podría traducirse: Sé un hombre de fe hasta la muerte y vivirás eternamente.</p><p>No se trata de perfección, ya que no somos perfectos, pero sí andamos en el camino de la perfección. Salmos 101:6. Y el que ande por este camino, por torpe que sea no se extraviará, es decir, que es posible ser un hombre de fe hasta la muerte.</p><p>Si bien, hay muchos hombres de fe, en el Antiguo Testamento la palabra fe solo aparece dos veces, una de ellas en Habacuc. Allí se afirma: “… que aquel cuya alma no es recta, se enorgullece; mas el justo por su fe vivirá” (Habacuc 2:4).</p><p>Se constituye en un axioma bíblico en la medida que lo cita Pablo reiteradamente, en primera instancia en su carta a los Romanos, diciendo:</p><p>“Porque en el evangelio la justicia de Dios se revela por fe y para fe, como está escrito: Mas el justo por la fe vivirá” (Romanos 1:17).</p><p>También lo cita en su carta a los Gálatas: “Y que por la ley ninguno se justifica para con Dios, es evidente, porque: El justo por la fe vivirá” (Gálatas 3:11).</p><p>Esto se repite en Hebreos: “Mas el justo vivirá por fe; Y si retrocediere, no agradará a mi alma” (Hebreos 10:38).</p><p>Como si fuera poco, esta verdad la declaró el Señor Jesús a Marta cuando dijo: “Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá. Y todo aquel que vive y cree en mí, no morirá eternamente...” (Juan 11:25-26).</p><p>En otras palabras, el justo debe creer para vivir, y vivir para creer, el resultado de ello tiene que ver con que no morirá eternamente, de ahí la pregunta obvia del Señor Jesús a Marta: “¿Crees esto?”</p><p>Concluí que esta gran verdad divide el mundo en dos clases de personas, por un lado los orgullosos, los autosuficientes, los que tratan de ser salvos a su manera, los que por la ley se justifican, el problema radica en que sus almas no son rectas, se encuentran en el camino equivocado; pero del otro lado, el grupo de los salvos por la fe, los hijos de Dios, nacidos de nuevo, los que tienen la expectativa de ser hombres de fe hasta la muerte.</p><p>Lo importante es que la fe se ha convertido en nuestro estilo de vida:</p><p>Nos vendieron la idea y la compramos, de una Semana Santa, el Señor no espera una Semana Santa, sí, una vida santa. De la misma manera, Él no espera eventos de fe, Él espera una vida de fe, de la que Pablo hace mención cuando dice que el Evangelio revela la manera en que Dios nos hace justos, es por fe de principio a fin.</p><p>Podríamos caer en una fe circunstancial, eventos de fe. Fe para que me sane, cumpla mis deseos, me provea bienes materiales, una casa, un carro, me libre de los problemas y dificultades, sin embargo, aunque Él no me sane, sigo creyendo en Él, aunque Él no cumpla mis deseos, sigo creyendo en Él, aunque Él no me provea bienes materiales, aunque no me dé la casa ni el carro, sigo creyendo en Él, aunque no me libre de los problemas y dificultades, sigo creyendo en Él, una fe de veinticuatro horas al día, de doce meses al año, fe hasta el fin.</p><p>Quienes somos está determinado por tres cosas:</p><p>En quien creemos, qué es lo que creemos, y nuestro estilo de vida que se deriva de las dos anteriores. Alguien dijo: El estilo de vida es como el rostro del alma.</p><p>Por eso termino recordando lo que la Biblia dice:</p><p>“Porque todo lo que es nacido de Dios vence al mundo; y esta es la victoria que ha vencido al mundo, nuestra fe” (1 Juan 5:4).</p>"
+      "content":"<!-- EXTRACTO AQUÍ --><p class='paragraph-capitalized'><span style='font-family:var(--bebas-neue);color:var(--color-blue);'>U</span>n maestro de la iglesia hizo un aporte etimológico de la expresión fe, afirmando que fe y fidelidad son de la misma familia, y explicó que fe es la convicción, mientras que fidelidad es esa fe en acción. De esto se desprende que un hombre fiel es aquel que está dispuesto a actuar de acuerdo a lo que afirma creer.</p><p>Pensé de inmediato que la fidelidad se constituye en los pies de la fe, recordé lo que la Biblia afirma: La fe sin obras es muerta. Es posible vivir de acuerdo a lo que se cree.</p><p>En ese orden de ideas, el título de este artículo podría traducirse: Sé un hombre de fe hasta la muerte y vivirás eternamente.</p><p>No se trata de perfección, ya que no somos perfectos, pero sí andamos en el camino de la perfección. Salmos 101:6. Y el que ande por este camino, por torpe que sea no se extraviará, es decir, que es posible ser un hombre de fe hasta la muerte.</p><p>Si bien, hay muchos hombres de fe, en el Antiguo Testamento la palabra fe solo aparece dos veces, una de ellas en Habacuc. Allí se afirma: <q class='italic-p9'>... que aquel cuya alma no es recta, se enorgullece; mas el justo por su fe vivirá</q> (Habacuc 2:4).</p><p>Se constituye en un axioma bíblico en la medida que lo cita Pablo reiteradamente, en primera instancia en su carta a los Romanos, diciendo:</p><p><q class='italic-p9'>Porque en el evangelio la justicia de Dios se revela por fe y para fe, como está escrito: Mas el justo por la fe vivirá</q> (Romanos 1:17).</p><p>También lo cita en su carta a los Gálatas: <q class='italic-p9'>Y que por la ley ninguno se justifica para con Dios, es evidente, porque: El justo por la fe vivirá</q> (Gálatas 3:11).</p><p>Esto se repite en Hebreos: <q class='italic-p9'>Mas el justo vivirá por fe; Y si retrocediere, no agradará a mi alma</q> (Hebreos 10:38).</p><p>Como si fuera poco, esta verdad la declaró el Señor Jesús a Marta cuando dijo: <q class='italic-p9'>Yo soy la resurrección y la vida; el que cree en mí, aunque esté muerto, vivirá. Y todo aquel que vive y cree en mí, no morirá eternamente...</q> (Juan 11:25-26).</p><p>En otras palabras, el justo debe creer para vivir, y vivir para creer, el resultado de ello tiene que ver con que no morirá eternamente, de ahí la pregunta obvia del Señor Jesús a Marta: <q class='italic-p9'>¿Crees esto?</q></p><p>Concluí que esta gran verdad divide el mundo en dos clases de personas, por un lado los orgullosos, los autosuficientes, los que tratan de ser salvos a su manera, los que por la ley se justifican, el problema radica en que sus almas no son rectas, se encuentran en el camino equivocado; pero del otro lado, el grupo de los salvos por la fe, los hijos de Dios, nacidos de nuevo, los que tienen la expectativa de ser hombres de fe hasta la muerte.</p><p>Lo importante es que la fe se ha convertido en nuestro estilo de vida:</p><p>Nos vendieron la idea y la compramos, de una Semana Santa, el Señor no espera una Semana Santa, sí, una vida santa. De la misma manera, Él no espera eventos de fe, Él espera una vida de fe, de la que Pablo hace mención cuando dice que el Evangelio revela la manera en que Dios nos hace justos, es por fe de principio a fin.</p><p>Podríamos caer en una fe circunstancial, eventos de fe. Fe para que me sane, cumpla mis deseos, me provea bienes materiales, una casa, un carro, me libre de los problemas y dificultades, sin embargo, aunque Él no me sane, sigo creyendo en Él, aunque Él no cumpla mis deseos, sigo creyendo en Él, aunque Él no me provea bienes materiales, aunque no me dé la casa ni el carro, sigo creyendo en Él, aunque no me libre de los problemas y dificultades, sigo creyendo en Él, una fe de veinticuatro horas al día, de doce meses al año, fe hasta el fin.</p><p>Quienes somos está determinado por tres cosas:</p><p>En quien creemos, qué es lo que creemos, y nuestro estilo de vida que se deriva de las dos anteriores. Alguien dijo: El estilo de vida es como el rostro del alma.</p><p>Por eso termino recordando lo que la Biblia dice:</p><p style='background:var(--color-blue);color:white;padding:10px;border-radius:5px;font-weight:bold'><q class='italic-p9'>Porque todo lo que es nacido de Dios vence al mundo; y esta es la victoria que ha vencido al mundo, nuestra fe</q> (1 Juan 5:4).</p>",
+      "state": "false"
     }
+  },
+  {
+    "id": 4,
+    "stylesForPage":[
+      ".italic-p9 { font-style:italic; }"
+    ]
   }
 ]

@@ -253,7 +253,10 @@
           contentForButton.setAttribute("class","modal");
           contentForButton.setAttribute("id",attr.buttonModal.containerIdToOpen);
 
-          if(pageForArticle == this.model.pageNumber){
+          // if(pageForArticle == this.model.pageNumber){
+          //   contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div>" + textForArticle + attr.buttonModal.content;
+          // } else 
+          if(attr.buttonModal.state == 'true'){
             contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div>" + textForArticle + attr.buttonModal.content;
           } else {
             contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div>" + attr.buttonModal.content;
@@ -393,9 +396,9 @@
           this.$el.css(attr.articleAuthor.css);
 
           if(attr.articleAuthor.direction == "right") {
-            this.$el.html(authorRightSVG(attr.articleAuthor.text,attr.articleAuthor.backgroundColor));
+            this.$el.html(authorRightSVG(attr.articleAuthor.text,attr.articleAuthor.backgroundColor,attr.articleAuthor.XPosition));
           } else if(attr.articleAuthor.direction == "left") {
-            this.$el.html(authorLeftSVG(attr.articleAuthor.text,attr.articleAuthor.backgroundColor));
+            this.$el.html(authorLeftSVG(attr.articleAuthor.text,attr.articleAuthor.backgroundColor,attr.articleAuthor.XPosition));
           }
 
           this.$el.data({view: this});
@@ -1179,12 +1182,12 @@ function buttonModalSVG(text,x,y,size,bg,border,textColor){
   return "<svg width='100%' version='1.2' baseProfile='tiny' id='buttonModal' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 459 150' xml:space='preserve'><path fill='" + bg + "' d='M424.01,150H34.99C15.67,150,0,134.33,0,115.01V34.99C0,15.67,15.67,0,34.99,0h389.01	C443.33,0,459,15.67,459,34.99v80.01C459,134.33,443.33,150,424.01,150z'/><path fill='" + border + "' d='M424.01,10C437.79,10,449,21.21,449,34.99v80.01c0,13.78-11.21,24.99-24.99,24.99H34.99	C21.21,140,10,128.79,10,115.01V34.99C10,21.21,21.21,10,34.99,10H424.01 M424.01,0H34.99C15.67,0,0,15.67,0,34.99v80.01 C0,134.33,15.67,150,34.99,150h389.01c19.33,0,34.99-15.67,34.99-34.99V34.99C459,15.67,443.33,0,424.01,0L424.01,0z'/><text x='" + x + "' y='" + y + "' style='font-family:var(--bebas-neue);font-size:" + size + ";fill:" + textColor + "'>" + text + "</text></svg>";
 }
 
-function authorRightSVG(text,bg){
-  return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M2457.7,202.9H105.9C53.5,202.9,11,160.4,11,108v0c0-52.4,42.5-94.9,94.9-94.9h2351.9V202.9z'/><text x='100' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
+function authorRightSVG(text,bg,x){
+  return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M2457.7,202.9H105.9C53.5,202.9,11,160.4,11,108v0c0-52.4,42.5-94.9,94.9-94.9h2351.9V202.9z'/><text x='" + x + "' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
 }
 
-function authorLeftSVG(text,bg){
-  return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M11,202.9V13.1h2351.9c52.4,0,94.9,42.5,94.9,94.9l0,0c0,52.4-42.5,94.9-94.9,94.9H11L11,202.9z'/><text x='450' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
+function authorLeftSVG(text,bg,x){
+  return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M11,202.9V13.1h2351.9c52.4,0,94.9,42.5,94.9,94.9l0,0c0,52.4-42.5,94.9-94.9,94.9H11L11,202.9z'/><text x='" + x + "' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
 }
 
 function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint){

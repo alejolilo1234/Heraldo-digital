@@ -1,10 +1,6 @@
 [
   {
     "id": 1,
-    "pagesNumber":"page-number"
-  },
-  {
-    "id": 2,
     "tableContent":{
       "className": "table-content",
       "css":{
@@ -15,55 +11,44 @@
     }
   },
   {
+    "id": 2,
+    "articleAuthor":{
+      "className": "author",
+      "direction": "left",
+      "XPosition": "150",
+      "text": "Por Fernando Augusto López Pimiento. Segundo Vicepresidente IPUC",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "bottom": "37.5%",
+        "left": "-1%"
+      }
+    }
+  },
+  {
     "id": 3,
-    "tableContent":{
-      "className": "table-content",
+    "contentArticle":{
+      "className": "content-article",
+      "ViewX":"1200",
+      "ViewY":"1000",
+      "foreignX":"220%",
+      "foreignY":"50%",
       "css":{
-        
+        "left": "13.5%",
+        "top": "67.2%",
+        "width": "35.5%",
+        "font-size": "6.78em"
       },
-      "innerHTML":[{
-        "tag":"div",
-        "className":"author",
-        "idTag":"",
-        "css":{
-          "position":"absolute",
-          "top":"56.5%",
-          "left":"0",
-          "padding":"7px 15px",
-          "border-top-right-radius":"55px",
-          "border-bottom-right-radius":"55px",
-          "color":"white",
-          "font-family":"sans-serif",
-          "white-space": "nowrap",
-          "font-size": ".65em",
-          "background-color": "#2d3875",
-          "width": "50%",
-          "animation": "fadeIn 1.5s",
-          "-webkit-animation": "fadeIn 1.5s",
-          "overflow": "hidden"
-        },
-        "text":"Por Edilberto Ortiz Sanmartín. Primer Vicepresidente IPUC"
-      }]
+      "excerpt":"<p class='paragraph-capitalized' style='line-height:1.22;'><span class='first-letter-p8'>U</span>n maestro de la iglesia hizo un aporte etimológico de la expresión fe, afirmando que fe y fidelidad son de la misma familia, y explicó que fe es la convicción, mientras que fidelidad es esa fe en acción. De esto se desprende que un hombre fiel es aquel que está dispuesto a actuar de acuerdo a lo que afirma creer.</p>"
     }
   },
   {
     "id": 4,
-    "HTMLContent":{
-      "className": "html-content",
-      "css":{
-        "left": "10%",
-        "top": "70.2%",
-        "width": "80%",
-        "height": "25%",
-        "overflow":"hidden",
-        "position": "absolute",
-        "z-index": "1",
-        "border-radius": "5px",
-        "padding": "0 10px",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s"
-      },
-      "text":"<p>Un maestro de la iglesia hizo un aporte etimológico de la expresión fe, afirmando que fe y fidelidad son de la misma familia, y explicó que fe es la convicción, mientras que fidelidad es esa fe en acción. De esto se desprende que un hombre fiel es aquel que está dispuesto a actuar de acuerdo a lo que afirma creer.</p>"
-    }
+    "pagesNumber":"page-number"
+  },
+  {
+    "id": 5,
+    "stylesForPage":[
+      ".first-letter-p8 { font-family:var(--bebas-neue);color:var(--color-blue); }"
+    ]
   }
 ]

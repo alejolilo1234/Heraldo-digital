@@ -16,34 +16,16 @@
   },
   {
     "id": 3,
-    "tableContent":{
-      "className": "table-content",
-      "css":{
-        
-      },
-      "innerHTML":[{
-        "tag":"div",
-        "className":"author",
-        "idTag":"",
-        "css":{
-          "position":"absolute",
-          "top":"86.5%",
-          "left":"0",
-          "padding":"7px 15px",
-          "border-top-right-radius":"55px",
-          "border-bottom-right-radius":"55px",
-          "color":"white",
-          "font-family":"sans-serif",
-          "white-space": "nowrap",
-          "font-size": ".65em",
-          "background-color": "#2d3875",
-          "width": "50%",
-          "animation": "fadeIn 1.5s",
-          "-webkit-animation": "fadeIn 1.5s",
-          "overflow": "hidden"
-        },
-        "text":"Por Héctor Ariel Campuzano Fonseca. Secretario General IPUC"
-      }]
+    "articleAuthor":{
+      "className": "author",
+      "direction": "left",
+      "XPosition": "450",
+      "text": "Por Héctor Ariel Campuzano Fonseca. Secretario General IPUC",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "bottom": "8%",
+        "left": "-10%"
+      }
     }
   }
 ]
