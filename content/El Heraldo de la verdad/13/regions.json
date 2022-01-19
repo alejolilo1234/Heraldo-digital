@@ -37,7 +37,7 @@
         "display": "flex",
         "grid-gap": "10px"
       },
-      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
+      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/13/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
     }
   },
   {
@@ -45,6 +45,12 @@
     "buttonModal": {
       "className": "button",
       "modalButtonText":"Leer más",
+      "textColor": "white",
+      "backgroundColor": "var(--color-blue)",
+      "borderColor": "var(--color-blue)",
+      "fontSize": "7.5em",
+      "textX": 50,
+      "textY": 100,
       "containerIdToOpen": "ewr4432gm",
       "css":{
         "right": "40%",
@@ -61,19 +67,31 @@
   {
     "id": 5,
     "buttonModal": {
-      "className": "button",
-      "modalButtonText":"Ampliar",
-      "containerIdToOpen": "iagm234",
       "css":{
-        "right": "40%",
-        "top": "87.2%",
-        "height": "5.1%",
-        "align-items":"center",
-        "color": "white",
-        "background": "#2d3875",
-        "padding": "5px 8px 0"
+        
       },
       "content":"<img src='content/El%20Heraldo%20de%20la%20verdad/13/image.png' width=550>"
+    }
+  },
+  {
+    "id": 6,
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
+      },
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+      },
+      "css": {
+        "top": "6%",
+        "right": "40%"
+      }
     }
   }
 ]

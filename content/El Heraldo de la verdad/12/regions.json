@@ -1,13 +1,13 @@
 [
   {
     "id": 1,
-    "pagesNumber":"page-number"
+    "pagesNumber": "page-number"
   },
   {
     "id": 2,
-    "tableContent":{
+    "tableContent": {
       "className": "table-content",
-      "css":{
+      "css": {
         "background-image": "url('./content/El Heraldo de la verdad/12/title.png')",
         "-webkit-animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
         "animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
@@ -16,41 +16,41 @@
   },
   {
     "id": 3,
-    "tableContent":{
+    "tableContent": {
       "className": "table-content",
-      "css":{
-        
-      },
-      "innerHTML":[{
-        "tag":"div",
-        "className":"author",
-        "idTag":"",
-        "css":{
-          "position":"absolute",
-          "top":"93.2%",
-          "right":"0",
-          "padding":"7px 15px",
-          "border-top-left-radius":"55px",
-          "border-bottom-left-radius":"55px",
-          "color":"white",
-          "font-family":"sans-serif",
-          "white-space": "nowrap",
-          "font-size": ".65em",
-          "background-color": "#2d3875",
-          "width": "50%",
-          "animation": "fadeIn 1.5s",
-          "-webkit-animation": "fadeIn 1.5s",
-          "overflow": "hidden"
-        },
-        "text":"Por Reinel Antonio Galvis Rueda. Director de Misiones Extranjeras"
-      }]
+      "css": {},
+      "innerHTML": [
+        {
+          "tag": "div",
+          "className": "author",
+          "idTag": "",
+          "css": {
+            "position": "absolute",
+            "top": "93.2%",
+            "right": "0",
+            "padding": "7px 15px",
+            "border-top-left-radius": "55px",
+            "border-bottom-left-radius": "55px",
+            "color": "white",
+            "font-family": "sans-serif",
+            "white-space": "nowrap",
+            "font-size": ".65em",
+            "background-color": "#2d3875",
+            "width": "50%",
+            "animation": "fadeIn 1.5s",
+            "-webkit-animation": "fadeIn 1.5s",
+            "overflow": "hidden"
+          },
+          "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extranjeras"
+        }
+      ]
     }
   },
   {
     "id": 4,
-    "HTMLContent":{
+    "HTMLContent": {
       "className": "html-content",
-      "css":{
+      "css": {
         "left": "9%",
         "top": "47.9%",
         "width": "82%",
@@ -62,14 +62,14 @@
         "-webkit-animation": "fadeIn 1.5s",
         "background-color": "#2d3973"
       },
-      "text":"<p style='color:white'>“Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra” (Hebreos 11:37-38).</p>"
+      "text": "<p style='color:white'>“Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra” (Hebreos 11:37-38).</p>"
     }
   },
   {
     "id": 5,
-    "HTMLContent":{
+    "HTMLContent": {
       "className": "html-content",
-      "css":{
+      "css": {
         "left": "9%",
         "top": "71.9%",
         "width": "82%",
@@ -80,7 +80,7 @@
         "animation": "fadeIn 1.5s",
         "-webkit-animation": "fadeIn 1.5s"
       },
-      "text":"<p>Se necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
+      "text": "<p> <span class='first-letter-p11'>S</span>e necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
     }
   }
 ]
