@@ -33,6 +33,12 @@
     "buttonModal": {
       "className": "button",
       "modalButtonText":"Leer más",
+      "textColor": "white",
+      "backgroundColor": "var(--color-blue)",
+      "borderColor": "var(--color-blue)",
+      "fontSize": "7.5em",
+      "textX": 50,
+      "textY": 100,
       "containerIdToOpen": "page19",
       "css":{
         "right": "40%",
@@ -43,7 +49,7 @@
         "background": "#2d3875",
         "padding": "5px 8px 0"
       },
-      "content":"<p>.</p>"
+      "content":"<p style='color:red;'>El nacer de nuevo tiene como resultado:</p><p><strong>1.</strong> Una nueva naturaleza</p><p><strong>2.</strong> Una nueva relación con Dios</p><p><strong>3.</strong>Una nueva familia</p><p style='color:red;'> ¿Qué es fe? </p> <p>“Es pues, la Fe la certeza de lo que se espera, la convicción de lo que no se ve” (Hebreos 11: 1).</p> <p>Es tener la convicción de lo que no se ve, entonces podemos decir perfectamente es nuestra<strong> Esperanza </strong> , aunque no veamos lo que Dios hará, sabemos ¡Que Él lo hace! Es la confianza que tenemos en el Señor Jesucristo, es la garantía, que nuestro Dios es fiel. </p> <p style='color:red;'> ¿En quién tenemos la fe? </p> <p>“Puestos los ojos en Jesús, el autor y consumador de la fe, el cual por el gozo puesto delante de él sufrió la cruz, menospreciando el oprobio, y se sentó a la diestra del trono de Dios” (Hebreos 12:2).</p> <p>En nuestro caminar en la vida cristiana, estamos llamados por Dios a tener continuamente nuestros ojos puestos en Jesús.</p> <p><strong>1.</strong>No a poner los ojos en las adversidades</p><p><strong>2.</strong>. No a poner los ojos en los afanes del mundo.</p> <p><strong>3.</strong>No a poner los ojos en los errores nuestros o de los demás.</p><p style='color:red;'>¿Qué significa poner los ojos en Jesús? </p><p style='color:red;'>Recordar</p><p><ul><li> El amor de Cristo que estuvo por nosotros.</li> <li> Que nos ha salvado y nos ha redimido del pecado.</li> <li>Él está en el trono, Él es el Rey, tiene el control de todo, Él tiene el poder, y ese poder está a la disposición para nosotros que somos sus hijos.</li></ul></p> <p style='color:red;'>La fe que vence al mundo. </p> <p>Para entender este versículo debemos dar una mirada a lo que el apóstol Juan quería decirnos:</p> <p> “En esto conocemos que amamos a los hijos de Dios, cuando amamos a Dios, y guardamos sus mandamientos. Pues este es el amor a Dios, que guardemos sus mandamientos; y sus mandamientos no son gravosos” (1 Juan 5:2-3).</p> <p style='color:red;'>¿Amar a Dios y guardar sus mandamientos tiene algo que ver con la fe? </p> <p>Este pasaje nos habla de “vencer al mundo”, hace referencia a la obediencia y de cómo ganar nuestra lucha contra el pecado. Debemos obedecer los mandamientos, pero estos no son “gravosos”. En otras palabras, significa que no son imposibles, porque Dios no nos pide cosas que no somos capaces de cumplir. </p> <p>Para Dios, nuestra obediencia es una demostración de amor hacia Él, porque si lo amamos tendremos el deseo de agradarle con nuestras acciones. Para obedecer es necesario tener FE.</p> <p style='color:red'>Para Dios, nuestra obediencia es una demostración de amor hacia Él, porque si lo amamos tendremos el deseo de agradarle con nuestras acciones. Para obedecer es necesario tener FE.</p> <p>La respuesta correcta es: Nuestra fe en el Señor Jesucristo. Es la fe que nos salva, y es la fe que nos guarda. Nosotros somos salvos por la fe; andamos por fe. Somos hijos de Dios, porque hemos nacidos de nuevo, por fe en Jesucristo. Todo lo que es nacido de Dios vence al mundo. Ahora, usted es un hijo de Dios, entonces, usted </p> <p>puede vencer al mundo. ¿Cómo puede lograrlo? Dijo aquí Juan: “… Y esta es la victoria que ha vencido al mundo, nuestra FE” (1 Juan 5:4). </p> <p>El Señor Jesucristo nos advirtió:</p> <p>“Estas cosas os he hablado para que en mí tengáis paz. En el mundo tendréis aflicción; pero confiad, yo he vencido al mundo” (Juan 16: 33).</p> <p>Lo único que debemos hacer es confiar y creer en el Señor Jesucristo, en Aquel que ha vencido al mundo. Con esto, Jesús proclama la verdad de su victoria, ni siquiera la muerte ni la tumba pudieron vencerlo. En lugar de eso, Jesús dijo: “Yo he vencido al mundo”</p> <p>El problema no es que las aflicciones toquen nuestra puerta, el problema es cómo las vamos a enfrentar, nuestra actitud ante las adversidades determinará si avanzamos o nos quedamos a medio camino.</p> <p>Muchas personas ven más grande el problema que a Dios, pero querido hermano, Dios está sentado en su trono, y no hay nada más grande que nuestro Dios. <span style='color:red;'>Él es Incomparable</p> <p>Recuerda que, aunque estamos en este mundo no somos de este mundo, <span style='color:red;'> “Nuestra ciudadanía está en los cielos”.</span></p>"
     }
   },
   {
@@ -66,5 +72,25 @@
   {
     "id": 5,
     "pagesNumber":"page-number"
+  },{
+    "id": 6,
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
+      },
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+      },
+      "css": {
+        "top": "60%",
+        "right": "10%"
+      }
+    }
   }
 ]
