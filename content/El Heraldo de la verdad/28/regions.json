@@ -1,1 +1,85 @@
-[]
+[
+    {
+        "id": 1,
+        "tableContent": {
+            "className": "table-content",
+            "css": {},
+            "innerHTML": [
+                {
+                    "tag": "div",
+                    "className": "author",
+                    "idTag": "",
+                    "css": {
+                        "position": "absolute",
+                        "top": "35%",
+                        "left": "0",
+                        "padding-top": "0.9em",
+                        "padding-left": "4em",
+                        "border-top-right-radius": "55px",
+                        "border-bottom-right-radius": "55px",
+                        "color": "white",
+                        "font-family": "sans-serif",
+                        "white-space": "nowrap",
+                        "font-size": "1em",
+                        "background-color": "#2d3875",
+                        "width": "90%",
+                        "height": "7%",
+                        "animation": "fadeIn 1.5s",
+                        "-webkit-animation": "fadeIn 1.5s",
+                        "overflow": "hidden"
+                    },
+                    "text": "Por Jairo Barrera Guzmán. Pastor IPUC"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "buttonsForAudioPrint": {
+            "className": "buttons-audio-print",
+            "audio": {
+                "bgColor": "var(--color-blue)",
+                "border": "var(--color-blue)",
+                "id": "audioPage4",
+                "idToReproduce": "audioCartaDelPresidente"
+            },
+            "print": {
+                "bgColor": "var(--color-blue)",
+                "border": "var(--color-blue)",
+                "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+            },
+            "css": {
+                "bottom": "8%",
+                "left": "40%"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "pagesNumber": "page-number"
+    },
+    {
+        "id": 4,
+        "contentArticle": {
+            "className": "content-article",
+            "ViewX": "900",
+            "ViewY": "2800",
+            "foreignX": "120%",
+            "foreignY": "60%",
+            "css": {
+                "left": "8%",
+                "top": "42%",
+                "width": "60%",
+                "font-size": "3.3em",
+                "line-height": "1em"
+            },
+            "excerpt": "<p> <span style='font-size:3em'class='first-letter-p7'> A</span>nalizando el libro del profeta Habacuc, cuyo nombre al parecer significa “uno que abraza”, este nombre se vuelve apropiado conforme el profeta se aferra a Dios, independientemente de las diferentes situaciones que se le presentaron.</p> <p style='color:blue'>Él presenta su primera queja por las injusticias y a la vez viendo mucha angustia, pues está rodeado de violencia y destrucción por todas partes, pleitos y luchas (algo semejante está pasando en la actualidad) frente al aparente silencio de Dios, porque él dice: “¿Hasta cuándo, oh Jehová, clamaré, y no oirás; y daré voces a ti a causa de la violencia, y no salvarás?” (Habacuc 1: 2).</p>"
+        }
+    },
+    {
+        "id": 5,
+        "stylesForPage": [
+            ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
+        ]
+    }
+]

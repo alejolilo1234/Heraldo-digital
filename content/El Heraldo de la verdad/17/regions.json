@@ -31,6 +31,12 @@
     "buttonModal": {
       "className": "button",
       "modalButtonText":"Leer más",
+      "textColor": "white",
+      "backgroundColor": "var(--color-blue)",
+      "borderColor": "var(--color-blue)",
+      "fontSize": "7.5em",
+      "textX": 50,
+      "textY": 100,
       "containerIdToOpen": "ewr4432gm",
       "css":{
         "right": "40%",
@@ -64,5 +70,27 @@
   {
     "id": 5,
     "pagesNumber":"page-number"
+  },
+  {
+    "id": 6,
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
+      },
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+      },
+      "css": {
+        "top": "60%",
+        "right": "13%"
+      }
+    }
   }
+
 ]

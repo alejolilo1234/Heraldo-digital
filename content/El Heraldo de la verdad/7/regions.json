@@ -133,5 +133,25 @@
       ".div-p7 { border: 6px solid var(--color-blue);border-radius: 20px;width: 107.6%;padding: 1% 2%;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; }",
       ".button-html-modal-p7::before { content:'- '; }"
     ]
+  },
+  { "id": 10,
+    "buttonsForAudioPrint":{
+      "className":"buttons-audio-print",
+      "audio":{
+        "bgColor":"var(--color-blue)",
+        "border":"var(--color-blue)",
+        "id":"audioPage4",
+        "idToReproduce":"audioCartaDelPresidente"
+      },
+      "print":{
+        "bgColor":"var(--color-blue)",
+        "border":"var(--color-blue)",
+        "link":"assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+      },
+      "css":{
+        "top": "76%",
+        "right": "5%"
+      }
+    }
   }
 ]

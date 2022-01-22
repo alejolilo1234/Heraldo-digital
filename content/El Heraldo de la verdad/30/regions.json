@@ -1,1 +1,40 @@
-[]
+[
+    {
+        "id": 1,
+        "tableContent": {
+            "className": "table-content",
+            "css": {},
+            "innerHTML": [
+                {
+                    "tag": "div",
+                    "className": "author",
+                    "idTag": "",
+                    "css": {
+                        "position": "absolute",
+                        "bottom": "12%",
+                        "left": "0",
+                        "padding-top": "0.9em",
+                        "padding-left": "2em",
+                        "border-top-right-radius": "55px",
+                        "border-bottom-right-radius": "55px",
+                        "color": "white",
+                        "font-family": "sans-serif",
+                        "white-space": "nowrap",
+                        "font-size": "0.8em",
+                        "background-color": "#2d3875",
+                        "width": "60%",
+                        "height": "5%",
+                        "animation": "fadeIn 1.5s",
+                        "-webkit-animation": "fadeIn 1.5s",
+                        "overflow": "hidden"
+                    },
+                    "text": "Por Eliseo Estaper Bermúdez. Pastor IPUC"
+                }
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "pagesNumber": "page-number"
+    }
+]
