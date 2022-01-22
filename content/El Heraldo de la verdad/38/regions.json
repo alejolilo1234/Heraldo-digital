@@ -1,1 +1,82 @@
-[]
+[
+    {
+        "id": 1,
+        "pagesNumber": "page-number"
+    },
+    {
+        "id": 2,
+        "tableContent": {
+            "className": "table-content",
+            "css": {},
+            "innerHTML": [
+                {
+                    "tag": "div",
+                    "className": "author",
+                    "idTag": "",
+                    "css": {
+                        "position": "absolute",
+                        "top": "53%",
+                        "left": "0",
+                        "padding-top": "0.9em",
+                        "padding-left": "1.5em",
+                        "border-top-right-radius": "55px",
+                        "border-bottom-right-radius": "55px",
+                        "color": "white",
+                        "font-family": "sans-serif",
+                        "white-space": "nowrap",
+                        "font-size": "0.7em",
+                        "background-color": "#2d3875",
+                        "width": "60%",
+                        "height": "5%",
+                        "animation": "fadeIn 1.5s",
+                        "-webkit-animation": "fadeIn 1.5s",
+                        "overflow": "hidden"
+                    },
+                    "text": "Por Vicente Arango Varela. Director Misiones Nacionales"
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "contentArticle": {
+            "className": "content-article",
+            "ViewX": "900",
+            "ViewY": "3000",
+            "foreignX": "120%",
+            "foreignY": "60%",
+            "css": {
+                "left": "8%",
+                "top": "60%",
+                "width": "70%",
+                "font-size": "3em",
+                "line-height": "1em"
+            },
+            "excerpt": "<p style='color:white'>La escuela de evangelistas “Pescadores de hombres”, de Misiones Nacionales, se viene desarrollando como plan bandera en el territorio colombiano. </p> "
+        }
+    },
+    {
+        "id": 6,
+        "buttonModal": {
+            "className": "button",
+            "modalButtonText": "Leer Más",
+            "textColor": "white",
+            "backgroundColor": "var(--color-red)",
+            "borderColor": "var(--color-red)",
+            "fontSize": "7.5em",
+            "textX": 50,
+            "textY": 110,
+            "containerIdToOpen": "page19",
+            "css": {
+                "right": "40%",
+                "bottom": "9%",
+                "height": "5.7%",
+                "align-items": "center",
+                "color": "white",
+                "background": "var(--color-red)",
+                "padding": "5px 8px 0"
+            },
+            "content": "<p>En esta primera etapa hemos iniciado con el pastorado y sus esposas, teniendo como ponentes a miembros, ex miembros del Consistorio de Ancianos y misioneros, donde a través de una metodología experiencial se da cumplimiento a tres objetivos esenciales: </p> <p><ul><li>Inspirar en la importancia del evangelismo desde la Palabra de Dios y experiencias de vida misionera, para el fortalecimiento del trabajo evangelístico nacional. </li> <li>Motivar a través de métodos, estrategias y experiencias, el impulso de la obra misionera, desde el contexto propio de cada población a alcanzar, para el aumento de la efectividad evangelística</li><li>Comprometer a cada ministerio en el fortalecimiento de su labor misionera, como parte activa y vital de la Gran Comisión, en pro de alcanzar el mayor número de almas en el territorio colombiano.</li></ul></p> <p style='color:red'>La escuela comprende la siguiente temática:</p> <p>1. Evangelismo: ¡Tarea de todos!</p> <p>2. Hablemos de evangelismo </p> <p>3. Planificación estratégica en el evangelismo.</p> <p>4. Nada que no me cueste.</p> <p>5. El Espíritu Santo y el evangelista.</p> <p>Damos gracias a Dios por la Iglesia y cada pastor, que en medio de los tiempos mantiene un corazón y una visión misionera. </p> <p style='color:red'>Obra carcelaria</p> <p>Es para el área de Evangelismo de suma importancia dar a conocer los resultados de la obra dentro y fuera de las cárceles, en tiempos de pandemia.  </p> <p style='color:red'>Avances</p> <p>Cabe resaltar que en estos tiempos de pandemia, la virtualidad ha jugado un papel muy importante en el desarrollo de la obra, permitiéndonos imprentar nuevas estrategias para tener un acercamiento a familias, grupos de apoyo, pos penados, hermanos miembros del INPEC y PPL; con programas dirigidos a capacitar todo nuestro equipo de trabajo, teniendo resultados significativos de manera integral. </p> <p>Misión juvenil</p> <p>A pesar de la virtualidad en la que el cien por ciento de los colegios y universidades han funcionado en el primer semestre del año, los problemas socio espirituales siguen latentes en la comunidad estudiantil de Colombia. En este año los registros de suicidio se han incrementado de forma alarmante más que en los dos últimos años, superando el año 2018, que hasta el momento sufrió el pico más alto de suicidios en Colombia; es de recordar que el rango de edad de aquellos que atentan contra su vida en nuestro país está entre los catorce y los veintiséis años. El número de madres solteras sigue aumentando y continúa siendo una situación social sin solución en la adolescencia. El estrés y la ansiedad producido por el encierro en tiempos de pandemia, ha llevado a que nuestra comunidad estudiantil se encuentre más esclava de diferentes tipos de adicciones, no solo sustancias sicoactivas sino también de malos hábitos, como la adicción a las redes sociales.</p> <p>Seguimos firmes en la esperanza, que entre más abunda el pecado más sobreabunda la gracia; este año por la gracia de Dios hemos visto su gloria manifestarse en diferentes eventos, en cada uno de los distritos, con muchas almas a los pies de Cristo.</p> <p style='color:red'>Evangelismo en población sorda</p> <p>A través de esta área, Misiones Nacionales con los coordinadores distritales y personal de apoyo, lleva el Evangelio de salvación a la población sorda, ciega y sordo ciega, con experiencias y resultados maravillosos.</p> <p>Mediante el Proyecto Z&B (Zacarías y Bartimeo) se ha venido implementando la EFIS (Escuela de Formación de Interpretes para Sordos), donde nuestros pastores, esposas de pastores y feligreses en general, aprenden la lengua de señas Colombiana con énfasis en Misiones y Evangelismo, contamos con el pastor para sordos, veintiocho coordinadores distritales, cuarenta y siete instructores, doscientos ocho interpretes entre sordos y ciegos, cuarenta y tres servidores, y de seiscientos sesenta y seis feligreses en formación en la EFIS, y una membresía de ciento sesenta y ocho sordos, y trece ciegos. </p> <p>El área de Evangelismos Nacional, se encuentra estructurada de la siguiente manera:</p> <p><ul><li>Para una mejor atención en asesoría y acompañamiento a los distritos, se han formado cinco grupos de siete distritos cada uno.</li><li> Refam: Nuestra visión es consolidar la Refam a través de un proyecto local. Aprovechando los recursos con los que cuenta el programa se implementará de la siguiente manera: </li> <li> Refam presencial: Llegar a todos los grupos poblacionales de nuestro sector</li> <li>Refam digital: Alcanzar con el mensaje del Evangelio a los más de treinta y cuatro millones de colombianos que tienen acceso a dispositivos digitales e internet</li> <li>Discipulado: Con el propósito de motivar a cada iglesia local para que implemente la escuela de discipulado, se ha creado un material de estudio dirigido a los nuevos creyentes, llamado “Formando al hombre a la imagen de Dios”; este a su vez se ha dividido en tres áreas:</li><li>El Ser: Para que conozca su identidad como cristiano.</li><li>El Saber: Para cimentarlo en la doctrina.</li><li> El Hacer: Para ejercer el servicio a Dios. Además, contamos con “Métodos de evangelismo” y programas como: “Uno más” y “Bis”.</li></ul></p> <p>Misiones Especiales y Misión Hospitalaria, es una coordinación del Departamento de Misiones Nacionales que desarrolla su trabajo en dos grandes áreas; por un lado, está Misiones Especiales que trabaja con cinco grupos poblacionales, como son: Personas drogodependientes, pandillas, trabajadoras(es) sexuales, personas en condición de habitabilidad de calle y personas de la comunidad LGTBIQ. En Misión Hospitalaria se hace la labor con cuatro grupos poblacionales: Personas en clínicas y hospitales (enfermos o personal de la salud), hogares geriátricos, desplazados y desamparados. </p> <p>Como bien es sabido, en Colombia existen muchas instituciones que tiene como propósito ayudar a las personas atrás descritas, que están en condición de vulnerabilidad. Es en estos lugares y en las calles, donde la Iglesia Pentecostal Unida de Colombia hace presencia llevándoles el Evangelio de Cristo que transforma las vidas. Damos gracias a Dios, pues contamos a nivel nacional con un buen grupo de pastores que coordinan este trabajo, en compañía de un equipo extraordinario de hermanos que aman ayudar al más necesitado y hacen parte del voluntariado que va a llevar las Buenas Nuevas de salvación. Tenemos un parte de victoria, pues se ha informado de doscientos noventa y cuatro nuevos bautizados en esta área, para la gloria del Señor Jesús.</p> <p style='color:red'>Evangelismo digital</p> <p>Llevar la gran comisión por todo el mundo, especialmente a todos los rincones de nuestro territorio nacional tanto en la zona urbana como en la zona rural, ha sido la misión y compromiso del área más nueva del Departamento de Misiones Nacionales; seguimos con el reto de llevar el mensaje de salvación de diferentes formas, de lunes a viernes a través de cápsulas de vida, que es un pequeño video donde el expositor de la Palabra de Dios presenta un mensaje claro y sencillo, en dos minutos; todos los viernes en la noche el programa oficial de misiones nacionales “Mi misión en la visión de Dios”, donde transmitimos testimonios de impacto, mensajes de vida y programas evangelísticos. Por la gracia de Dios hemos visto un resultado hasta ahora hermoso y sorprendente, las personas se conectan y entregan su vida al Señor, así también, es de notar que la situación actual del mundo y nuestro país ha afectado profundamente el estado emocional de las personas, haciéndose latente la necesidad del Dios de toda consolación, para ello hemos llegado con un programa, por medio de la música y la Palabra “Serenata para mi país en tiempo de angustia”, hemos podido presentarles a Jesucristo, el Señor de la salvación y consolación</p> <p style='color:red'>Venciendo barreras, avanzando en victoria</p> <p>Muchas han sido las vicisitudes que en el arduo camino del evangelismo se han tenido que sobrellevar, como ha sido esta época marcada y limitada por la pandemia, y aunque afectados, sin embargo, siempre de la mano de nuestro Señor Jesucristo podemos gritar a viva voz: ¡Victoria, siempre la victoria! También como dice la Escritura: “…hasta aquí nos ha ayudado el Señor” (1 Samuel 7:12 RVC). Y es que los derroteros que forjaron este periodo de tiempo han sido de una enorme complejidad, que ha llevado a la Iglesia del Señor y especialmente a la labor evangelística a enfrentase a nuevos desafíos, objetivos y estrategias, para el cumplimiento de la Gran Comisión de llevar este poderoso Evangelio del Señor Jesucristo a los necesitados</p> <p>El área de evangelismo en la Fuerza Pública propulsó con gran éxito estrategias de evangelismo digital, logrando vencer las barreras y limitaciones, para avanzar siempre de la mano de nuestro General de Generales, el Señor Jesucristo, alcanzar victorias importantes, como lo fue la trascendencia a todas las instituciones del orden nacional, consolidando un trabajo en las Fuerzas Militares y la Policía Nacional, y extendiéndose a los organismos de socorro como bomberos, defensa civil, CTI, entre otras; razón por la cual tuvo que redefinirse el nombre del área a Evangelismo en las Instituciones Públicas.</p> <p>Cada uno de los hermanos ungidos por el poder del Espíritu Santo fueron guiados y llenos de sabiduría, para no cesar en esta su más grande misión: La de pregonar las Buenas Nuevas de salvación a los perdidos, desarrollando estrategias de evangelismo con contenidos digitales basados en la Palabra de Dios, que han impactado la vida de cientos de funcionarios públicos y sus familias, muchos de ellos hoy bautizados en su Santo Nombre, Jesús.</p> <p>Seguimos siempre en victoria, de la mano del Señor Jesús que nos lleva de triunfo en triunfo, derribando barreras y conquistando con el poder</p> <p>del Evangelio el corazón de los perdidos. Celebramos su grandeza, aun en la más cruenta batalla, porque como resalta su Palabra: “ni lo alto, ni lo profundo, ni ninguna otra cosa creada nos podrá separar del amor de Dios, que es en Cristo Jesús Señor nuestro” (Romanos 8:39).</p>"
+        }
+    }
+]
