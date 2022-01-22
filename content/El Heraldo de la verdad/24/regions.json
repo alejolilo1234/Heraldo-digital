@@ -61,8 +61,8 @@
             "backgroundColor": "white",
             "borderColor": "transparent",
             "borderRadius": "0",
-            "fontSize": "7.5em",
-            "textX": 50,
+            "fontSize": "9em",
+            "textX": 120,
             "textY": 120,
             "containerIdToOpen": "page19",
             "css": {
