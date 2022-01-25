@@ -5,8 +5,8 @@
       "className": "table-content",
       "css": {
         "background-image": "url('./content/El Heraldo de la verdad/8/title.png')",
-        "-webkit-animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
-        "animation": "swing-in-top-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+        "-webkit-animation": "slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
       }
     }
   },

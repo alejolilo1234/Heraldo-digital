@@ -9,8 +9,8 @@
       "className": "table-content",
       "css": {
         "background-image": "url('./content/El Heraldo de la verdad/12/title.png')",
-        "-webkit-animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
-        "animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+        "-webkit-animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
       }
     }
   },
@@ -37,12 +37,19 @@
       "foreignX": "220%",
       "foreignY": "50%",
       "css": {
-        "left": "13.5%",
-        "bottom": "5.2%",
+        "left": "11.5%",
+        "bottom": "18.2%",
         "width": "35.5%",
         "font-size": "6.78em"
       },
-      "excerpt": "<p>“Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra” (Hebreos 11:37-38).</p><p><span>S</span>e necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
+      "excerpt": "<p class='center-p12'><q class='italic-p12'>Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra</q><br>(Hebreos 11:37-38).</p><p class='paragraph-capitalized'><span style='color:var(--color-blue);font-family:var(--bebas-neue);'>S</span>e necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
     }
+  },
+  {
+    "id": 5,
+    "stylesForPage":[
+      ".italic-p12 { font-style: italic; }",
+      ".center-p12 { text-align: center;background-color: var(--color-blue);    padding: 80px; border-radius: 40px; color: white;font-size: .8em; }"
+    ]
   }
 ]
