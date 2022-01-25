@@ -1,1 +1,48 @@
-[]
+[
+  {
+    "id": 1,
+    "pagesNumber": "page-number"
+  },
+  {
+    "id": 2,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "900",
+      "ViewY": "3000",
+      "foreignX": "120%",
+      "foreignY": "60%",
+      "css": {
+        "left": "8%",
+        "top": "2%",
+        "width": "70%",
+        "font-size": "6em",
+        "line-height": "1em"
+      },
+      "excerpt": "<p class='first-letter-p7'>FUNDACIÓN EDUCACIÓN CRISTIANA PENTECOSTAL</p> "
+    }
+  },
+  {
+    "id": 3,
+    "stylesForPage": [
+      ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
+    ]
+  },
+  {
+    "id": 4,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "900",
+      "ViewY": "3000",
+      "foreignX": "120%",
+      "foreignY": "60%",
+      "css": {
+        "left": "8%",
+        "top": "20%",
+        "width": "70%",
+        "font-size": "3em",
+        "line-height": "1em"
+      },
+      "excerpt": "<p style='color:gray'>“asidos de la palabra de vida, para que en el día de Cristo yo pueda gloriarme de que no he corrido en vano, ni en vano he trabajado” (Filipenses 2:16).</p>"
+    }
+  }
+]

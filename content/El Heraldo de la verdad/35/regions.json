@@ -1,1 +1,75 @@
-[]
+[
+    {
+        "id": 1,
+        "pagesNumber": "page-number"
+    },
+    {
+        "id": 2,
+        "buttonsForAudioPrint": {
+            "className": "buttons-audio-print",
+            "audio": {
+                "bgColor": "var(--color-blue)",
+                "border": "var(--color-blue)",
+                "id": "audioPage4",
+                "idToReproduce": "audioCartaDelPresidente"
+            },
+            "print": {
+                "bgColor": "var(--color-blue)",
+                "border": "var(--color-blue)",
+                "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+            },
+            "css": {
+                "top": "19%",
+                "right": "42%"
+            }
+        }
+    },
+    {
+        "id": 3,
+        "buttonModal": {
+            "className": "button",
+            "modalButtonText": "Ver Informe",
+            "textColor": "var(--color-blue)",
+            "backgroundColor": "transparent",
+            "borderColor": "var(--color-red)",
+            "fontSize": "6em",
+            "textX": 50,
+            "textY": 100,
+            "containerIdToOpen": "page19",
+            "css": {
+                "right": "40%",
+                "top": "10%",
+                "height": "5.1%",
+                "align-items": "center",
+                "color": "white",
+                "background": "transparent",
+                "padding": "5px 8px 0"
+            },
+            "content": "<p><span style='font-size:2em' class='first-letter-p7'>I</span>mpartir educación cristiana con proyección eterna es el derrotero de la Fundación Educación Cristiana Pentecostal -FECP- lo que nos ha impuesto una misión de alto compromiso para llevar a cabo esta labor con excelencia. Para este 2021 el lema “Fe siempre, como dice la Escritura”, nos ha dirigido a desarrollar nuestras acciones educativas enfocadas en la enseñanza de la doctrina, en el perfeccionamiento de las habilidades para estudiar y enseñar la Palabra de Dios, en la continuidad de los procesos pedagógicos con mayor calidad, y en el uso de los dones y talentos que Dios ha entregado a maestros, músicos, líderes y pastores, para aprovechar las diferentes herramientas que el contexto tecnológico nos ha presentado y hemos tenido que utilizar frente a los desafíos actuales. La Educación Cristiana, como proceso cumple una misión bíblica en cuanto a la enseñanza de la Palabra y los efectos que causa en el hombre: “Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia, a fin de que el hombre de Dios sea perfecto, enteramente preparado para toda buena obra” (2 Timoteo 3: 16-17). Por consiguiente, enseñar e instruir, capacitar y formar, hacen parte de esta labor desde la infancia hasta la tercera edad, y contempla el desarrollo de las capacidades para que todo aquel que sigue y sirve al Señor, pueda serle útil mediante sus habilidades, talentos y dones, haciéndole competente en muchas áreas.</p> <p>Entendiendo esta gran misión, el área de Escuela Dominical viene desarrollando encuentros de forma ción con maestros, integrando la tecnología con la enseñanza, actualizando el pensum nacional Sembremos y la cartilla de Refam infantil, en los cuales se están incluyendo herramientas didácticas acorde con la realidad de la infancia y la adolescencia. De igual manera, se ha venido facilitando la formación sistemática de los maestros a través de la Escuela de Formación Virtual ESFOMED, y se ha fortalecido la labor espiritual en el ayuno nacional realizado el pasado mes de marzo. Es precioso ver el sentir de muchos maestros reunidos colocando la niñez en las manos de Dios.</p> <p>La formación de los servidores del Señor también incluye el desarrollo de sus capacidades intelectuales y académicas, en ese aspecto viene trabajando el área de Educación Secular (investigación y desarrollo) a través de la conformación de grupos de investigación con profesionales de todo el país para desarrollar proyectos en educación, salud mental, salud auditiva, salud vocal y otros de interés para la comunidad IPUC.</p> <p>Otro aspecto fundamental en la Educación Cristiana tiene que ver con la enseñanza teológica, cuya labor es desarrollada por el Instituto Bíblico Pentecostal- IBP en cada distrito de nuestro país. El Consistorio de Ancianos ha estado muy interesado en fortalecer el direccionamiento de esta área como columna vertebral de la enseñanza de la doctrina en pastores y creyentes, ha insistido en atender los procesos y mejorar la calidad de los materiales. Eso ha significado la articulación entre Misiones Nacionales y Educación Teológica en un material que pronto saldrá para beneficio de la Iglesia. </p> <p>Adicionalmente, el área cuenta con un equipo de trabajo dedicado a la coordinación del IBP virtual que presta su servicio a quienes no pueden acceder al programa presencial, o que se encuentran fuera del país en las congregaciones de misiones extranjeras. El IBP ha expandido sus programas educativos incluyendo al de Teología Básica, cursos en consejería cristiana y lenguas bíblicas (hebreo nivel I y II). </p> <p>Es importante resaltar el interés, tanto de la coordinación nacional como de los distritos, en elevar la calidad de la enseñanza a través de la actualización docente que se realiza mediante el programa: Educando con calidad, nivel I y II, del cual se ha visto beneficiado más del 75% de los distritos. Se espera finalizar con el 100% este año. </p> <p>La música en la Iglesia es un área de suma importancia, debido a que a través de la adoración y la alabanza expresamos nuestra fe, reconocemos y exaltamos a Dios por lo que Él es y por lo que hace en favor de su pueblo. La música también hace parte activa de nuestro culto a Dios, y en la actualidad ha tenido que variar en su forma a través de los pregrabados, cultos y eventos virtuales, entre otras formas; sin embargo, no puede</p> <p>variar en su fondo y la esencia de exaltar al Señor debe ser el único objetivo. La música como área de Educación Cristiana ha buscado facilitar y organizar la formación de los músicos, cantantes, instrumentistas y compositores, en lo doctrinal y ministerial a través de la Escuela de Capacitación para Músicos- ESCAM; de igual manera en la expresión musical y reconocimiento a los autores de nuestra IPUC a través del himnario Manantial. A nivel digital, el área de música hace presencia en los canales virtuales de la IPUC y de la FECP con música de nuestros compositores en diferentes formatos. Es gratificante ver hermanos consagrados y de gran ejemplo en esta área, tanto que se ha buscado reconocer su aporte a través de la licencia de Ministro de música y las licencias distritales y nacionales. A nivel nacional el Comité de Música brinda asesoría a los comités distritales, apoya los eventos que ellos programan, y facilitan materiales y enseñanzas para el crecimiento integral del músico en general</p> <p>El servicio a Dios también incluye el desarrollo de talentos, y en esto el área de artística ha venido desarrollando actividades que promueven el uso de los mismos para el servicio a Dios en la predicación del Evangelio, en la enseñanza de la Palabra y en actividades que glorifiquen la obra de Dios. El pasado diez de abril se llevó a cabo la conmemoración del día mundial del arte cristiano,</p> <p>donde participaron varios distritos con sus grupos de teatro, el Director General enseñó la Palabra y se glorificó a Dios en todo. El área de artística brinda asesoría a los comités distritales, produce material de enseñanza y profundiza en el uso del arte, como herramienta al servicio de la enseñanza y la gran comisión. Es un área que poco a poco ha ganado terreno, que se ha hecho útil y necesaria en estos tiempos. Gracias a Dios por los hermanos que usan sus talentos artísticos y dones dados por Él para el crecimiento de la obra, y para alcanzar a otros con el mensaje de la Palabra, sembrando fe en muchos corazones</p> <p>En cuanto al avance tecnológico contamos con el área de Recursos Educativos y Tecnología, quienes han estado a la vanguardia de los cambios y liderando un proyecto de transformación digital al interior de la FECP, prestando apoyo a todas las áreas en la realización de sus eventos, asesoría en la adquisición de equipos y licencias para software de transmisión, aulas virtuales y desarrollo de aplicativos a la medida, que han facilitado la gestión de solicitudes, la planeación operativa y el seguimiento a proyectos educativos.</p> <p>Con relación a la ESFOM, el departamento de Educación Cristiana ha venido apoyando bajo la dirección del Consistorio, la elaboración de los materiales pedagógicos y la labor logística para su buen desarrollo, en unión con Recursos Educativos y Decom. Es un privilegio servir a los pastores en su formación ministerial.</p> <p>En términos generales, Educación Cristiana realiza una gran labor por todo el territorio nacional, a través de los equipos distritales de cada área, conformando una gran familia, unida a través del amor por la Palabra, por la enseñanza de la doctrina y el compromiso de formación a los servidores para toda buena obra. Hemos creído que enseñar “como dice la Escritura” fortalece al creyente y hará que su “fe no falte”. Nuestro aporte al desarrollo de la Iglesia y sus ministros está puesto a la disposición de todos, a través de un portafolio de servicios construido a partir de un diagnóstico serio y una actualización de la planeación estratégica a 2025, que busca dar respuesta de manera real a las necesidades actuales de la Iglesia en Colombia y en el exterior.</p>"
+        }
+    },
+    {
+        "id": 4,
+        "contentArticle": {
+            "className": "content-article",
+            "ViewX": "900",
+            "ViewY": "2800",
+            "foreignX": "120%",
+            "foreignY": "60%",
+            "css": {
+                "left": "15%",
+                "top": "22%",
+                "width": "60%",
+                "font-size": "3.3em",
+                "line-height": "1em"
+            },
+            "excerpt": "<p style='color:#2d3875;font-size:1em;'> Por Fernando Sierra. Director Nacional FECP </p>"
+        }
+    },
+    {
+        "id": 3,
+        "stylesForPage": [
+            ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
+        ]
+    }
+]

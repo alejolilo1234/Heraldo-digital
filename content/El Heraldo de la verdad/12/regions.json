@@ -16,71 +16,33 @@
   },
   {
     "id": 3,
-    "tableContent": {
-      "className": "table-content",
-      "css": {},
-      "innerHTML": [
-        {
-          "tag": "div",
-          "className": "author",
-          "idTag": "",
-          "css": {
-            "position": "absolute",
-            "top": "93.2%",
-            "right": "0",
-            "padding": "7px 15px",
-            "border-top-left-radius": "55px",
-            "border-bottom-left-radius": "55px",
-            "color": "white",
-            "font-family": "sans-serif",
-            "white-space": "nowrap",
-            "font-size": ".65em",
-            "background-color": "#2d3875",
-            "width": "50%",
-            "animation": "fadeIn 1.5s",
-            "-webkit-animation": "fadeIn 1.5s",
-            "overflow": "hidden"
-          },
-          "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extranjeras"
-        }
-      ]
+    "articleAuthor":{
+      "className": "author",
+      "direction": "left",
+      "XPosition": "350",
+      "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extranjeras",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "top": "47%",
+        "left": "-8%"
+      }
     }
   },
   {
     "id": 4,
-    "HTMLContent": {
-      "className": "html-content",
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
       "css": {
-        "left": "9%",
-        "top": "47.9%",
-        "width": "82%",
-        "position": "absolute",
-        "z-index": "1",
-        "border-radius": "5px",
-        "padding": "0 10px",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s",
-        "background-color": "#2d3973"
+        "left": "13.5%",
+        "bottom": "5.2%",
+        "width": "35.5%",
+        "font-size": "6.78em"
       },
-      "text": "<p style='color:white'>“Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra” (Hebreos 11:37-38).</p>"
-    }
-  },
-  {
-    "id": 5,
-    "HTMLContent": {
-      "className": "html-content",
-      "css": {
-        "left": "9%",
-        "top": "71.9%",
-        "width": "82%",
-        "position": "absolute",
-        "z-index": "1",
-        "border-radius": "5px",
-        "padding": "0 10px",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s"
-      },
-      "text": "<p> <span class='first-letter-p11'>S</span>e necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
+      "excerpt": "<p>“Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra” (Hebreos 11:37-38).</p><p><span>S</span>e necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
     }
   }
 ]
