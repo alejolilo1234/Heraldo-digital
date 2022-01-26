@@ -9,44 +9,47 @@
       "className": "table-content",
       "css":{
         "background-image": "url('./content/El Heraldo de la verdad/14/title.png')",
-        "-webkit-animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both",
-        "animation": "swing-in-left-fwd 2.5s cubic-bezier(0.175, 0.885, 0.320, 1.275) both"
+        "-webkit-animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
       }
     }
   },
   {
     "id": 3,
-    "HTMLContent":{
-      "className": "html-content",
-      "css":{
-        "left": "27%",
-        "top": "26.9%",
-        "width": "33%",
-        "position": "absolute",
-        "z-index": "1",
-        "border-radius": "5px",
-        "padding": "0 10px",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s"
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
+      "css": {
+        "left": "32%",
+        "top": "20.9%",
+        "width": "30.5%",
+        "font-size": "7.3em"
       },
-      "text":"<p>Antes de hablar de la fe como don, es necesario hacer un análisis del propósito de los dones del Espíritu Santo, el apóstol Pablo trata de los dones del Espíritu Santo dados a la Iglesia como cuerpo de Cristo en 1 Corintios, capítulos 12 al 14. Estamos frente a un tema trascendental, puesto que se trata de algo de procedencia Divina. El apóstol escribe que no quiere que ignoremos acerca de los dones del Espíritu Santo;</p>"
+      "excerpt":"<div style='display:grid;grid-template-columns: 1fr 1.6fr;grid-gap:566px;'><p style='text-align:justify;'>Antes de hablar de la fe como don, es necesario hacer un análisis del propósito de los dones del Espíritu Santo, el apóstol Pablo trata de los dones del Espíritu Santo dados a la Iglesia como cuerpo de Cristo en 1 Corintios, capítulos 12 al 14. Estamos frente a un tema trascendental, puesto que se trata de algo de procedencia Divina.</p><div style='display:flex;align-items:flex-end;text-align:justify;'><p>El apóstol escribe que no quiere que ignoremos acerca de los dones del Espíritu Santo;</p></div></div>"
     }
   },
   {
     "id": 4,
-    "HTMLContent":{
-      "className": "html-content",
-      "css":{
-        "left": "70%",
-        "top": "61.2%",
-        "position": "absolute",
-        "z-index": "1",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s",
-        "display": "flex",
-        "grid-gap": "10px"
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
       },
-      "text":"<a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-audio.png);background-position:center;background-size: contain;' href='/'></a><a style='width:30px;height:30px;background-image:url(./content/El%20Heraldo%20de%20la%20verdad/11/iconos-imprimir.png);background-position:center;background-size: contain;' href='/'></a>"
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+      },
+      "css": {
+        "top": "60%",
+        "right": "15%"
+      }
     }
   }
 ]

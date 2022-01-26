@@ -5,52 +5,33 @@
   },
   {
     "id": 2,
-    "tableContent": {
-      "className": "table-content",
-      "css": {},
-      "innerHTML": [
-        {
-          "tag": "div",
-          "className": "author",
-          "idTag": "",
-          "css": {
-            "position": "absolute",
-            "top": "67.2%",
-            "right": "0",
-            "padding": "7px 15px",
-            "border-top-left-radius": "55px",
-            "border-bottom-left-radius": "55px",
-            "color": "white",
-            "font-family": "sans-serif",
-            "white-space": "nowrap",
-            "font-size": ".65em",
-            "background-color": "#2d3875",
-            "width": "50%",
-            "animation": "fadeIn 1.5s",
-            "-webkit-animation": "fadeIn 1.5s",
-            "overflow": "hidden"
-          },
-          "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extranjeras"
-        }
-      ]
+    "articleAuthor":{
+      "className": "author",
+      "direction": "right",
+      "XPosition": "150",
+      "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extranjeras",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "top": "66.5%",
+        "right": "-5%"
+      }
     }
   },
   {
     "id": 3,
-    "HTMLContent": {
-      "className": "html-content",
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
       "css": {
-        "left": "5%",
-        "top": "73.9%",
-        "width": "87%",
-        "position": "absolute",
-        "z-index": "1",
-        "border-radius": "5px",
-        "padding": "0 10px",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s"
+        "left": "8%",
+        "top": "73.4%",
+        "width": "37.5%",
+        "font-size": "6em"
       },
-      "text": "<p>Se necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
+      "excerpt":"<p>a través de los dones se manifiesta el poder de Dios para que la Iglesia pueda cumplir la gran comisión de predicar el Evangelio a todo el mundo y a toda criatura.</p>"
     }
   },
   {
@@ -63,39 +44,13 @@
       "borderColor": "var(--color-blue)",
       "fontSize": "7.5em",
       "textX": 50,
-      "textY": 100,
-      "containerIdToOpen": "ewr4432gm",
+      "textY": 120,
+      "containerIdToOpen": "page15",
       "css": {
-        "right": "72%",
-        "top": "88.2%",
-        "height": "5.1%",
-        "align-items": "center",
-        "color": "white",
-        "background": "#2d3875",
-        "padding": "5px 8px 0"
+        "right": "40%",
+        "top": "87.5%"
       },
-      "content": "<p style='background:var(--color-blue);color:white;padding:10px;border-radius:5px;font-weight:bold'>“y les dijo: Así está escrito, y así fue necesario que el Cristo padeciese, y resucitase de los muertos al tercer día; y que se predicase en su nombre el arrepentimiento y el perdón de pecados en todas las naciones, comenzando desde Jerusalén. Y vosotros sois testigos de estas cosas. He aquí, yo enviaré la promesa de mi Padre sobre vosotros; pero quedaos vosotros en la ciudad de Jerusalén, hasta que seáis investidos de poder desde lo alto” (Lucas 24: 46-49).</p> <p>Hay que destacar la expresión: “Y seréis investidos de poder desde lo alto”; ya que los términos que la Biblia emplea para los dones espirituales determinan su naturaleza y procedencia espiritual, es decir, proceden de Dios. Hay que tener en cuenta que el título Espíritu Santo, no está indicando que haya otra persona divina aparte de Dios, los versículos 4 al 6 del capítulo 12 que estamos estudiando, declaran que el Espíritu, el Señor y Dios, es el mismo, de la siguiente manera: “ahora bien, hay diversidad de dones, pero el Espíritu es el mismo. Y hay diversidad de ministerios, pero el Señor es el mismo, y hay diversidad de operaciones, pero Dios, que hace todas las cosas en todos, es el mismo” (1 Corintios 12: 4-5).</p> <p> El apóstol dice que a cada creyente le es dada la manifestación del Espíritu para provecho; esto no quiere decir provecho de la persona sino para la Iglesia como cuerpo de Cristo, estos dones son operaciones del Espíritu para suplir las necesidades de la Iglesia, que tiene la batalla contra principados, potestades, gobernadores de las tinieblas, huestes espirituales de maldad en las regiones celestes, además, contra el pecado y contra el mundo.</p> <p>Frente a toda esta situación la Iglesia tiene la urgente necesidad de los recursos Divinos para salir de lo común, corriente y rutinario, y entrar a un nivel extraordinario, porque <span style='color:red;'>¡la victoria ya está ganada por Cristo mediante susacrificio y resurrección!</span> </p> <p>La Biblia nos da la definición de la palabra fe en la carta a los hebreos: <span style='color:red;'>“Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve” </span> (Hebreos 11:1).</p> <p>De acuerdo con la Escritura, Dios creó al hombre con todas sus facultades espirituales, morales e intelectuales, dándole la capacidad de creer o no creer, es decir, libre albedrío; pero Dios quiere que el hombre le conozca, y por eso se le ha revelado desde el principio de muchas maneras, hablando por diferentes medios, siendo la creación una voz silenciosa pero convincente, Salmos 19: 1-4.</p> <p>Pero la más grande y máxima revelación es en Cristo <span style='color:red;'“… Dios manifestado en carne… ”</span> (1Timoteo 3:16).</p> <p><span style='color:red;'>1.</span>Fe, como conjunto de doctrinas o revelaciones que Dios nos ha dado.</p> <p><span style='color:red'>2.</span>Fe, como fruto del Espíritu que opera en lo interior del creyente llevándolo a la continua fidelidad sin importar las circunstancias adversas</p><p><span style='color:red'>3.</span>Fe que actúa al creer para la salvación en Jesucristo.</p><p><span style='color:red'>4.</span> Fe, como don es una dotación de poder sobrenatural por el Espíritu Santo, que capacita al cristiano para creer cosas extraordinarias, las cuales son imposibles humanamente, pero él las cree y actúa en el poder del Espíritu, y suceden, lo cual trae mucha gloria para el Señor nuestro Dios, también atrae a la gente para creer en el Señor.</p><p>Al concluir este tema de los dones del Espíritu Santo se puede observar que el Señor ha equipado a la Iglesia, con todo lo necesario para realizar la obra encomendada que tiene que hacer en un mundo gobernado por el emperador de la muerte, identificado por Dios a través de las Sagradas Escrituras, como mentiroso y padre de mentira. Pero a través de los dones Dios ha desplegado un poder superior que nos garantiza la victoria sobre el mal.</p>"
-    }
-  },
-  {
-    "id": 6,
-    "buttonsForAudioPrint": {
-      "className": "buttons-audio-print",
-      "audio": {
-        "bgColor": "var(--color-blue)",
-        "border": "var(--color-blue)",
-        "id": "audioPage4",
-        "idToReproduce": "audioCartaDelPresidente"
-      },
-      "print": {
-        "bgColor": "var(--color-blue)",
-        "border": "var(--color-blue)",
-        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
-      },
-      "css": {
-        "top": "88%",
-        "right": "40%"
-      }
+      "content":"<p style='background:var(--color-blue);color:white;padding:10px;border-radius:5px;font-weight:bold'>“y les dijo: Así está escrito, y así fue necesario que el Cristo padeciese, y resucitase de los muertos al tercer día; y que se predicase en su nombre el arrepentimiento y el perdón de pecados en todas las naciones, comenzando desde Jerusalén. Y vosotros sois testigos de estas cosas. He aquí, yo enviaré la promesa de mi Padre sobre vosotros; pero quedaos vosotros en la ciudad de Jerusalén, hasta que seáis investidos de poder desde lo alto” (Lucas 24: 46-49).</p> <p>Hay que destacar la expresión: “Y seréis investidos de poder desde lo alto”; ya que los términos que la Biblia emplea para los dones espirituales determinan su naturaleza y procedencia espiritual, es decir, proceden de Dios. Hay que tener en cuenta que el título Espíritu Santo, no está indicando que haya otra persona divina aparte de Dios, los versículos 4 al 6 del capítulo 12 que estamos estudiando, declaran que el Espíritu, el Señor y Dios, es el mismo, de la siguiente manera: “ahora bien, hay diversidad de dones, pero el Espíritu es el mismo. Y hay diversidad de ministerios, pero el Señor es el mismo, y hay diversidad de operaciones, pero Dios, que hace todas las cosas en todos, es el mismo” (1 Corintios 12: 4-5).</p> <p> El apóstol dice que a cada creyente le es dada la manifestación del Espíritu para provecho; esto no quiere decir provecho de la persona sino para la Iglesia como cuerpo de Cristo, estos dones son operaciones del Espíritu para suplir las necesidades de la Iglesia, que tiene la batalla contra principados, potestades, gobernadores de las tinieblas, huestes espirituales de maldad en las regiones celestes, además, contra el pecado y contra el mundo.</p> <p>Frente a toda esta situación la Iglesia tiene la urgente necesidad de los recursos Divinos para salir de lo común, corriente y rutinario, y entrar a un nivel extraordinario, porque <span style='color:red;'>¡la victoria ya está ganada por Cristo mediante susacrificio y resurrección!</span> </p> <p>La Biblia nos da la definición de la palabra fe en la carta a los hebreos: <span style='color:red;'>“Es, pues, la fe la certeza de lo que se espera, la convicción de lo que no se ve” </span> (Hebreos 11:1).</p> <p>De acuerdo con la Escritura, Dios creó al hombre con todas sus facultades espirituales, morales e intelectuales, dándole la capacidad de creer o no creer, es decir, libre albedrío; pero Dios quiere que el hombre le conozca, y por eso se le ha revelado desde el principio de muchas maneras, hablando por diferentes medios, siendo la creación una voz silenciosa pero convincente, Salmos 19: 1-4.</p> <p>Pero la más grande y máxima revelación es en Cristo <span style='color:red;'“… Dios manifestado en carne… ”</span> (1Timoteo 3:16).</p> <p><span style='color:red;'>1.</span>Fe, como conjunto de doctrinas o revelaciones que Dios nos ha dado.</p> <p><span style='color:red'>2.</span>Fe, como fruto del Espíritu que opera en lo interior del creyente llevándolo a la continua fidelidad sin importar las circunstancias adversas</p><p><span style='color:red'>3.</span>Fe que actúa al creer para la salvación en Jesucristo.</p><p><span style='color:red'>4.</span> Fe, como don es una dotación de poder sobrenatural por el Espíritu Santo, que capacita al cristiano para creer cosas extraordinarias, las cuales son imposibles humanamente, pero él las cree y actúa en el poder del Espíritu, y suceden, lo cual trae mucha gloria para el Señor nuestro Dios, también atrae a la gente para creer en el Señor.</p><p>Al concluir este tema de los dones del Espíritu Santo se puede observar que el Señor ha equipado a la Iglesia, con todo lo necesario para realizar la obra encomendada que tiene que hacer en un mundo gobernado por el emperador de la muerte, identificado por Dios a través de las Sagradas Escrituras, como mentiroso y padre de mentira. Pero a través de los dones Dios ha desplegado un poder superior que nos garantiza la victoria sobre el mal.</p>"
     }
   }
 ]
