@@ -27,7 +27,7 @@
       ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
     ]
   },
-    {
+  {
     "id": 4,
     "contentArticle": {
       "className": "content-article",

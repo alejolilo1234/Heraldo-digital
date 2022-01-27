@@ -2,5 +2,53 @@
   {
     "id": 1,
     "pagesNumber":"page-number"
+  },
+  {
+    "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/36/title.png')",
+        "-webkit-animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "contentArticle":{
+      "className": "content-article",
+      "ViewX":"1200",
+      "ViewY":"1000",
+      "foreignX":"220%",
+      "foreignY":"50%",
+      "css":{
+        "left": "11.5%",
+        "top": "67.6%",
+        "width": "34%",
+        "font-size": "6.4em"
+      },
+      "excerpt":"<p>El mensaje que se está predicando hoy en día me ha generado muchas inquietudes. Por eso he estado orando, pidiendo a Dios direccionamiento para compartir esta reflexión, la cual espero que nos ayude a ubicarnos en el presente, un tiempo que requiere de un mensaje que reconozca las circunstancias del momento, pero que se base en los fundamentos eternos.</p>"
+    }
+  },
+  {
+    "id": 4,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Leer más",
+      "textColor": "white",
+      "backgroundColor": "var(--color-blue)",
+      "borderColor": "var(--color-blue)",
+      "fontSize":"7.5em",
+      "textX": 50,
+      "textY": 120,
+      "containerIdToOpen": "page36",
+      "css":{
+        "right": "40%",
+        "bottom": "7%"
+      },
+      "content":"",
+      "state": "true"
+    }
   }
 ]

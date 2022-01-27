@@ -5,25 +5,26 @@
       "className": "table-content",
       "css":{
         "background-image": "url('./content/El Heraldo de la verdad/16/title-01.png')",
-        "-webkit-animation": "fadeIn 1.5s",
-        "animation": "fadeIn 1.5s"
+        "-webkit-animation": "fadeIn 2.5s",
+        "animation": "fadeIn 2.5s"
       }
     }
   },
   {
     "id": 2,
-    "HTMLContent":{
-      "className": "html-content",
-      "css":{
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
+      "css": {
         "left": "9%",
-        "top": "68.9%",
-        "width": "90%",
-        "position": "absolute",
-        "z-index": "1",
-        "border-radius": "5px",
-        "padding": "0 10px"
+        "top": "70.9%",
+        "width": "37.5%",
+        "font-size": "5.3em"
       },
-      "text":"<p style='color:white;'>“Porque yo ya estoy para ser sacrificado, y el tiempo de mi partida está cercano. He peleado la buena batalla, he acabado la carrera, he guardado la fe. Por lo demás, me está guardada la corona de justicia, la cual me dará el Señor, juez justo, en aquel día; y no sólo a mí, sino también a todos los que aman su venida” (2 Timoteo 4:6-8).</p><p style='margin-top:10px;text-align:center;color:white;'>Por Víctor Vergara Berrío. Pastor IPUC</p>"
+      "excerpt":"<p style='color:white;padding: 80px;border-radius: 70px;    border: 5px solid white;'>“Porque yo ya estoy para ser sacrificado, y el tiempo de mi partida está cercano. He peleado la buena batalla, he acabado la carrera, he guardado la fe. Por lo demás, me está guardada la corona de justicia, la cual me dará el Señor, juez justo, en aquel día; y no sólo a mí, sino también a todos los que aman su venida” (2 Timoteo 4:6-8).</p><div style='display:flex;place-content:center;margin-top: -50px;'><p style='padding:20px 40px;background-color:white;text-align:center;color: var(--color-blue);border-radius:40px;'>Por Víctor Vergara Berrío. Pastor IPUC</p></div>"
     }
   },
   {

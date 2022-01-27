@@ -34,3 +34,8 @@ blockquote::before {
 blockquote::after {
   content: close-quote;
 }
+
+#page11 .p-modal-11 {
+  padding: 20px!important;
+  border-radius: 10px!important;
+}
