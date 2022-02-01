@@ -1,54 +1,61 @@
 [
-    {
-        "id": 1,
-        "pagesNumber": "page-number"
-    },
-    {
-        "id": 4,
-        "contentArticle": {
-            "className": "content-article",
-            "ViewX": "900",
-            "ViewY": "2800",
-            "foreignX": "120%",
-            "foreignY": "60%",
-            "css": {
-                "left": "8%",
-                "top": "32%",
-                "width": "60%",
-                "font-size": "3.3em",
-                "line-height": "1em"
-            },
-            "excerpt": "<p style='position:absolute;right:1%;font-size:1.5em' class='first-letter-p7 p55s'> Habacuc, Capítulos 1- 3 </p> <p style='position:absolute;top:10%'>Pero Dios le responde: Estoy a punto de hacer una obra sorprendente. Yo levanto a los caldeos, nación cruel e impetuosa, son espantosos y terribles, imponen su propia justicia y grandeza, aterrorizan y destruyen, ridiculizan a los reyes, se burlan de los gobernantes y se glorían de su fuerza como su dios. Pero Habacuc se sorprende que Dios use a los caldeos para hacer juicio y castigar a su pueblo, y presenta otra queja diciéndole con reverencia: </p> <p style='position:absolute;top:40%;color:blue'>“Tú, Señor, existes desde la eternidad, mi Dios Santo e Inmortal, Señor y protector mío, tú eres muy limpio de ojos para ver el mal y contemplar la iniquidad ¿Por qué toleras a los traidores?</p>"
-        }
-    },
-    {
-        "id": 5,
-        "stylesForPage": [
-            ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
-        ]
-    },
-    {
-        "id": 6,
-        "buttonModal": {
-            "className": "button",
-            "modalButtonText": "Leer Más",
-            "textColor": "white",
-            "backgroundColor": "var(--color-blue)",
-            "borderColor": "var(--color-blue)",
-            "fontSize": "7.5em",
-            "textX": 50,
-            "textY": 110,
-            "containerIdToOpen": "page19",
-            "css": {
-                "right": "40%",
-                "bottom": "9%",
-                "height": "5.7%",
-                "align-items": "center",
-                "color": "white",
-                "background": "#2d3875",
-                "padding": "5px 8px 0"
-            },
-            "content": "<p style='color:blue'>¿Por qué guardas silencio mientras el impío  destruye al justo, cazan a los hombres como peces del mar y así se han enriquecido y engordado? ¿Seguirán los caldeos pescando y matando sin compasión a la gente?”</p> <p>Habacuc en espera de la respuesta de Dios y en absoluta confianza, se mantiene vigilante, atento y pendiente; y efectivamente el Señor le respondió a través de una visión que debía escribir aunque tardaría un poco, sin duda llegaría su fiel </p> <p>cumplimiento; a pesar de la insolencia del malvado, del traicionero y soberbio (quienes solo confían en ellos), se describen varios ayes dándose a conocer el juicio de Dios contra ese pueblo cruel, injusto y pagano; pero también aparece aquella gran declaración: “… mas el justo por su fe vivirá” (Habacuc 2:4b).</p> <p>El profeta nuevamente se dirige a Dios en oración: “Lo que oigo acerca de ti, Señor, y de todo lo que has hecho, me llena de profunda reverencia. Realiza ahora, en nuestra vida, tus grandes acciones de otros tiempos, para que nosotros también las conozcamos. Muéstranos así tu compasión aun en medio de tu enojo” (Habacuc3:2 DHH). Y mientras llega el cumplimiento de lo decretado por el Señor, Habacuc se mantiene firme en su convicción y expresa con absoluta decisión: Aunque la higuera no florezca, ni haya frutos en las vides; aunque falte la cosecha del olivo y los campos no produzcan alimentos; aunque en el aprisco no haya ovejas, ni ganado alguno en los establos; aun así, yo me regocijaré en el Señor, y me gozaré en Dios mi libertador; el Señor Omnipotente es mi fuerza, da a mis pies la ligereza de una gacela y me lleva a alturas donde estaré a salvo. </p> <p>El escritor de la carta a los hebreos exhorta a los creyentes para que traigan a la memoria esos días, cuando ellos fueron iluminados e inmediatamente sostuvieron una dura lucha, soportando mucho sufrimiento, expuestos públicamente a insultos y </p> <p>persecución; los despojaron de sus bienes aceptándolo con gozo, conscientes que tenían una mejor herencia eterna en los cielos y amonestándoles a no perder la confianza pues tiene gran recompensa.</p> <p>En este tiempo nosotros debemos seguir confiando en Él a pesar de las circunstancias, las necesidades, la enfermedad, la escasez o la abundancia, a pesar de la edad, el menosprecio, las dudas o la frialdad espiritual, a pesar de los que no creen, la prueba, de no entenderlo todo, el desánimo o las pocas fuerzas, a pesar de los temores, los afanes, la transición al mundo digital, la desigualdad social, la ideología a raíz del libertinaje, la inconformidad, estos últimos tiempos de muerte y del dolor. Con todo esto debemos perseverar haciendo la voluntad de Dios, fortalecidos en la fe para recibir lo que Él ha prometido, imitando a aquellos que por la fe y la paciencia alcanzan las promesas; porque pronto, muy pronto vendrá.</p> <p>“Porque aún un poquito, Y el que ha de venir vendrá, y no tardará. Mas el justo vivirá por fe” (Hebreos 10:37-38). Fe en Dios, en plena seguridad y convicción de recibir lo que se espera. Hermanos, no es tiempo de desanimarnos y volver atrás, ahora más que nunca debemos seguir confiando en Él, quien ayudó a todos los hermanos de los siglos pasados y ahora nos ayuda a nosotros, pues “Jesucristo es el mismo ayer, y hoy, y por los siglos” (Hebreos 13:8).</p>"
-        }
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/29/title-02.png')",
+        "-webkit-animation": "fade-in 1.5s",
+	      "animation": "fade-in 1.5s"
+      }
     }
+  },
+  {
+    "id": 2,
+    "pagesNumber": "page-number"
+  },
+  {
+    "id": 3,
+    "contentArticle": {
+    "className": "content-article",
+    "ViewX": "900",
+    "ViewY": "2800",
+    "foreignX": "120%",
+    "foreignY": "60%",
+    "css": {
+      "left": "13%",
+      "top": "34%",
+      "width": "60%",
+      "font-size": "3.3em",
+      "line-height": "1em"
+    },
+    "excerpt": "<p style='' class='first-letter-p7 p55s'> Habacuc, Capítulos 1- 3 </p> <p style=''>Pero Dios le responde: Estoy a punto de hacer una obra sorprendente. Yo levanto a los caldeos, nación cruel e impetuosa, son espantosos y terribles, imponen su propia justicia y grandeza, aterrorizan y destruyen, ridiculizan a los reyes, se burlan de los gobernantes y se glorían de su fuerza como su dios. Pero Habacuc se sorprende que Dios use a los caldeos para hacer juicio y castigar a su pueblo, y presenta otra queja diciéndole con reverencia: </p> <p style='color:blue'>“Tú, Señor, existes desde la eternidad, mi Dios Santo e Inmortal, Señor y protector mío, tú eres muy limpio de ojos para ver el mal y contemplar la iniquidad ¿Por qué toleras a los traidores?</p>"
+    }
+  },
+  {
+    "id": 4,
+    "stylesForPage": [
+      ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
+    ]
+  },
+  {
+    "id": 5,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Leer más",
+      "textColor": "white",
+      "backgroundColor": "var(--color-blue)",
+      "borderColor": "var(--color-blue)",
+      "fontSize":"7.5em",
+      "textX": 50,
+      "textY": 120,
+      "containerIdToOpen": "page29",
+      "css":{
+        "top": "85.5%",
+        "right": "40%"
+      },
+      "content":"<p style='color:blue'>¿Por qué guardas silencio mientras el impío  destruye al justo, cazan a los hombres como peces del mar y así se han enriquecido y engordado? ¿Seguirán los caldeos pescando y matando sin compasión a la gente?”</p> <p>Habacuc en espera de la respuesta de Dios y en absoluta confianza, se mantiene vigilante, atento y pendiente; y efectivamente el Señor le respondió a través de una visión que debía escribir aunque tardaría un poco, sin duda llegaría su fiel </p> <p>cumplimiento; a pesar de la insolencia del malvado, del traicionero y soberbio (quienes solo confían en ellos), se describen varios ayes dándose a conocer el juicio de Dios contra ese pueblo cruel, injusto y pagano; pero también aparece aquella gran declaración: “… mas el justo por su fe vivirá” (Habacuc 2:4b).</p> <p>El profeta nuevamente se dirige a Dios en oración: “Lo que oigo acerca de ti, Señor, y de todo lo que has hecho, me llena de profunda reverencia. Realiza ahora, en nuestra vida, tus grandes acciones de otros tiempos, para que nosotros también las conozcamos. Muéstranos así tu compasión aun en medio de tu enojo” (Habacuc3:2 DHH). Y mientras llega el cumplimiento de lo decretado por el Señor, Habacuc se mantiene firme en su convicción y expresa con absoluta decisión: Aunque la higuera no florezca, ni haya frutos en las vides; aunque falte la cosecha del olivo y los campos no produzcan alimentos; aunque en el aprisco no haya ovejas, ni ganado alguno en los establos; aun así, yo me regocijaré en el Señor, y me gozaré en Dios mi libertador; el Señor Omnipotente es mi fuerza, da a mis pies la ligereza de una gacela y me lleva a alturas donde estaré a salvo. </p> <p>El escritor de la carta a los hebreos exhorta a los creyentes para que traigan a la memoria esos días, cuando ellos fueron iluminados e inmediatamente sostuvieron una dura lucha, soportando mucho sufrimiento, expuestos públicamente a insultos y </p> <p>persecución; los despojaron de sus bienes aceptándolo con gozo, conscientes que tenían una mejor herencia eterna en los cielos y amonestándoles a no perder la confianza pues tiene gran recompensa.</p> <p>En este tiempo nosotros debemos seguir confiando en Él a pesar de las circunstancias, las necesidades, la enfermedad, la escasez o la abundancia, a pesar de la edad, el menosprecio, las dudas o la frialdad espiritual, a pesar de los que no creen, la prueba, de no entenderlo todo, el desánimo o las pocas fuerzas, a pesar de los temores, los afanes, la transición al mundo digital, la desigualdad social, la ideología a raíz del libertinaje, la inconformidad, estos últimos tiempos de muerte y del dolor. Con todo esto debemos perseverar haciendo la voluntad de Dios, fortalecidos en la fe para recibir lo que Él ha prometido, imitando a aquellos que por la fe y la paciencia alcanzan las promesas; porque pronto, muy pronto vendrá.</p> <p>“Porque aún un poquito, Y el que ha de venir vendrá, y no tardará. Mas el justo vivirá por fe” (Hebreos 10:37-38). Fe en Dios, en plena seguridad y convicción de recibir lo que se espera. Hermanos, no es tiempo de desanimarnos y volver atrás, ahora más que nunca debemos seguir confiando en Él, quien ayudó a todos los hermanos de los siglos pasados y ahora nos ayuda a nosotros, pues “Jesucristo es el mismo ayer, y hoy, y por los siglos” (Hebreos 13:8).</p>",
+      "state": "true"
+    }
+  }
 ]

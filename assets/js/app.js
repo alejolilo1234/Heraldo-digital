@@ -98,14 +98,46 @@
       _turnedEvent: function(event, page) {
         AppRouter.getInstance().navigate('page/' + page, {trigger: false});
         if (window.FlipbookSettings.loadRegions) {
-          if(page % 2 == 0 || page == 1){
-            this._loadRegions(page);
-            this._loadRegions(page + 1);
-
-          } else if(page % 2 != 0 && page != 1){
+          if(page == 38) {
+            this._loadRegions(page - 2);
             this._loadRegions(page - 1);
             this._loadRegions(page);
-          }
+            this._loadRegions(page + 1);
+            this._loadRegions(page + 2);
+          } else if(page == 39) {
+            this._loadRegions(page - 1);
+            this._loadRegions(page);
+          } else if(page == 40) {
+            this._loadRegions(page - 2);
+            this._loadRegions(page - 1);
+            this._loadRegions(page);
+          } else if(page == 1) {
+            this._loadRegions(1);
+          } else if(page == 2) {
+            this._loadRegions(page - 1);
+            this._loadRegions(page);
+            this._loadRegions(page + 1);
+          } else if(page == 3) {
+            this._loadRegions(page - 2);
+            this._loadRegions(page - 1);
+            this._loadRegions(page);
+            this._loadRegions(page + 1);
+            this._loadRegions(page + 2);
+          } else if(page % 2 == 0) {
+            this._loadRegions(page - 2);
+            this._loadRegions(page - 1);
+            this._loadRegions(page);
+            this._loadRegions(page + 1);
+            this._loadRegions(page + 2);
+            this._loadRegions(page + 3);
+          } else if(page % 2 != 0 && page != 1) {
+            this._loadRegions(page - 3);
+            this._loadRegions(page - 2);
+            this._loadRegions(page - 1);
+            this._loadRegions(page);
+            this._loadRegions(page + 1);
+            this._loadRegions(page + 2);
+          } 
         }
       },
     

@@ -1,150 +1,50 @@
 [
-    {
-        "id": 1,
-        "buttonsForAudioPrint": {
-            "className": "buttons-audio-print",
-            "audio": {
-                "bgColor": "var(--color-blue)",
-                "border": "var(--color-blue)",
-                "id": "audioPage4",
-                "idToReproduce": "audioCartaDelPresidente"
-            },
-            "print": {
-                "bgColor": "var(--color-blue)",
-                "border": "var(--color-blue)",
-                "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
-            },
-            "css": {
-                "bottom": "17%",
-                "right": "45%"
-            }
-        }
-    },
-    {
-        "id": 2,
-        "buttonModalHTML": {
-            "className": "button-html",
-            "text": "<div style='color:white;padding-top:0.8em;padding-left:3.7em;'><span class=''>Efectos de la fe sanadora.</span></div>",
-            "fontSize": "3.8em",
-            "widthSVG": "1114",
-            "heightSVG": "120",
-            "containerIdToOpen": "page25",
-            "link": "first",
-            "detail": "first-modal",
-            "css": {
-                "left": "24%",
-                "top": "21%",
-                "width": "56%",
-                "height": "7%",
-                "border-radius": "2em",
-                "background-color": "var(--color-blue)"
-            }
-        }
-    },
-    {
-        "id": 3,
-        "buttonModalHTML": {
-            "className": "button-html",
-            "text": "<div style='color:white;padding-top:0.8em;padding-left:3.7em;'><span class=''>La fe sanadora se hace visible.</span></div>",
-            "fontSize": "3.8em",
-            "widthSVG": "1114",
-            "heightSVG": "120",
-            "containerIdToOpen": "page25",
-            "link": "first",
-            "detail": "first-modal",
-            "css": {
-                "left": "24%",
-                "top": "30%",
-                "width": "56%",
-                "height": "7%",
-                "border-radius": "2em",
-                "background-color": "var(--color-blue)"
-            }
-        }
-    },
-    {
-        "id": 4,
-        "buttonModalHTML": {
-            "className": "button-html",
-            "text": "<div style='color:white;padding-top:0.5em;padding-left:2.3em;'><span class=''>La fe sanadora lleva a la persona a abandonar el pecado.</span></div>",
-            "fontSize": "3.8em",
-            "widthSVG": "1114",
-            "heightSVG": "300",
-            "containerIdToOpen": "page25",
-            "link": "first",
-            "detail": "first-modal",
-            "css": {
-                "left": "24%",
-                "top": "40%",
-                "width": "56%",
-                "height": "8%",
-                "border-radius": "2em",
-                "background-color": "var(--color-blue)"
-            }
-        }
-    },
-    {
-        "id": 5,
-        "buttonModalHTML": {
-            "className": "button-html",
-            "text": "<div style='color:white;padding-top:0.8em;padding-left:2.3em;'><span class=''>La fe sanadora nos llevara a servir con gratitud, senceridad y compromiso.</span></div>",
-            "fontSize": "3.8em",
-            "widthSVG": "1214",
-            "heightSVG": "300",
-            "containerIdToOpen": "page25",
-            "link": "first",
-            "detail": "first-modal",
-            "css": {
-                "left": "24%",
-                "top": "50%",
-                "width": "56%",
-                "height": "8.5%",
-                "border-radius": "2em",
-                "background-color": "var(--color-blue)"
-            }
-        }
-    },
-    {
-        "id": 6,
-        "buttonModalHTML": {
-            "className": "button-html",
-            "text": "<div style='color:white;padding-top:0.8em;padding-left:2.3em;'><span class=''>La fe sanadora nos lleva a querer perservar  y permanacer .</span></div>",
-            "fontSize": "3.8em",
-            "widthSVG": "1214",
-            "heightSVG": "300",
-            "containerIdToOpen": "page25",
-            "link": "first",
-            "detail": "first-modal",
-            "css": {
-                "left": "24%",
-                "top": "60%",
-                "width": "56%",
-                "height": "8.5%",
-                "border-radius": "2em",
-                "background-color": "var(--color-blue)"
-            }
-        }
-    },
-    {
-        "id": 7,
-        "pagesNumber": "page-number"
-    },
-    {
-        "id": 8,
-        "HTMLContent": {
-            "className": "html-content",
-            "css": {
-                "left": "32%",
-                "top": "3%",
-                "width": "86%",
-                "position": "absolute",
-                "z-index": "1",
-                "border-radius": "5px",
-                "padding": "0 10px",
-                "animation": "fadeIn 1.5s",
-                "-webkit-animation": "fadeIn 1.5s"
-            },
-            "text": "<p style='color:red;font-size:3em'> Leer Mas </p>"
-        }
+  {
+    "id": 1,
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
+      },
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+      },
+      "css": {
+        "bottom": "17%",
+        "right": "43%"
+      }
     }
+  },
+  {
+    "id": 7,
+    "pagesNumber": "page-number"
+  },
+  {
+    "id": 8,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
+      "css": {
+        "left": "9%",
+        "top": "10.5%",
+        "width": "37.5%",
+        "font-size": "6.3em"
+      },
+      "excerpt":"<h1 style='color:var(--color-red);font-size:3em;font-family: var(--bebas-neue);text-align: center;margin:0;'>Leer más</h1><div style='padding: 0 450px;'><div class='button-p25'>Efectos de la fe salvadora.</div><div class='button-p25'>La fe salvadora se hace visible.</div><div class='button-p25'>La fe salvadora lleva a la persona a abandonar el pecado.</div><div class='button-p25'>La fe salvadora nos lleva a servir con gratitud, sinceridad y compromiso.</div><div class='button-p25'>La fe salvadora nos lleva a querer perseverar y permanecer.</div></div>"
+    }
+  },
+  {
+    "id": 9,
+    "stylesForPage":[
+      ".button-p25 { background-color: var(--color-blue);text-align:center;padding:100px;border-radius:500px;margin:50px 0;color:white;font-family:var(--times-new-roman) }"
+    ]
+  }
 ]

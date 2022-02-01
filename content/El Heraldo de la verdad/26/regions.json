@@ -1,30 +1,41 @@
 [
-    {
-        "id": 1,
-        "contentArticle": {
-            "className": "content-article",
-            "ViewX": "900",
-            "ViewY": "2800",
-            "foreignX": "120%",
-            "foreignY": "60%",
-            "css": {
-                "left": "8%",
-                "top": "60%",
-                "width": "60%",
-                "font-size": "3.3em",
-                "line-height": "1em"
-            },
-            "excerpt": "<p ><span style='font-size:3em;' class='first-letter-p7'>Q</span>ué importante, estamos ante un relato muy bueno que se nos da en este capítulo llamado la muerte de Lázaro; hay un hogar en Betania, sus integrantes son amigos del Señor Jesús, el hogar de Lázaro, Marta y María, probablemente son todos muy unidos como familia, el Señor ya había pasado allí con ellos muchas veces, y ahora que Lázaro enferma mandan llamar a su amigo.</p>"
-        }
-    },
-    {
-        "id": 2,
-        "stylesForPage": [
-            ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
-        ]
-    },
-    {
-        "id": 3,
-        "pagesNumber": "page-number"
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/26/title-01.png')",
+        "-webkit-animation": "fade-in 1.5s",
+	      "animation": "fade-in 1.5s"
+      }
     }
+  },
+  {
+    "id": 2,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "900",
+      "ViewY": "2800",
+      "foreignX": "120%",
+      "foreignY": "60%",
+      "css": {
+        "left": "11%",
+        "top": "62%",
+        "width": "60%",
+        "font-size": "3.3em",
+        "line-height": "1em"
+      },
+      "excerpt": "<p ><span style='font-size:3em;' class='first-letter-p7'>Q</span>ué importante, estamos ante un relato muy bueno que se nos da en este capítulo llamado la muerte de Lázaro; hay un hogar en Betania, sus integrantes son amigos del Señor Jesús, el hogar de Lázaro, Marta y María, probablemente son todos muy unidos como familia, el Señor ya había pasado allí con ellos muchas veces, y ahora que Lázaro enferma mandan llamar a su amigo.</p>"
+    }       
+  },
+  {
+    "id": 3,
+    "stylesForPage": [
+      ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
+    ]
+  },
+  {
+    "id": 4,
+    "pagesNumber": "page-number"
+  }
 ]
