@@ -25,39 +25,19 @@
         }
     },
     {
-        "id": 3,
-        "tableContent": {
-            "className": "table-content",
-            "css": {},
-            "innerHTML": [
-                {
-                    "tag": "div",
-                    "className": "author",
-                    "idTag": "",
-                    "css": {
-                        "position": "absolute",
-                        "top": "53%",
-                        "right": "0",
-                        "padding-top": "0.9em",
-                        "padding-left": "1.5em",
-                        "border-top-left-radius": "55px",
-                        "border-bottom-left-radius": "55px",
-                        "color": "white",
-                        "font-family": "sans-serif",
-                        "white-space": "nowrap",
-                        "font-size": "0.7em",
-                        "background-color": "#2d3875",
-                        "width": "70%",
-                        "height": "5%",
-                        "animation": "fadeIn 1.5s",
-                        "-webkit-animation": "fadeIn 1.5s",
-                        "overflow": "hidden"
-                    },
-                    "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extrangeras"
-                }
-            ]
-        }
-    },
+    "id": 3,
+    "articleAuthor":{
+      "className": "author",
+      "direction": "right",
+      "XPosition": "100",
+      "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extrangeras",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "bottom": "45%",
+        "right": "-5%"
+      }
+    }
+  },
     {
         "id": 4,
         "buttonModal": {

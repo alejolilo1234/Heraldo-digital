@@ -2,5 +2,22 @@
   {
     "id": 1,
     "pagesNumber": "page-number"
+  },
+  {
+    "id": 2,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "900",
+      "ViewY": "2800",
+      "foreignX": "120%",
+      "foreignY": "60%",
+      "css": {
+        "left": "12%",
+        "top": "4%",
+        "width": "60%",
+        "font-size": "3.3em"
+      },
+      "excerpt": "<h1 style='font-family:var(--bebas-neue);color:var(--color-red);text-align:center;'>Fundación educación cristiana pentecostal</h1><p style='text-align:center;font-style:italic;font-size:.8em;margin-top:-30px;'>“Asidos de la palabra de vida, para que en el día de Cristo yo pueda gloriarme de que no he corrido en vano, ni en vano he trabajado”<br>(Filipenses 2:16).</p>"
+    }
   }
 ]

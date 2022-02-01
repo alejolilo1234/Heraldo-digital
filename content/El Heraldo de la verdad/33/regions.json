@@ -1,72 +1,53 @@
 [
-    {
-        "id": 1,
-        "pagesNumber": "page-number"
-    },
-    {
-        "id": 2,
-        "contentArticle": {
-            "className": "content-article",
-            "ViewX": "900",
-            "ViewY": "2800",
-            "foreignX": "120%",
-            "foreignY": "60%",
-            "css": {
-                "left": "12%",
-                "top": "28%",
-                "width": "60%",
-                "font-size": "3.3em",
-                "line-height": "1em"
-            },
-            "excerpt": "<p style='color:black;font-size:1em;'> Por Mariela Forero. Representante legal UDIM </p>"
-        }
-    },
-    {
-        "id": 3,
-        "buttonModalHTML": {
-            "className": "button-html",
-            "text": "<div style='color:white;padding-top:0.5em;padding-left:2.3em;'><span class=''>“Lo más satisfactorio en la vida es haber sido capaz de dar una gran parte de uno mismo a los demás” (Pierre Teilhard de Chardin). </span></div>",
-            "fontSize": "6em",
-            "widthSVG": "1514",
-            "heightSVG": "700",
-            "backgroundColor": "var(--color-blue)",
-            "containerIdToOpen": "page25",
-            "link": "first",
-            "detail": "first-modal",
-            "css": {
-                "left": "18%",
-                "top": "40%",
-                "width": "70%",
-                "height": "28%",
-                "border-radius": "1em",
-                "border-style": "solid",
-                "border-color": "var(--color-blue)",
-                "background-color": "var(--color-blue)"
-            }
-        }
-    },
-    {
-        "id": 4,
-        "buttonModal": {
-            "className": "button",
-            "modalButtonText": "Ver Informe",
-            "textColor": "var(--color-red)",
-            "backgroundColor": "transparent",
-            "borderColor": "transparent",
-            "fontSize": "6em",
-            "textX": 50,
-            "textY": 110,            
-            "containerIdToOpen": "page19",
-            "css": {
-                "right": "40%",
-                "bottom": "9%",
-                "height": "5.7%",
-                "align-items": "center",
-                "color": "white",
-                "background": "transparent",
-                "padding": "5px 8px 0"
-            },
-            "content": "<p>La sociedad de hoy está viviendo momentos críticos, hemos visto de cerca el dolor, la muerte que trae consigo por un lado victoria para el que muere en Cristo, pero </p> <p>mucho dolor a los que quedan sin esa persona amada. Hoy más que nunca la Fundación UDIM se presenta como un hermoso y necesario proyecto de Dios para este momento histórico; podemos afirmar que el Señor tiene propósitos cuando nuestros anhelos no son de vanagloria sino de una ayuda al prójimo</p> <p>La fundación que nació hace diecisiete años con el anhelo de ayudar a otros, viene fortaleciendo su trabajo, y sigue adelante creando programas en pro de brindar una ayuda en medio de toda la calamidad social que se vive, porque cuando eres capaz de ver la necesidad, Dios inspira tu vida y te hace un instrumento para calmar la ansiedad de otros; y hoy podemos decir que no ha sido solo un instrumento, Dios ha provisto a la fundación con un gran equipo de trabajo que podríamos decir es una filarmónica, ya que cada instrumento suena para entonar esa música de paz y calma en medio de la tormenta. Mujeres y hombres que Dios vino preparando para ayudar en esta hora, pues cuando eres voluntario, tienes la capacidad de llevar más allá todas tus palabras para convertirlas en una práctica concreta, y es que el voluntariado no se puede quedar solo en palabras, ya que, lo ideal es acompañarlo con acciones que demuestren la empatía que se tiene hacia otras personas.</p> <p>Se puede decir que la fundación con todo su equipo de trabajo no ha descansado, sigue adelante generando espacios para la reflexión de todas estas mujeres que se han visto afectadas por la pandemia. Por eso es un gusto presentarles a ustedes por tan importante medio de información: El Heraldo de la Verdad, el trabajo, no lo podemos presentar todo, ya que sería muy extenso, pero damos a conocer algunos de ellos. </p> <p style='color:red;'>1. Acompañamiento a distritos con el programa “Conociendo las redes de apoyo”:</p> <p>Consejo Directivo en compañía de un delegado de Corpentunida asisten a este programa, con el fin de dar a conocer a las esposas de pastores las instituciones que han sido creadas para su apoyo, como son Corpentunida y UDIM, a que tienen derecho en caso de terminar el servicio de su esposo en el ministerio, y qué apoyo encuentran para su bienestar. </p> <p style='color:red;'>2. Nuevas asesoras de UDIM en los distritos:</p> <p>Queremos felicitar y agradecer a cada directivo que vio la necesidad de tener una asesora en su distrito, ya que ha sido una bendición contar con la ayuda de estas mujeres, la labor se hace más eficaz, pues son ellas quienes replican en cada distrito los programas, ayudando así muy oportunamente a esta población. Los distritos que hoy cuentan con asesoras son: 7,11, 13, 16, 18, 31, 32 y 34, a ellos gracias por unirse a tan valioso trabajo.</p> <p style='color:red;'>3. Seminario “Más allá de la pandemia”:</p> <p>En el mes de marzo contamos con este valioso programa que fue dirigido a mujeres en general, y donde el objetivo era llegar a las que estaban atravesando diversas circunstancias frente a la situación social. Asistieron mujeres de las congregaciones y varias amigas simpatizantes, quienes a través de cada encuentro manifestaban la importancia del espacio para hablar un tema de actualidad.</p> <p style='color:red;'>4. Seminario de profundización en gestión comunitaria:</p> <p>Con el tema “La profundidad del servicio”, asistieron noventa mujeres esposas de pastores, estudiantes de la técnica, y donde se pudo transmitir el deseo de seguir sirviendo con calidad y entrega de uno mismo. La motivación fue muy grande, pues fueron cuatro encuentros con temas profundos abordados desde el ser</p> <p style='color:red;'>5. Ceremonia de graduación:</p> <p>Este primer semestre tuvimos setenta y cuatro mujeres graduadas como Gestoras Comunitarias. A Dios le debemos todo, pues nos permitió por medio de la tecnología seguir capacitándonos.</p> <p style='color:red'>6. Programa de emprendimiento “Desafío pos- pandemia”:</p> <p>Para este año hemos iniciado nuestra Feria de Emprendimiento 2021, la convocatoria ha sido todo un éxito, pues logramos ciento cuatro inscripciones, a quienes la fundación se compromete a llevarles asesoría y capacitación para que sus emprendimientos tengan un buen desarrollo. </p> <p style='color:red'>7. donaciones. Apoyo en la educación de hijos de las viudas: </p> <p>Este programa tuvo como fin colaborar con Tablet y computadores para estos niños y jóvenes que estaban necesitando, para no interrumpir sus estudios. Es muy satisfactorio poder aportar para que ellos tengan algo de bienestar. </p> <p>A Dios le debemos todo, pues nos ha dado las herramientas necesarias para hacer el trabajo y poder contribuir en esta labor que hemos venido realizando. A todos los que de alguna manera se ven contagiados con este espíritu de servicio les agradecemos; a mis compañeras del Consejo Directivo y equipo de trabajo, quienes son las que ayudan para que cada programa salga adelante. Al Consistorio y Corpentunida, nuestros grandes aliados, bendiciones para ellos. A cada mujer viuda en estos dos años, estamos orando con ustedes y pidiendo mucha fortaleza para sus familias, nuestra fundación queda abierta para cada una y nunca olviden que el Señor es su Ayudador. </p>"
-        }
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/33/title.png')",
+        "-webkit-animation": "slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+      }
     }
+  },
+  {
+    "id": 2,
+    "pagesNumber": "page-number"
+  },
+  {
+    "id": 3,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "900",
+      "ViewY": "2800",
+      "foreignX": "120%",
+      "foreignY": "60%",
+      "css": {
+        "left": "12%",
+        "top": "28%",
+        "width": "60%",
+        "font-size": "3.3em"
+      },
+      "excerpt": "<p style='color:black;font-size:1em;'> Por Mariela Forero. Representante legal UDIM </p><div style='color:white;padding:120px;background-color:var(--color-blue);font-size:1.2em;border-radius:20px;'><span class=''>“Lo más satisfactorio en la vida es haber sido capaz de dar una gran parte de uno mismo a los demás” (Pierre Teilhard de Chardin). </span></div>"
+    }
+  },
+  {
+    "id": 4,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Ver informe",
+      "textColor": "var(--color-red)",
+      "backgroundColor": "transparent",
+      "borderColor": "var(--color-red)",
+      "fontSize":"6em",
+      "textX": 40,
+      "textY": 110,
+      "containerIdToOpen": "page33",
+      "css":{
+        "top": "75.5%",
+        "right": "40%"
+      },
+      "content": "<p>La sociedad de hoy está viviendo momentos críticos, hemos visto de cerca el dolor, la muerte que trae consigo por un lado victoria para el que muere en Cristo, pero </p> <p>mucho dolor a los que quedan sin esa persona amada. Hoy más que nunca la Fundación UDIM se presenta como un hermoso y necesario proyecto de Dios para este momento histórico; podemos afirmar que el Señor tiene propósitos cuando nuestros anhelos no son de vanagloria sino de una ayuda al prójimo</p> <p>La fundación que nació hace diecisiete años con el anhelo de ayudar a otros, viene fortaleciendo su trabajo, y sigue adelante creando programas en pro de brindar una ayuda en medio de toda la calamidad social que se vive, porque cuando eres capaz de ver la necesidad, Dios inspira tu vida y te hace un instrumento para calmar la ansiedad de otros; y hoy podemos decir que no ha sido solo un instrumento, Dios ha provisto a la fundación con un gran equipo de trabajo que podríamos decir es una filarmónica, ya que cada instrumento suena para entonar esa música de paz y calma en medio de la tormenta. Mujeres y hombres que Dios vino preparando para ayudar en esta hora, pues cuando eres voluntario, tienes la capacidad de llevar más allá todas tus palabras para convertirlas en una práctica concreta, y es que el voluntariado no se puede quedar solo en palabras, ya que, lo ideal es acompañarlo con acciones que demuestren la empatía que se tiene hacia otras personas.</p> <p>Se puede decir que la fundación con todo su equipo de trabajo no ha descansado, sigue adelante generando espacios para la reflexión de todas estas mujeres que se han visto afectadas por la pandemia. Por eso es un gusto presentarles a ustedes por tan importante medio de información: El Heraldo de la Verdad, el trabajo, no lo podemos presentar todo, ya que sería muy extenso, pero damos a conocer algunos de ellos. </p> <p style='color:red;'>1. Acompañamiento a distritos con el programa “Conociendo las redes de apoyo”:</p> <p>Consejo Directivo en compañía de un delegado de Corpentunida asisten a este programa, con el fin de dar a conocer a las esposas de pastores las instituciones que han sido creadas para su apoyo, como son Corpentunida y UDIM, a que tienen derecho en caso de terminar el servicio de su esposo en el ministerio, y qué apoyo encuentran para su bienestar. </p> <p style='color:red;'>2. Nuevas asesoras de UDIM en los distritos:</p> <p>Queremos felicitar y agradecer a cada directivo que vio la necesidad de tener una asesora en su distrito, ya que ha sido una bendición contar con la ayuda de estas mujeres, la labor se hace más eficaz, pues son ellas quienes replican en cada distrito los programas, ayudando así muy oportunamente a esta población. Los distritos que hoy cuentan con asesoras son: 7,11, 13, 16, 18, 31, 32 y 34, a ellos gracias por unirse a tan valioso trabajo.</p> <p style='color:red;'>3. Seminario “Más allá de la pandemia”:</p> <p>En el mes de marzo contamos con este valioso programa que fue dirigido a mujeres en general, y donde el objetivo era llegar a las que estaban atravesando diversas circunstancias frente a la situación social. Asistieron mujeres de las congregaciones y varias amigas simpatizantes, quienes a través de cada encuentro manifestaban la importancia del espacio para hablar un tema de actualidad.</p> <p style='color:red;'>4. Seminario de profundización en gestión comunitaria:</p> <p>Con el tema “La profundidad del servicio”, asistieron noventa mujeres esposas de pastores, estudiantes de la técnica, y donde se pudo transmitir el deseo de seguir sirviendo con calidad y entrega de uno mismo. La motivación fue muy grande, pues fueron cuatro encuentros con temas profundos abordados desde el ser</p> <p style='color:red;'>5. Ceremonia de graduación:</p> <p>Este primer semestre tuvimos setenta y cuatro mujeres graduadas como Gestoras Comunitarias. A Dios le debemos todo, pues nos permitió por medio de la tecnología seguir capacitándonos.</p> <p style='color:red'>6. Programa de emprendimiento “Desafío pos- pandemia”:</p> <p>Para este año hemos iniciado nuestra Feria de Emprendimiento 2021, la convocatoria ha sido todo un éxito, pues logramos ciento cuatro inscripciones, a quienes la fundación se compromete a llevarles asesoría y capacitación para que sus emprendimientos tengan un buen desarrollo. </p> <p style='color:red'>7. donaciones. Apoyo en la educación de hijos de las viudas: </p> <p>Este programa tuvo como fin colaborar con Tablet y computadores para estos niños y jóvenes que estaban necesitando, para no interrumpir sus estudios. Es muy satisfactorio poder aportar para que ellos tengan algo de bienestar. </p> <p>A Dios le debemos todo, pues nos ha dado las herramientas necesarias para hacer el trabajo y poder contribuir en esta labor que hemos venido realizando. A todos los que de alguna manera se ven contagiados con este espíritu de servicio les agradecemos; a mis compañeras del Consejo Directivo y equipo de trabajo, quienes son las que ayudan para que cada programa salga adelante. Al Consistorio y Corpentunida, nuestros grandes aliados, bendiciones para ellos. A cada mujer viuda en estos dos años, estamos orando con ustedes y pidiendo mucha fortaleza para sus familias, nuestra fundación queda abierta para cada una y nunca olviden que el Señor es su Ayudador. </p>"
+    }
+  }
 ]

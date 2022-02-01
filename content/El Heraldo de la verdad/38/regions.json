@@ -4,39 +4,19 @@
         "pagesNumber": "page-number"
     },
     {
-        "id": 2,
-        "tableContent": {
-            "className": "table-content",
-            "css": {},
-            "innerHTML": [
-                {
-                    "tag": "div",
-                    "className": "author",
-                    "idTag": "",
-                    "css": {
-                        "position": "absolute",
-                        "top": "53%",
-                        "left": "0",
-                        "padding-top": "0.9em",
-                        "padding-left": "1.5em",
-                        "border-top-right-radius": "55px",
-                        "border-bottom-right-radius": "55px",
-                        "color": "white",
-                        "font-family": "sans-serif",
-                        "white-space": "nowrap",
-                        "font-size": "0.7em",
-                        "background-color": "#2d3875",
-                        "width": "60%",
-                        "height": "5%",
-                        "animation": "fadeIn 1.5s",
-                        "-webkit-animation": "fadeIn 1.5s",
-                        "overflow": "hidden"
-                    },
-                    "text": "Por Vicente Arango Varela. Director Misiones Nacionales"
-                }
-            ]
-        }
-    },
+    "id": 2,
+    "articleAuthor":{
+      "className": "author",
+      "direction": "left",
+      "XPosition": "600",
+      "text": "Por Vicente Arango Varela. Director Misiones Nacionales",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "bottom": "44%",
+        "left": "-13%"
+      }
+    }
+  },
     {
         "id": 3,
         "contentArticle": {

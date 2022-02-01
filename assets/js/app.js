@@ -65,7 +65,7 @@
         var options = $.extend({
           responsive: true,
           animatedAutoCenter: true,
-          smartFlip: true,
+          // smartFlip: true,
           autoScaleContent: true,
           swipe: true
         }, settings.options);
@@ -73,9 +73,9 @@
         this.$el.turn(options);
       },
     
-      _toggleZoomEvent: function(event) {
-        this.$el.turn('toggleZoom', {pageX: event.pageX, pageY: event.pageY, animate: true});
-      },
+      // _toggleZoomEvent: function(event) {
+      //   this.$el.turn('toggleZoom', {pageX: event.pageX, pageY: event.pageY, animate: true});
+      // },
     
       _missingEvent: function(event, pages) {
         for (var i = 0; i < pages.length; i++) {
@@ -98,46 +98,50 @@
       _turnedEvent: function(event, page) {
         AppRouter.getInstance().navigate('page/' + page, {trigger: false});
         if (window.FlipbookSettings.loadRegions) {
-          if(page == 38) {
-            this._loadRegions(page - 2);
-            this._loadRegions(page - 1);
+          if (!Turn.isTouchDevice) {
+            if(page == 38) {
+              this._loadRegions(page - 2);
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+              this._loadRegions(page + 1);
+              this._loadRegions(page + 2);
+            } else if(page == 39) {
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+            } else if(page == 40) {
+              this._loadRegions(page - 2);
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+            } else if(page == 1) {
+              this._loadRegions(1);
+            } else if(page == 2) {
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+              this._loadRegions(page + 1);
+            } else if(page == 3) {
+              this._loadRegions(page - 2);
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+              this._loadRegions(page + 1);
+              this._loadRegions(page + 2);
+            } else if(page % 2 == 0) {
+              this._loadRegions(page - 2);
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+              this._loadRegions(page + 1);
+              this._loadRegions(page + 2);
+              this._loadRegions(page + 3);
+            } else if(page % 2 != 0 && page != 1) {
+              this._loadRegions(page - 3);
+              this._loadRegions(page - 2);
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+              this._loadRegions(page + 1);
+              this._loadRegions(page + 2);
+            }
+          } else {
             this._loadRegions(page);
-            this._loadRegions(page + 1);
-            this._loadRegions(page + 2);
-          } else if(page == 39) {
-            this._loadRegions(page - 1);
-            this._loadRegions(page);
-          } else if(page == 40) {
-            this._loadRegions(page - 2);
-            this._loadRegions(page - 1);
-            this._loadRegions(page);
-          } else if(page == 1) {
-            this._loadRegions(1);
-          } else if(page == 2) {
-            this._loadRegions(page - 1);
-            this._loadRegions(page);
-            this._loadRegions(page + 1);
-          } else if(page == 3) {
-            this._loadRegions(page - 2);
-            this._loadRegions(page - 1);
-            this._loadRegions(page);
-            this._loadRegions(page + 1);
-            this._loadRegions(page + 2);
-          } else if(page % 2 == 0) {
-            this._loadRegions(page - 2);
-            this._loadRegions(page - 1);
-            this._loadRegions(page);
-            this._loadRegions(page + 1);
-            this._loadRegions(page + 2);
-            this._loadRegions(page + 3);
-          } else if(page % 2 != 0 && page != 1) {
-            this._loadRegions(page - 3);
-            this._loadRegions(page - 2);
-            this._loadRegions(page - 1);
-            this._loadRegions(page);
-            this._loadRegions(page + 1);
-            this._loadRegions(page + 2);
-          } 
+          }
         }
       },
     
@@ -285,9 +289,6 @@
           contentForButton.setAttribute("class","modal");
           contentForButton.setAttribute("id",attr.buttonModal.containerIdToOpen);
 
-          // if(pageForArticle == this.model.pageNumber){
-          //   contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div>" + textForArticle + attr.buttonModal.content;
-          // } else 
           if(attr.buttonModal.state == 'true'){
             contentForButton.innerHTML = "<div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div>" + textForArticle + attr.buttonModal.content;
           } else {

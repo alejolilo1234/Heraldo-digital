@@ -1,27 +1,27 @@
 [
-    {
-        "id": 1,
-        "pagesNumber": "page-number"
-    },
-    {
-        "id": 2,
-        "buttonsForAudioPrint": {
-            "className": "buttons-audio-print",
-            "audio": {
-                "bgColor": "var(--color-blue)",
-                "border": "var(--color-blue)",
-                "id": "audioPage4",
-                "idToReproduce": "audioCartaDelPresidente"
-            },
-            "print": {
-                "bgColor": "var(--color-blue)",
-                "border": "var(--color-blue)",
-                "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
-            },
-            "css": {
-                "bottom": "7%",
-                "left": "42%"
-            }
-        }
+  {
+    "id": 1,
+    "pagesNumber": "page-number"
+  },
+  {
+    "id": 2,
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
+      },
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+      },
+      "css": {
+        "bottom": "7%",
+        "left": "42%"
+      }
     }
+  }
 ]
