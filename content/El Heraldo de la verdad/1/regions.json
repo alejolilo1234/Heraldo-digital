@@ -4,9 +4,7 @@
     "tableContent":{
       "className": "table-content shine",
       "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/1/1-region.png')",
-        "animation": "fadeIn 1.5s",
-        "-webkit-animation": "fadeIn 1.5s"
+        "background-image": "url('./content/El Heraldo de la verdad/1/1-region.png')"
       }
     }
   }

@@ -140,7 +140,17 @@
               this._loadRegions(page + 2);
             }
           } else {
-            this._loadRegions(page);
+            if(page == 1) {
+              this._loadRegions(page);
+              this._loadRegions(page + 1);
+            } else if(page == 40) {
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+            } else if(page % 2 == 0 || page % 2 != 0) {
+              this._loadRegions(page - 1);
+              this._loadRegions(page);
+              this._loadRegions(page + 1);
+            }
           }
         }
       },

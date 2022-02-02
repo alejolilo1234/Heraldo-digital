@@ -21,11 +21,19 @@ summary.title {
   cursor: pointer;
 }
 
+summary.title-dark {
+  padding: 10px 20px;
+  background-color: var(--color-red);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 div.content {
   margin: 30px;
 }
 
-.center-text-button {
+/* .center-text-button {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 100%;
@@ -35,4 +43,4 @@ div.content {
   align-items: center;
   color: var(--color-white) !important;
   overflow: hidden;
-}
+} */

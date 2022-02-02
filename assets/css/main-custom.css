@@ -1,30 +1,38 @@
 :root{
   /* Colors */
-  --color-blue:#2d3875;
-  --color-blue-transparent:#4d99b9c4;
+  --color-blue: #2d3875;
+  --color-blue-transparent: #4d99b9c4;
   --color-red: #9d221b;
   --color-text: #535152;
-  --color-text-quote:#a95352;
+  --color-text-quote: #a95352;
   /* Fonts */
-  --bebas-neue:'Bebas Neue',cursive;
-  --times-new-roman:'Times New Roman', Times, serif;
+  --bebas-neue: 'Bebas Neue', cursive;
+  --times-new-roman: 'Times New Roman', Times, serif;
 }
 
-p {
-  color:var(--color-text);
-  font-family:var(--times-new-roman);
-  text-align:justify;
+p, 
+ol,
+ul {
+  color: var(--color-text);
+  font-family: var(--times-new-roman);
+  text-align: justify;
+}
+
+ol li::marker,
+ul li::marker {
+  color: var(--color-red);
 }
 
 .paragraph-capitalized::first-letter {
+  text-transform: UPPERCASE;
   font-size: 3em;
-  margin-right:4px;
+  margin-right: 4px;
   line-height: 0.5;
 }
 
 blockquote {
   font-style: italic;
-  margin:0;
+  margin: 0;
 }
 
 blockquote::before {
@@ -33,9 +41,4 @@ blockquote::before {
 
 blockquote::after {
   content: close-quote;
-}
-
-#page11 .p-modal-11 {
-  padding: 20px!important;
-  border-radius: 10px!important;
 }
