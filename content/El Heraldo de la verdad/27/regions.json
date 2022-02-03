@@ -1,25 +1,25 @@
 [
-    {
-        "id": 1,
-        "buttonsForAudioPrint": {
-            "className": "buttons-audio-print",
-            "audio": {
-                "bgColor": "var(--color-blue)",
-                "border": "var(--color-blue)",
-                "id": "audioPage4",
-                "idToReproduce": "audioCartaDelPresidente"
-            },
-            "print": {
-                "bgColor": "var(--color-blue)",
-                "border": "var(--color-blue)",
-                "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
-            },
-            "css": {
-                "top": "5%",
-                "right": "7%"
-            }
-        }
-    },
+  {
+    "id": 1,
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
+      },
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/la%20gloria%20de%20dios.pdf"
+      },
+      "css": {
+        "top": "5%",
+        "right": "7%"
+      }
+    }
+  },
     {
         "id": 2,
         "contentArticle": {
@@ -35,7 +35,7 @@
                 "font-size": "3.3em",
                 "line-height": "1em"
             },
-            "excerpt": "<p> Podemos notar la fe de ellos, en estos momentos el amigo llamado Jesús lo puede sanar; o sea que están confiados que Lázaro sanará, ellas habían visto y oído del poder sanador del Señor quien es su amigo, probablemente dicen: “Tan pronto Él venga, Lázaro sanará”, pero su fe ahora es sometida a prueba.</p>"
+            "excerpt": "<p>Podemos notar la fe de ellos, en estos momentos el amigo llamado Jesús lo puede sanar; o sea que están confiados que Lázaro sanará, ellas habían visto y oído del poder sanador del Señor quien es su amigo, probablemente dicen: <q class='italic-p27'>Tan pronto Él venga, Lázaro sanará</q>, pero su fe ahora es sometida a prueba.</p>"
         }
     },
     {
@@ -75,8 +75,8 @@
         "top": "87.5%",
         "right": "40%"
       },
-      "content":"<p>“para que sometida a prueba vuestra fe, mucho más preciosa que el oro, el cual aunque perecedero se prueba con fuego, sea hallada en alabanza, gloria y honra cuando sea manifestado Jesucristo” (1 Pedro 1:7).</p> <p style='color:red;'>Lázaro muere antes de que su amigo llegara</p> <p>El Señor Jesús dice, “…esta enfermedad no es para muerte, sino para la gloria de Dios…” (Juan11:4). Dirá usted: ¿Cómo un problema, una enfermedad es para la gloria de Dios? “…para que el Hijo de Dios sea glorificado por ella” (Juan 11:4).</p> <p>Lo cierto es que su amigo Jesús amaba a los tres: Lázaro, Marta y María, ¡Qué bueno es saber que Jesús nos Ama!</p> <p>Betania queda cerca de Jerusalén, como a quince estadios y cada uno de los estadios era de ciento setenta y cuatro metros… Su amigo al fin llega a casa, pero ya al parecer no hay nada que hacer, Marta tenía fe, que, si Jesús su amigo hubiese estado allí, no habría muerto su hermano, estaba segura, confiaba que sería sano sin importar lo grave de la enfermedad.</p> <p>Pero ahora Lázaro está muerto y su amigo le dice: “Lázaro resucitará”, Marta le dice: “Yo sé que resucitará en el día postrero”, aunque había dicho: “Yo sé que todo lo que pidas a Dios, Dios te lo dará”, pero ve muy difícil que Lázaro resucite, aunque había creído que su amigo Jesús era el Cristo, el Hijo de Dios que había venido al mundo.</p> <p>Marte tenía fe, creía que el Señor Jesús, su amigo era el Cristo, pero no puede creer que su hermano resucitaría.</p> <p>A veces nos pasa igual, creemos que el Señor Jesús puede hacer unas cosas, pero dudamos que haga otras, María tenía la misma fe de Marta, creía que su amigo podía evitar la muerte de su hermano, Juan 11:32.</p> <p>El amigo de Marta y María, ordena quitar la piedra, pero Marta le dijo, “Señor hiede ya porque es de cuatro días”, la fe de Marta ha sido afectada, sufrió un choque circunstancial:</p> <p><ul><li> Creía que su amigo lo podía sanar.</li><li>Creía que su amigo era el Cristo</li><li>Creía que su amigo era el Hijo de Dios que había venido al mundo, pero ¿Qué pasó? Su amigo dio una orden: Quitad la piedra, y Marta responde negativamente, no le alcanzó la fe, y es aquí donde Jesús, dice: ¿No te he dicho que si crees verás la gloria de Dios?</li></ul></p> <p>Ya Marta había oído la forma de ver la gloria de Dios, ya su amigo se los había explicado, ¿Pero? Alguien le creyó al Señor Jesús y animó a otros a venir a quitar la piedra.</p> <p>Las palabras de Jesús son Espíritu y son vida, hacen impacto en el momento preciso… y Lázaro resucitó.</p> <p>Hay quienes esperan ver para creer (Tomás), Juan 20:24-29. Y hay quienes creen para ver, por ello alguien dijo: “Fe mueve la mano de Dios” </p> <p>Lázaro resucitó porque, aunque allí no dice quién, se da a entender que alguien creyó a Jesús y fue motivando a otros, y la piedra fue quitada, Juan 11:41.</p>",
-          "state": "true"
+      "content":"<p class='paragraph-capitalized'><span class='first-letter-p27'>Q</span>ué importante, estamos ante un relato muy bueno que se nos da en este capítulo llamado la muerte de Lázaro; hay un hogar en Betania, sus integrantes son amigos del Señor Jesús, el hogar de Lázaro, Marta y María, probablemente son todos muy unidos como familia, el Señor ya había pasado allí con ellos muchas veces, y ahora que Lázaro enferma mandan llamar a su amigo.</p><p>Podemos notar la fe de ellos, en estos momentos el amigo llamado Jesús lo puede sanar; o sea que están confiados que Lázaro sanará, ellas habían visto y oído del poder sanador del Señor quien es su amigo, probablemente dicen: <q class='italic-p27'>Tan pronto Él venga, Lázaro sanará</q>, pero su fe ahora es sometida a prueba.</p><p><q class='italic-p27'>para que sometida a prueba vuestra fe, mucho más preciosa que el oro, el cual aunque perecedero se prueba con fuego, sea hallada en alabanza, gloria y honra cuando sea manifestado Jesucristo</q> (1 Pedro 1:7).</p> <p style='color: var(--color-red);'>Lázaro muere antes de que su amigo llegara</p> <p>El Señor Jesús dice, <q class='italic-p27'>…esta enfermedad no es para muerte, sino para la gloria de Dios…</q> (Juan11:4). Dirá usted: ¿Cómo un problema, una enfermedad es para la gloria de Dios? <q class='italic-p27'>…para que el Hijo de Dios sea glorificado por ella</q> (Juan 11:4).</p> <p>Lo cierto es que su amigo Jesús amaba a los tres: Lázaro, Marta y María, ¡Qué bueno es saber que Jesús nos Ama!</p> <p>Betania queda cerca de Jerusalén, como a quince estadios y cada uno de los estadios era de ciento setenta y cuatro metros… Su amigo al fin llega a casa, pero ya al parecer no hay nada que hacer, Marta tenía fe, que, si Jesús su amigo hubiese estado allí, no habría muerto su hermano, estaba segura, confiaba que sería sano sin importar lo grave de la enfermedad.</p> <p>Pero ahora Lázaro está muerto y su amigo le dice: <q class='italic-p27'>Lázaro resucitará</q>, Marta le dice: <q class='italic-p27'>Yo sé que resucitará en el día postrero</q>, aunque había dicho: <q class='italic-p27'>Yo sé que todo lo que pidas a Dios, Dios te lo dará</q>, pero ve muy difícil que Lázaro resucite, aunque había creído que su amigo Jesús era el Cristo, el Hijo de Dios que había venido al mundo.</p> <p>Marta tenía fe, creía que el Señor Jesús, su amigo era el Cristo, pero no puede creer que su hermano resucitaría.</p> <p>A veces nos pasa igual, creemos que el Señor Jesús puede hacer unas cosas, pero dudamos que haga otras, María tenía la misma fe de Marta, creía que su amigo podía evitar la muerte de su hermano, Juan 11:32.</p> <p>El amigo de Marta y María, ordena quitar la piedra, pero Marta le dijo, <q class='italic-p27'>Señor hiede ya porque es de cuatro días</q>, la fe de Marta ha sido afectada, sufrió un choque circunstancial:</p> <p><ul><li> Creía que su amigo lo podía sanar.</li><li>Creía que su amigo era el Cristo</li><li>Creía que su amigo era el Hijo de Dios que había venido al mundo, pero ¿Qué pasó? Su amigo dio una orden: Quitad la piedra, y Marta responde negativamente, no le alcanzó la fe, y es aquí donde Jesús, dice: ¿No te he dicho que si crees verás la gloria de Dios?</li></ul></p> <p>Ya Marta había oído la forma de ver la gloria de Dios, ya su amigo se los había explicado, ¿Pero? Alguien le creyó al Señor Jesús y animó a otros a venir a quitar la piedra.</p> <p>Las palabras de Jesús son Espíritu y son vida, hacen impacto en el momento preciso… y Lázaro resucitó.</p> <p>Hay quienes esperan ver para creer (Tomás), Juan 20:24-29. Y hay quienes creen para ver, por ello alguien dijo: <q class='italic-p27'>Fe mueve la mano de Dios</q> </p> <p>Lázaro resucitó porque, aunque allí no dice quién, se da a entender que alguien creyó a Jesús y fue motivando a otros, y la piedra fue quitada, Juan 11:41.</p>",
+      "state": "false"
       }
     },
     
@@ -93,5 +93,12 @@
         "right": "-31%"
       }
     }
+  },
+  {
+    "id": 8,
+    "stylesForPage": [
+      ".italic-p27 { font-style: italic; }",
+      ".first-letter-p27 { font-family:var(--bebas-neue);color:var(--color-red); }"
+    ]
   }
 ]

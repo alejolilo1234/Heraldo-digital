@@ -96,35 +96,54 @@
       },
     
       _turnedEvent: function(event, page) {
+
+        // TODO Eventos de cambiar la página
+        let pageTitleTwo = 'El Heraldo de la verdad | Edición digital';
+        let divText = '|';
+        let pageText = 'Página';
+        let turnPage = document.getElementById("turnPage");
+
+        $("#flipbook").bind("turning", function(event, page, view) {
+          window.document.title = pageText +' '+ view.join(" y ") + ' ' + divText + ' ' + pageTitleTwo;
+          turnPage.play();
+        });
+
         AppRouter.getInstance().navigate('page/' + page, {trigger: false});
         if (window.FlipbookSettings.loadRegions) {
           if (!Turn.isTouchDevice) {
-            if(page == 38) {
+            if (page == 38) {
               this._loadRegions(page - 2);
               this._loadRegions(page - 1);
               this._loadRegions(page);
               this._loadRegions(page + 1);
               this._loadRegions(page + 2);
+              // console.log("Página 38");
             } else if(page == 39) {
               this._loadRegions(page - 1);
               this._loadRegions(page);
+              // console.log("Página 39");
             } else if(page == 40) {
               this._loadRegions(page - 2);
               this._loadRegions(page - 1);
               this._loadRegions(page);
+              // console.log("Página 40");
             } else if(page == 1) {
               this._loadRegions(1);
+              // console.log("Página 1");
             } else if(page == 2) {
               this._loadRegions(page - 1);
               this._loadRegions(page);
               this._loadRegions(page + 1);
+              // console.log("Página 2");
             } else if(page == 3) {
               this._loadRegions(page - 2);
               this._loadRegions(page - 1);
               this._loadRegions(page);
               this._loadRegions(page + 1);
               this._loadRegions(page + 2);
-            } else if(page % 2 == 0) {
+              // console.log("Página 3");
+            } else if(page % 2 === 0) {
+              // console.log("Par");
               this._loadRegions(page - 2);
               this._loadRegions(page - 1);
               this._loadRegions(page);
@@ -132,6 +151,7 @@
               this._loadRegions(page + 2);
               this._loadRegions(page + 3);
             } else if(page % 2 != 0 && page != 1) {
+              // console.log("Impar");
               this._loadRegions(page - 3);
               this._loadRegions(page - 2);
               this._loadRegions(page - 1);
@@ -139,14 +159,15 @@
               this._loadRegions(page + 1);
               this._loadRegions(page + 2);
             }
-          } else {
+          } else if(Turn.isTouchDevice) {
+            // alert("Dispositivo móvil");
             if(page == 1) {
               this._loadRegions(page);
               this._loadRegions(page + 1);
             } else if(page == 40) {
               this._loadRegions(page - 1);
               this._loadRegions(page);
-            } else if(page % 2 == 0 || page % 2 != 0) {
+            } else if(page % 2 === 0 || page % 2 !== 0) {
               this._loadRegions(page - 1);
               this._loadRegions(page);
               this._loadRegions(page + 1);
@@ -341,7 +362,8 @@
             "width": "100%",
             "height": "100%",
             "background-repeat": "no-repeat",
-            "background-size": "contain"
+            "background-size": "contain",
+            "animation-delay": "1s"
           });
           
           if(attr.tableContent.innerHTML){

@@ -32,15 +32,3 @@ summary.title-dark {
 div.content {
   margin: 30px;
 }
-
-/* .center-text-button {
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 100%;
-  width: 100%;
-  height: 100%;
-  justify-items: center;
-  align-items: center;
-  color: var(--color-white) !important;
-  overflow: hidden;
-} */

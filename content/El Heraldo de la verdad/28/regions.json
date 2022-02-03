@@ -37,7 +37,7 @@
       "print": {
         "bgColor": "var(--color-blue)",
         "border": "var(--color-blue)",
-        "link": "assets/files/EL%20HERALDO%20FE%20SIEMPRE%20DIGITAL.pdf"
+        "link": "assets/files/fe%20a%20pesar%20de%20las%20dificultades.pdf"
       },
       "css": {
         "bottom": "6%",
@@ -64,13 +64,14 @@
         "font-size": "3.3em",
         "line-height": "1em"
       },
-      "excerpt": "<p> <span style='font-size:3em'class='first-letter-p7'> A</span>nalizando el libro del profeta Habacuc, cuyo nombre al parecer significa “uno que abraza”, este nombre se vuelve apropiado conforme el profeta se aferra a Dios, independientemente de las diferentes situaciones que se le presentaron.</p> <p style='color:blue'>Él presenta su primera queja por las injusticias y a la vez viendo mucha angustia, pues está rodeado de violencia y destrucción por todas partes, pleitos y luchas (algo semejante está pasando en la actualidad) frente al aparente silencio de Dios, porque él dice: “¿Hasta cuándo, oh Jehová, clamaré, y no oirás; y daré voces a ti a causa de la violencia, y no salvarás?” (Habacuc 1: 2).</p>"
+      "excerpt": "<p class='paragraph-capitalized'><span class='first-letter-p28'>A</span>nalizando el libro del profeta Habacuc, cuyo nombre al parecer significa <q class='italic-p28'>uno que abraza</q>, este nombre se vuelve apropiado conforme el profeta se aferra a Dios, independientemente de las diferentes situaciones que se le presentaron.</p> <p style='color: var(--color-blue);'>Él presenta su primera queja por las injusticias y a la vez viendo mucha angustia, pues está rodeado de violencia y destrucción por todas partes, pleitos y luchas (algo semejante está pasando en la actualidad) frente al aparente silencio de Dios, porque él dice: <q class='italic-p28'>¿Hasta cuándo, oh Jehová, clamaré, y no oirás; y daré voces a ti a causa de la violencia, y no salvarás?</q> (Habacuc 1: 2).</p>"
     }
   },
   {
     "id": 6,
     "stylesForPage": [
-      ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
+      ".first-letter-p28 { font-family:var(--bebas-neue);color:var(--color-red); }",
+      ".italic-p28 { font-style: italic; }"
     ]
   }
 ]

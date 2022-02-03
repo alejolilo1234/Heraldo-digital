@@ -1,9 +1,8 @@
 // Change these settings
-
 let pageTitle = 'El Heraldo de la verdad | Edición digital';
 let contentTitle = 'El Heraldo de la verdad';
-let divText = '|';
 let pageText = 'Página';
+let divText = '|';
 
 FlipbookSettings = {
   options: {
@@ -17,14 +16,7 @@ FlipbookSettings = {
   loadHTML: true
 };
 
-let turnPage = document.getElementById("turnPage");
-
-$("#flipbook").bind("turning", function(event, page, view) {
-  window.document.title = pageText +' '+ view.join(" y ") + ' ' + divText + ' ' + pageTitle;
-  turnPage.play();
-});
-
 document.addEventListener("DOMContentLoaded",() => {
   let viewBook = $("#flipbook").turn("view").join(" y ");
-  window.document.title = pageText +' '+ viewBook + ' ' +divText + ' ' + pageTitle;
-})
+  window.document.title = pageText +' '+ viewBook + ' ' + divText + ' ' + pageTitle;
+});
