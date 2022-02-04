@@ -1,10 +1,21 @@
 [
   {
     "id": 1,
-    "pagesNumber": "page-number"
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/34/title.png')",
+        "-webkit-animation": "slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+      }
+    }
   },
   {
     "id": 2,
+    "pagesNumber": "page-number"
+  },
+  {
+    "id": 3,
     "contentArticle": {
       "className": "content-article",
       "ViewX": "900",
@@ -12,12 +23,12 @@
       "foreignX": "120%",
       "foreignY": "60%",
       "css": {
-        "left": "12%",
-        "top": "4%",
+        "left": "14%",
+        "top": "25%",
         "width": "60%",
         "font-size": "3.3em"
       },
-      "excerpt": "<h1 style='font-family:var(--bebas-neue);color:var(--color-red);text-align:center;'>Fundación educación cristiana pentecostal</h1><p style='text-align:center;font-style:italic;font-size:.8em;margin-top:-30px;'>“Asidos de la palabra de vida, para que en el día de Cristo yo pueda gloriarme de que no he corrido en vano, ni en vano he trabajado”<br>(Filipenses 2:16).</p>"
+      "excerpt": "<p style='text-align: center; font-style: italic; font-size: .8em; margin-top: -30px;'><q style='font-style: italic;'>Asidos de la palabra de vida, para que en el día de Cristo yo pueda gloriarme de que no he corrido en vano, ni en vano he trabajado</q><br>(Filipenses 2:16).</p>"
     }
   }
 ]

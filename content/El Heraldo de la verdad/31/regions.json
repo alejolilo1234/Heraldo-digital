@@ -19,8 +19,8 @@
         "link": "assets/files/fe%20a%20pesar%20de%20las%20dificultades.pdf"
       },
       "css": {
-        "bottom": "7%",
-        "left": "42%"
+        "bottom": "8%",
+        "left": "43%"
       }
     }
   },
@@ -33,20 +33,14 @@
       "foreignX": "120%",
       "foreignY": "60%",
       "css": {
-        "left": "13%",
-        "top": "15%",
+        "left": "14%",
+        "top": "7%",
         "width": "60%",
         "font-size": "3.3em",
         "line-height": "1em"
       },
-      "excerpt":"<div style='color:#2d3875;'><span class=''>“Respondiendo Simón, le dijo: Maestro, toda la noche hemos estado trabajando, y nada hemos pescado; mas en tu palabra echaré la red. Y habiéndolo hecho, encerraron gran cantidad de peces, y su red se rompía” (Lucas 5:5-6).</span></div><p> <span style='font-size:3em' class='first-letter-p7'>S</span>i se comprendiera el verdadero significado que tiene la Palabra de Dios, y los efectos extraordinarios que proporciona, sin duda nadie pasaría un día sin tener un buen contacto con ella</p>"
+      "excerpt":"<p class='container' style='color: var(--color-blue); padding: 30px; text-align: center; border: 5px solid var(--color-blue); border-radius: 30px;'><q class='italic-p31'>Respondiendo Simón, le dijo: Maestro, toda la noche hemos estado trabajando, y nada hemos pescado; mas en tu palabra echaré la red. Y habiéndolo hecho, encerraron gran cantidad de peces, y su red se rompía</q><br><span style='color: var(--color-text); font-weight: bold;'>(Lucas 5:5-6).</span></p><p class='paragraph-capitalized'><span class='first-letter-p31'>S</span>i se comprendiera el verdadero significado que tiene la Palabra de Dios, y los efectos extraordinarios que proporciona, sin duda nadie pasaría un día sin tener un buen contacto con ella.</p>"
     }
-  },
-  {
-    "id": 5,
-    "stylesForPage": [
-      ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
-    ]
   },
   {
     "id": 6,
@@ -54,138 +48,109 @@
       "className": "button",
       "modalButtonText":"Leer más",
       "textColor": "white",
-      "backgroundColor": "var(--color-blue)",
-      "borderColor": "var(--color-blue)",
+      "backgroundColor": "var(--color-red)",
+      "borderColor": "var(--color-red)",
       "fontSize":"7.5em",
       "textX": 50,
       "textY": 120,
-      "containerIdToOpen": "page5",
+      "containerIdToOpen": "page31",
       "css":{
         "top": "47.5%",
         "right": "40%"
       },
-      "content": "<p>Hoy pululan los que no ven la Palabra como ese tesoro que realmente enriquece la vida, o como ese colirio que abre los ojos para ver a Dios obrando de forma sobrenatural, y pienso que una de las causas de dicha ceguera es el excesivo entretenimiento que hay hoy, por ejemplo, en las redes sociales y asimismo a los afanes de esta vida, los cuales, como está escrito: “…ahogan la Palabra…” (Marcos 4:19). </p> <p>Hay quienes a lo mejor ven más importante ejercitarse en x o y instrumento musical, que abrir la Palabra o escucharla; hay también quienes observan que la primera parte de un servicio es más importante que la misma predicación y por eso cuando llega el momento de oír la voz de Dios, sencillamente se alejan o en su defecto se distraen con facilidad; del mismo modo, hay quienes al preparar un sermón para predicarlo, prefieren ir a todas las fuentes posibles que a la misma Biblia, y finalmente hay quienes predicando se dedican solo a emocionar al pueblo con testimonios o cosas fantásticas, forzando de alguna manera a que el oyente experimente lo sobrenatural, pero sin predicar realmente la Palabra, ignorando de este modo, que es solo a través de ella que los oyentes y creyentes pueden ver de veras la gloria de Dio</p> <p>No en vano dijo el salmista: “Abre mis ojos, y miraré Las maravillas de tu ley” (Salmos 119:18).</p> <p>En la Palabra de Dios encontramos el pensamiento de Dios, lo que Él quiere que hagamos. Es importante reconocer que sus pensamientos, como lo señala Isaías 55:8-9, no son como los nuestros; mientras los nuestros son naturales, comunes y corrientes, los de Dios son sobrenaturales, fuera de serie, por lo tanto, aunque su Palabra no encaje con nuestra razón, si la creemos y la obedecemos veremos su gloria.</p> <p>Las obras extraordinarias pasan sí o sí cuando hacemos lo que Dios dice en su Palabra, cuando lo que hacemos es realmente aprobado por Dios. Por ello, si queremos ver la gloria de Dios, la fuente de nuestros actos y decisiones, deberá ser siempre “La Palabra de Dios” </p> <p style='color:red'>En tu Palabra echaré la red</p> <p>Pedro y sus compañeros habían intentado pescar toda la noche y nada habían conseguido. Lavando las redes como para guardarlas e irse a su casa sin nada, escuchó la voz del Señor pidiéndole prestada su barca para predicar a la multitud, y Pedro sin negarse lo hizo, desconociendo el resultado extraordinario que luego experimentaría.</p> <p>Cuando el Señor Jesús terminó de predicar le hizo una extraña invitación a Pedro: “… Boga mar adentro, y echad vuestras redes para pescar” (Lucas 5:4). Pedro, como que rezongó al comienzo, pero al final dijo: “… en tu palabra echaré la red” (Lucas 5:5). “… y encerraron gran cantidad de peces…” (Lucas 5:6).</p> <p>Mi Dios no se queda con nada, Él recompensa muy bien a los que le sirven y a los que entregan lo que tienen, para hacer posible su obra ¡Gloria a Dios!</p> <p style='color:blue'>En tu palabra echaré la red, es:</p> <p><span style='color:red'>1</span> Renunciar a lo que yo creo, a lo que me han enseñado y que va en contravía a la Palabra de Dios, para hacer lo que Dios dice.</p> <p><span style='color:red'>2</span>Estar dispuesto a hacer lo que Dios dice, en todos los aspectos de mi vida</p> <p style='color:red'>Ignorancia o incredulidad.</p> <p>Dos razones por las cuales generalmente no se hace lo que Dios dice, y por ende no vemos su gloria son:</p> <p style='color:blue'>1. Por la ignorancia:</p> <p>La ignorancia tiene que ver con la falta de instrucción o el desconocimiento de algo. La ignorancia en este contexto se da por el escaso contacto que se tiene hoy con la Palabra de Dios, pues no se lee la Palabra, no se oye con atención y tampoco se escudriña.</p> <p>Por ejemplo, la audiencia de hebreos, que debiendo ser ya maestros, aún eran niños</p> <p>“Porque debiendo ser ya maestros, después de tanto tiempo, tenéis necesidad de que se os vuelva a enseñar cuáles son los primeros rudimentos de las palabras de Dios; y habéis llegado a ser tales que tenéis necesidad de leche, y no de alimento sólido” (Hebreos 5:12).</p> <p>Eran niños, al menos por tres razones:</p> <p>1. Eran tardos para oír: Hebreos 5:11.</p> <p>2. No se congregaban: Hebreos 10:25</p> <p>3. No obedecían a sus pastores: Hebreos 13:17.</p> <p style='color:red'>¿Cómo ponerle fin a esta ignorancia?</p> <p>a) Oyendo atentamente la Palabra de Dios: Deuteronomio 28:1.</p> <p>Aquí vemos la importancia de congregarnos y de prestar atención a la predicación de la Palabra.</p> <p>b) Leyendo con atención y escudriñando la Palabra de Dios: Juan 5:39.</p> <p>Aquí vemos la importancia de abrir la Biblia, no solamente en el templo, sino también en nuestra casa, en el trabajo, en fin.</p> <p>c) Repasando y meditando en la Palabra de Dios: Josué 1:8.</p> <p>Aquí vemos la importancia también de masticar, recordar, reflexionar la prédica que oímos, el pasaje bíblico, entre otros.</p> <p style='color:red'>2. Por la incredulidad:</p> <p>Dios a todos nos creó con una fe innata, todo el mundo cree en algo. Dios nos creó así para creer en Él y creerle a Él.</p> <p>La incredulidad, del griego Apistia, significa “no creer”, “falta de fe cristiana”, “desconfianza”. </p> <p>La incredulidad es tan grave, porque:</p> <p>a. Es ahí donde el diablo aprovecha para contradecir lo que Dios dice e impulsar a su presa a hacer lo que él quiere: Génesis 3:1-5.</p> <p>b. Por ella los israelitas no entraron a la tierra prometida: Hebreos 3:18-19.</p> <p>c. Conduce a la perdición de los hombres: Juan 3:18.</p> <p>d. Conlleva a la no recepción de los milagros de Dios: 2 Reyes 7:1-2, Mateo 13:58.</p> <p style='color:red'>¿Cómo ponerle fin a la ignorancia de la Palabra de Dios?</p> <p>Abriendo más la Palabra, pues la fe viene por el oír, Romanos 10:17, y asimismo poniendo en acción la capacidad que Dios nos dio para creer en Él y creerle a Él. </p> <p style='color:red'>En conclusión.</p> <p style='color:blue'>Abramos más la Palabra de Dios y cuando de oírla se trate, escuchémosla, pero con total atención, asimismo creámosla y obedezcámosla, y en consecuencia veremos su gloria: Esdras 7:6-11 TLA. Si Dios nos dice que no nos unamos en yugo desigual con los incrédulos, obedezcamos y veremos su gloria: 2 Corintios 6:14. Si Dios nos dice que la clave para ser exaltados es humillándonos, hagámoslo y veremos su gloria: Mateo 23:12. Si Dios nos dice que vivamos en santidad, marcando la diferencia, hagámoslo y veremos no solo aquí su gloria, sino que comprobaremos la gloria venidera que no se compara con las aflicciones del tiempo presente: Romanos 8:18.</p>",
+      "content": "<p>Hoy pululan los que no ven la Palabra como ese tesoro que realmente enriquece la vida, o como ese colirio que abre los ojos para ver a Dios obrando de forma sobrenatural, y pienso que una de las causas de dicha ceguera es el excesivo entretenimiento que hay hoy, por ejemplo, en las redes sociales y asimismo a los afanes de esta vida, los cuales, como está escrito: <q class='italic-p31'>...ahogan la Palabra...</q> (Marcos 4:19). </p> <p>Hay quienes a lo mejor ven más importante ejercitarse en x o y instrumento musical, que abrir la Palabra o escucharla; hay también quienes observan que la primera parte de un servicio es más importante que la misma predicación y por eso cuando llega el momento de oír la voz de Dios, sencillamente se alejan o en su defecto se distraen con facilidad; del mismo modo, hay quienes al preparar un sermón para predicarlo, prefieren ir a todas las fuentes posibles que a la misma Biblia, y finalmente hay quienes predicando se dedican solo a emocionar al pueblo con testimonios o cosas fantásticas, forzando de alguna manera a que el oyente experimente lo sobrenatural, pero sin predicar realmente la Palabra, ignorando de este modo, que es solo a través de ella que los oyentes y creyentes pueden ver de veras la gloria de Dios.</p> <p>No en vano dijo el salmista: <q class='italic-p31'>Abre mis ojos, y miraré Las maravillas de tu ley</q> (Salmos 119:18).</p><p>En la Palabra de Dios encontramos el pensamiento de Dios, lo que Él quiere que hagamos. Es importante reconocer que sus pensamientos, como lo señala Isaías 55:8-9, no son como los nuestros; mientras los nuestros son naturales, comunes y corrientes, los de Dios son sobrenaturales, fuera de serie, por lo tanto, aunque su Palabra no encaje con nuestra razón, si la creemos y la obedecemos veremos su gloria.</p> <p>Las obras extraordinarias pasan sí o sí cuando hacemos lo que Dios dice en su Palabra, cuando lo que hacemos es realmente aprobado por Dios. Por ello, si queremos ver la gloria de Dios, la fuente de nuestros actos y decisiones, deberá ser siempre <q class='italic-p31' style='color: var(--color-blue);'>La Palabra de Dios</q></p><details id='toggle' class='toggle first-modal-p31' open><summary class='title' id='first-p31'>En tu Palabra echaré la red</summary><div class='content'><p>Pedro y sus compañeros habían intentado pescar toda la noche y nada habían conseguido. Lavando las redes como para guardarlas e irse a su casa sin nada, escuchó la voz del Señor pidiéndole prestada su barca para predicar a la multitud, y Pedro sin negarse lo hizo, desconociendo el resultado extraordinario que luego experimentaría.</p> <p>Cuando el Señor Jesús terminó de predicar le hizo una extraña invitación a Pedro: <q class='italic-p31'>... Boga mar adentro, y echad vuestras redes para pescar</q> (Lucas 5:4). Pedro, como que rezongó al comienzo, pero al final dijo: <q class='italic-p31'>... en tu palabra echaré la red</q> (Lucas 5:5). <q class='italic-p31'>... y encerraron gran cantidad de peces...</q> (Lucas 5:6).</p> <p>Mi Dios no se queda con nada, Él recompensa muy bien a los que le sirven y a los que entregan lo que tienen, para hacer posible su obra ¡Gloria a Dios!</p> <p style='background-color: var(--color-blue); padding: 2px 5px; color: white; border-radius: 5px; display: inline-block; margin: 0;'>En tu palabra echaré la red, es:</p><ol><li>Renunciar a lo que yo creo, a lo que me han enseñado y que va en contravía a la Palabra de Dios, para hacer lo que Dios dice.</li><li>Estar dispuesto a hacer lo que Dios dice, en todos los aspectos de mi vida.</li></ol></div></details><details id='toggle' class='toggle second-modal-p31'><summary class='title' id='second-p31'>Ignorancia o incredulidad.</summary><div class='content'><p>Dos razones por las cuales generalmente no se hace lo que Dios dice, y por ende no vemos su gloria son:</p> <h2><ol style='padding-left: 20px;'><li style='color: var(--color-red); font-family: var(--bebas-neue); text-align: left;'>Por la ignorancia:</li></ol></h2><p>La ignorancia tiene que ver con la falta de instrucción o el desconocimiento de algo. La ignorancia en este contexto se da por el escaso contacto que se tiene hoy con la Palabra de Dios, pues no se lee la Palabra, no se oye con atención y tampoco se escudriña.</p><p>Por ejemplo, la audiencia de hebreos, que debiendo ser ya maestros, aún eran niños</p> <p><q class='italic-p31'>Porque debiendo ser ya maestros, después de tanto tiempo, tenéis necesidad de que se os vuelva a enseñar cuáles son los primeros rudimentos de las palabras de Dios; y habéis llegado a ser tales que tenéis necesidad de leche, y no de alimento sólido</q> (Hebreos 5:12).</p> <p>Eran niños, al menos por tres razones:</p><ol><li>Eran tardos para oír: Hebreos 5:11.</li><li>No se congregaban: Hebreos 10:25</li><li>No obedecían a sus pastores: Hebreos 13:17.</li></ol></div></details><details id='toggle' class='toggle third-modal-p31'><summary class='title' id='third-p31'>¿Cómo ponerle fin a esta ignorancia?</summary><div class='content'><ol type='a'><li>Oyendo atentamente la Palabra de Dios: Deuteronomio 28:1.</li> <p>Aquí vemos la importancia de congregarnos y de prestar atención a la predicación de la Palabra.</p><li>Leyendo con atención y escudriñando la Palabra de Dios: Juan 5:39.</li><p>Aquí vemos la importancia de abrir la Biblia, no solamente en el templo, sino también en nuestra casa, en el trabajo, en fin.</p> <li>Repasando y meditando en la Palabra de Dios: Josué 1:8.</li><p>Aquí vemos la importancia también de masticar, recordar, reflexionar la prédica que oímos, el pasaje bíblico, entre otros.</p></ol><h2><ol start='2' style='padding-left: 20px;'><li style='color: var(--color-red); font-family: var(--bebas-neue); text-align: left;'>Por la incredulidad:</li></ol></h2> <p>Dios a todos nos creó con una fe innata, todo el mundo cree en algo. Dios nos creó así para creer en Él y creerle a Él.</p> <p>La incredulidad, del griego Apistia, significa <q class='italic-p31'>no creer</q>, <q class='italic-p31'>falta de fe cristiana</q>, <q class='italic-p31'>desconfianza</q>. </p> <p>La incredulidad es tan grave, porque:</p><ol type='a'><li>Es ahí donde el diablo aprovecha para contradecir lo que Dios dice e impulsar a su presa a hacer lo que él quiere: Génesis 3:1-5.</li><li>Por ella los israelitas no entraron a la tierra prometida: Hebreos 3:18-19.</li><li>Conduce a la perdición de los hombres: Juan 3:18.</li><li>Conlleva a la no recepción de los milagros de Dios: 2 Reyes 7:1-2, Mateo 13:58.</li></ol></div></details><details id='toggle' class='toggle fourth-modal-p31'><summary class='title' id='fourth-p31'>¿Cómo ponerle fin a la ignorancia de la Palabra de Dios?</summary><div class='content'><p>Abriendo más la Palabra, pues la fe viene por el oír, Romanos 10:17, y asimismo poniendo en acción la capacidad que Dios nos dio para creer en Él y creerle a Él. </p></div></details><details id='toggle' class='toggle fifth-modal-p31'><summary class='title' id='fifth-p31'>En conclusión.</summary><div class='content'><div style='background-color: var(--color-blue); color: white; padding: 10px; border-radius: 10px;' class='container-paragraphs'><p>Abramos más la Palabra de Dios y cuando de oírla se trate, escuchémosla, pero con total atención, asimismo creámosla y obedezcámosla, y en consecuencia veremos su gloria: Esdras 7:6-11 TLA.</p><p>Si Dios nos dice que no nos unamos en yugo desigual con los incrédulos, obedezcamos y veremos su gloria: 2 Corintios 6:14.</p><p>Si Dios nos dice que la clave para ser exaltados es humillándonos, hagámoslo y veremos su gloria: Mateo 23:12.</p><p>Si Dios nos dice que vivamos en santidad, marcando la diferencia, hagámoslo y veremos no solo aquí su gloria, sino que comprobaremos la gloria venidera que no se compara con las aflicciones del tiempo presente: Romanos 8:18.</p></div></div></details><script>let details = document.querySelectorAll('#toggle'); details.forEach((targetDetail) => { targetDetail.addEventListener('click', () => { details.forEach((detail) => { if (detail !== targetDetail) { detail.removeAttribute('open'); }});});});</script>",
       "state": "true"
     }
   },
   {
-      "id": 7,
-      "buttonModalHTML": {
-          "className": "button-html",
-          "text": "<div style='color:#9d221b;padding-top:0.5em;padding-left:2.3em;'><span class=''>En tu palabra echare la red</span></div>",
-          "fontSize": "6em",
-          "widthSVG": "1514",
-          "heightSVG": "300",
-          "backgroundColor": "var(--color-white)",
-          "containerIdToOpen": "page25",
-          "link": "first",
-          "detail": "first-modal",
-          "css": {
-              "left": "26%",
-              "top": "55%",
-              "width": "50%",
-              "height": "6%",
-              "border-radius": "1em",
-              "border-style": "solid",
-              "border-color": "var(--color-blue)",
-              "background-color": "var(--color-white)"
-          }
+    "id": 7,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p31'>En tu palabra echare la red</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page31",
+      "link":"first-p31",
+      "detail":"first-modal-p31",
+      "css":{
+        "left": "25.12%",
+        "top": "55.9%",
+        "width": "50%",
+        "height": "5.4%",
+        "border-radius": "15px"
       }
+    }
   },
   {
-      "id": 8,
-      "buttonModalHTML": {
-          "className": "button-html",
-          "text": "<div style='color:#9d221b;padding-top:0.5em;padding-left:2.3em;'><span class=''>En tu palabra echare la red</span></div>",
-          "fontSize": "6em",
-          "widthSVG": "1514",
-          "heightSVG": "300",
-          "backgroundColor": "var(--color-white)",
-          "containerIdToOpen": "page25",
-          "link": "first",
-          "detail": "first-modal",
-          "css": {
-              "left": "26%",
-              "top": "55%",
-              "width": "50%",
-              "height": "6%",
-              "border-radius": "1em",
-              "border-style": "solid",
-              "border-color": "var(--color-blue)",
-              "background-color": "var(--color-white)"
-          }
+    "id": 8,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p31'>Ignorancia o incredulidad</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page31",
+      "link":"second-p31",
+      "detail":"second-modal-p31",
+      "css":{
+        "left": "25.12%",
+        "top": "62.9%",
+        "width": "50%",
+        "height": "5.4%",
+        "border-radius": "15px"
       }
+    }
   },
   {
-      "id": 9,
-      "buttonModalHTML": {
-          "className": "button-html",
-          "text": "<div style='color:#9d221b;padding-top:0.5em;padding-left:2.3em;'><span class=''> Ignorancia o creudibilidad </span></div>",
-          "fontSize": "6em",
-          "widthSVG": "1514",
-          "heightSVG": "300",
-          "backgroundColor": "var(--color-white)",
-          "containerIdToOpen": "page25",
-          "link": "first",
-          "detail": "first-modal",
-          "css": {
-              "left": "26%",
-              "top": "62%",
-              "width": "50%",
-              "height": "6%",
-              "border-radius": "1em",
-              "border-style": "solid",
-              "border-color": "var(--color-blue)",
-              "background-color": "var(--color-white)"
-          }
+    "id": 9,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p31'>¿Cómo ponerle fin a esta ignorancia?</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page31",
+      "link":"third-p31",
+      "detail":"third-modal-p31",
+      "css":{
+        "left": "25.12%",
+        "top": "69.9%",
+        "width": "50%",
+        "height": "5.4%",
+        "border-radius": "15px"
       }
+    }
   },
   {
-      "id": 10,
-      "buttonModalHTML": {
-          "className": "button-html",
-          "text": "<div style='color:#9d221b;padding-top:0.4em;padding-left:2.3em;'><span class=''> Como ponerle fin a esta ignorancia? </span></div>",
-          "fontSize": "5.7em",
-          "widthSVG": "1714",
-          "heightSVG": "300",
-          "backgroundColor": "var(--color-white)",
-          "containerIdToOpen": "page25",
-          "link": "first",
-          "detail": "first-modal",
-          "css": {
-              "left": "22%",
-              "top": "70%",
-              "width": "60%",
-              "height": "6%",
-              "border-radius": "1em",
-              "border-style": "solid",
-              "border-color": "var(--color-blue)",
-              "background-color": "var(--color-white)"
-          }
+    "id": 10,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p31'>¿Cómo ponerle fin a la ignorancia de la palabra de Dios?</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page31",
+      "link":"fourth-p31",
+      "detail":"fourth-modal-p31",
+      "css":{
+        "left": "25.12%",
+        "top": "76.9%",
+        "width": "50%",
+        "height": "5.4%",
+        "border-radius": "15px"
       }
+    }
   },
   {
-      "id": 11,
-      "buttonModalHTML": {
-          "className": "button-html",
-          "text": "<div style='color:#9d221b;padding-top:0.4em;padding-left:2.3em;'><span class=''> Como ponerle fin a la ignorancia de la palabra de Dios? </span></div>",
-          "fontSize": "5.7em",
-          "widthSVG": "1714",
-          "heightSVG": "300",
-          "backgroundColor": "var(--color-white)",
-          "containerIdToOpen": "page25",
-          "link": "first",
-          "detail": "first-modal",
-          "css": {
-              "left": "22%",
-              "top": "77%",
-              "width": "60%",
-              "height": "8%",
-              "border-radius": "1em",
-              "border-style": "solid",
-              "border-color": "var(--color-blue)",
-              "background-color": "var(--color-white)"
-          }
-      }
+    "id": 11,
+    "stylesForPage": [
+      ".first-letter-p31 { font-family:var(--bebas-neue);color:var(--color-red); }",
+      ".italic-p31 { font-style: italic; }",
+      "#page31 .container { padding: 10px!important; border: 2px solid var(--color-blue)!important; border-radius: 10px!important; }",
+      ".div-p31 { border: 6px solid var(--color-blue);border-radius: 100px;width: 107.6%;padding: 3% 2%;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; text-align: center; color: var(--color-red); }",
+      ".container-paragraphs > * { margin: 15px; padding: 0; color: white; text-align: center; }",
+      ".container-paragraphs:last-child, .container-paragraphs:first-child { margin: 0; }"
+    ]
   }
 ]

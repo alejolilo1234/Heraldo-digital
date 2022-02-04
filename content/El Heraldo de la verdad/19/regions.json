@@ -13,7 +13,7 @@
         "width": "37.5%",
         "font-size": "5.3em"
       },
-      "excerpt":"<h1 style='text-align: center;color:var(--color-blue);font-family: var(--bebas-neue);font-size:3em;margin:0;padding:0;padding-bottom: 100px;'>Atajos rápidos</h1><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Incredulidad en el Antiguo Testamento.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Consecuencia de la incredulidad.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Imposibilidades al ser incrédulo.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>La incredulidad en el Nuevo Testamento.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Antídoto de la incredulidad.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>El resultado de la fe.</p><p style='text-align:center;font-size:1.5em;color:#2e3973;text-decoration:underline;padding:5px 0;margin:0;'>Recomendaciones bíblicas.</p>"
+      "excerpt":"<h1 style='text-align: center; color:var(--color-blue); font-family: var(--bebas-neue); font-size: 3em; margin: 0;padding: 0; padding-bottom: 100px;'>Atajos rápidos</h1>"
     }
   },
   {
@@ -40,5 +40,158 @@
   {
     "id": 3,
     "pagesNumber":"page-number"
+  },
+  {
+    "id": 7,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p19'>Incredulidad en el Antiguo Testamento.</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page18",
+      "link":"first-p18",
+      "detail":"first-modal-p18",
+      "css":{
+        "left": "16.8%",
+        "top": "19.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "border-radius": "15px",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p19'>Consecuencia de la incredulidad.</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page18",
+      "link":"second-p18",
+      "detail":"second-modal-p18",
+      "css":{
+        "left": "16.8%",
+        "top": "23.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "border-radius": "15px",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p19'>Imposibilidades al ser incrédulo.</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page18",
+      "link":"fourth-p18",
+      "detail":"fourth-modal-p18",
+      "css":{
+        "left": "16.8%",
+        "top": "27.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "border-radius": "15px",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p19'>La incredulidad en el Nuevo Testamento.</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page18",
+      "link":"fifth-p18",
+      "detail":"fifth-modal-p18",
+      "css":{
+        "left": "16.8%",
+        "top": "31.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "border-radius": "15px",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p19'>Antídoto de la incredulidad.</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page18",
+      "link":"nineth-p18",
+      "detail":"nineth-modal-p18",
+      "css":{
+        "left": "16.8%",
+        "top": "35.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "border-radius": "15px",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p19'>El resultado de la fe.</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page18",
+      "link":"tenth-p18",
+      "detail":"tenth-modal-p18",
+      "css":{
+        "left": "16.8%",
+        "top": "39.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "border-radius": "15px",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p19'>Recomendaciones bíblicas.</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page18",
+      "link":"eleventh-p18",
+      "detail":"eleventh-modal-p18",
+      "css":{
+        "left": "16.8%",
+        "top": "43.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "border-radius": "15px",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "stylesForPage": [
+      ".div-p19 { border-radius: 100px;width: 107.6%;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; text-align: center; color: var(--color-blue);text-decoration: underline; }"
+    ]
   }
 ]

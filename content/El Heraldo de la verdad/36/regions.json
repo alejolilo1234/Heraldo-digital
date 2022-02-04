@@ -28,7 +28,7 @@
         "width": "34%",
         "font-size": "6.4em"
       },
-      "excerpt":"<p>El mensaje que se está predicando hoy en día me ha generado muchas inquietudes. Por eso he estado orando, pidiendo a Dios direccionamiento para compartir esta reflexión, la cual espero que nos ayude a ubicarnos en el presente, un tiempo que requiere de un mensaje que reconozca las circunstancias del momento, pero que se base en los fundamentos eternos.</p>"
+      "excerpt":"<p class='paragraph-capitalized'><span style='color: var(--color-red); font-family: var(--bebas-neue);'>E</span>l mensaje que se está predicando hoy en día me ha generado muchas inquietudes. Por eso he estado orando, pidiendo a Dios direccionamiento para compartir esta reflexión, la cual espero que nos ayude a ubicarnos en el presente, un tiempo que requiere de un mensaje que reconozca las circunstancias del momento, pero que se base en los fundamentos eternos.</p>"
     }
   },
   {
@@ -45,10 +45,18 @@
       "containerIdToOpen": "page36",
       "css":{
         "right": "40%",
-        "bottom": "7%"
+        "bottom": "4%"
       },
-      "content":"",
+      "content":"<p style='background-color: var(--color-blue); color: white; padding: 20px; border-radius: 10px; text-align: center;'><q class='italic-p36'>Jesucristo es el mismo ayer, y hoy, y por los siglos</q><br>(Hebreos 13:8).</p><p>¿Será que la Palabra de Dios sigue siendo eficaz para estos tiempos? No me queda la menor duda: Esta Palabra es eternamente y para siempre, tal y como lo afirma: <q class='italic-p36'>Para siempre, oh Jehová, permanece tu palabra en los cielos</q> (Salmos 119:89). Por eso, la oración de David continúa siendo oportuna para estos tiempos, tal y como aparece en Salmos 119:43: <q class='italic-p36'>No quites de mi boca en ningún tiempo la palabra de verdad, porque en tus juicios espero</q>, y también en Salmos 51:11: <q class='italic-p36'>No me eches de delante de ti, y no quites de mí tu santo Espíritu</q>.</p><div class='buttons-container'><a href='#page37One' rel='modal:open'>El mensaje</a><a href='#page37Two' rel='modal:open'>FOSU</a></div>",
       "state": "true"
     }
+  },
+  {
+    "id": 5,
+    "stylesForPage": [
+      ".italic-p36 { font-style: italic; }",
+      ".buttons-container { display: grid; grid-template-columns: 1fr 1fr; grid-gap: 10px; padding: 10px 0; }",
+      ".buttons-container a { background-color: var(--color-blue); display: block; color:white; text-align: center; padding: 5px 15px; text-decoration: none; border-radius: 5px; cursor: pointer; }"
+    ]
   }
 ]

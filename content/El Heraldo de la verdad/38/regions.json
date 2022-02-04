@@ -1,21 +1,21 @@
 [
-    {
-        "id": 1,
-        "pagesNumber": "page-number"
-    },
-    {
-    "id": 2,
-    "articleAuthor":{
-      "className": "author",
-      "direction": "left",
-      "XPosition": "600",
-      "text": "Por Vicente Arango Varela. Director Misiones Nacionales",
-      "backgroundColor": "var(--color-blue)",
-      "css": {
-        "bottom": "44%",
-        "left": "-13%"
-      }
+  {
+    "id": 1,
+    "pagesNumber": "page-number"
+  },
+  {
+  "id": 2,
+  "articleAuthor":{
+    "className": "author",
+    "direction": "left",
+    "XPosition": "600",
+    "text": "Por Vicente Arango Varela. Director Misiones Nacionales",
+    "backgroundColor": "var(--color-blue)",
+    "css": {
+      "bottom": "44%",
+      "left": "-13%"
     }
+  }
   },
     {
         "id": 3,

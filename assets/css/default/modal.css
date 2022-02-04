@@ -27,6 +27,7 @@ div.container-close-button{
   padding: 15px 0 10px;
   margin: -25px -20px;
   text-align:right;
+  z-index: -999;
 }
 
 a.modal-close-button {

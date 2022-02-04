@@ -96,16 +96,16 @@
       },
     
       _turnedEvent: function(event, page) {
-
-        // TODO Eventos de cambiar la página
-        let pageTitleTwo = 'El Heraldo de la verdad | Edición digital';
-        let divText = '|';
-        let pageText = 'Página';
         let turnPage = document.getElementById("turnPage");
 
         $("#flipbook").bind("turning", function(event, page, view) {
-          window.document.title = pageText +' '+ view.join(" y ") + ' ' + divText + ' ' + pageTitleTwo;
-          turnPage.play();
+            if (!Turn.isTouchDevice) {
+              makeTitleDesktop(page);
+            } else if (Turn.isTouchDevice) {
+              // TODO Títulos para versión móvil
+              window.document.title = pageTitle;
+            }
+            turnPage.play();
         });
 
         AppRouter.getInstance().navigate('page/' + page, {trigger: false});
@@ -344,7 +344,7 @@
 
           this.$el.css(attr.buttonModalHTML.css);
 
-          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 " + attr.buttonModalHTML.widthSVG + " " + attr.buttonModalHTML.heightSVG + "' xml:space='preserve'><foreignObject width='100%' x='0' y='0' style='overflow:visible;'><div style='font-size:" + attr.buttonModalHTML.fontSize + ";width: 93%;'>" + attr.buttonModalHTML.text + "</div></foreignObject></svg>");
+          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 " + attr.buttonModalHTML.widthSVG + " " + attr.buttonModalHTML.heightSVG + "' xml:space='preserve' style='overflow: visible;'><foreignObject width='100%' x='0' y='0' style='overflow:visible;'><div style='font-size:" + attr.buttonModalHTML.fontSize + ";width: 93%;'>" + attr.buttonModalHTML.text + "</div></foreignObject></svg>");
     
           this.$el.data({view: this});
           $pageElement.append(this.$el);

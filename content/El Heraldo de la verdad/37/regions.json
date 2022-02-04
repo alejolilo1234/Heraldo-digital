@@ -13,5 +13,234 @@
 	      "animation": "slide-in-top 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
       }
     }
+  },
+  {
+    "id": 4,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Parte 1",
+      "textColor": "white",
+      "backgroundColor": "var(--color-red)",
+      "borderColor": "var(--color-red)",
+      "fontSize":"7.5em",
+      "textX": 80,
+      "textY": 120,
+      "containerIdToOpen": "page37One",
+      "css":{
+        "right": "40%",
+        "top": "19%"
+      },
+      "content":"<details id='toggle' class='toggle first-modal-p37' open><summary class='title title-p37' id='first-p37'>CARACTERÍSTICAS</summary><div class='content'><ol><li>El fundamento del mensaje</li></ol></div></details><details id='toggle' class='toggle second-modal-p37'><summary class='title title-p37' id='second-p37'>EL MENSAJE EN EL PRINCIPIO EN TIEMPOS DE JESÚS</summary><div class='content'><p style='color: var(--color-red);'>El mensaje de Jesús es un mensaje con autoridad.</p><p><q class='italic-p37'>Y cuando terminó Jesús estas palabras, la gente se admiraba de su doctrina; porque les enseñaba como quien tiene autoridad, y no como los escribas</q> (Mateo7:28-29).</p></div></details><details id='toggle' class='toggle third-modal-p37'><summary class='title title-p37' id='third-p37'>EL MENSAJE EN TIEMPOS DE LOS RABINOS FARISEOS</summary><div class='content'><p style='color: var(--color-red);'>¿Como predicaban los escribas?</p><p>De Mateo 7:28-29 se deduce que los escribas y fariseos predicaban sin autoridad. Más adelante, en el mismo Evangelio, Jesús confirma lo que pensaba la gente y, además, lo explica como consecuencia de la falta de coherencia entre lo que estos individuos decían y hacían: <q class='italic-p37'>Así que, todo lo que os digan que guardéis, guardadlo y hacedlo; mas no hagáis conforme a sus obras, porque dicen, y no hacen</q> (Mateo 23:3).</p></div></details><details id='toggle' class='toggle fourth-modal-p37'><summary class='title title-p37' id='fourth-p37'>EL MENSAJE EN LOS TIEMPOS DE HOY</summary><div class='content'><p style='color: var(--color-red);'>El mensaje de los últimos tiempos está basado en el carisma del líder.</p><p>El mensaje de los últimos tiempos está basado en el carisma del líder, es decir, en su <q class='italic-p37'>especial capacidad de atraer o fascinar</q> (RAE). Por eso, se corre el riesgo de terminar promoviendo la glorificación del hombre y no la glorificación de la Palabra.<br>En contraposición, el apóstol Pablo oraba y pedía oración para que la Palabra se glorificara.<br>Finalmente, la Palabra se glorifica cuando surte el efecto para el cual fue enviada. <q class='italic-p37'>Por lo demás, hermanos, orad por nosotros, para que la Palabra del Señor corra y sea glorificada, así como lo fue entre vosotros</q> (2 Tesalonicenses 3:1).<br>Para la iglesia primitiva, la Palabra no solo era un mensaje intelectual, teológico o humano, sino que era una manifestación de la autoridad y poder de Dios. Por eso, los creyentes de aquel entonces no se limitaban a comunicar un mensaje, sino que también anhelaban ver el resultado de la predicación de la Palabra viva. Al respecto, (Hebreos 2:4) dice: <q class='italic-p37'>Testificando Dios juntamente con ellos, con señales y prodigios y diversos milagros y repartimientos del Espíritu Santo según su voluntad</q>.<br>Esta Palabra viva, que cumple el propósito para el cual ha sido enviada y que glorifica principalmente a Dios, debe ser la Palabra predicada en los tiempos de hoy.</p></div></details><script>let details = document.querySelectorAll('#toggle'); details.forEach((targetDetail) => { targetDetail.addEventListener('click', () => { details.forEach((detail) => { if (detail !== targetDetail) { detail.removeAttribute('open'); }});});});</script>",
+      "state": "false"
+    }
+  },
+  {
+    "id": 5,
+    "buttonModal": {
+      "className": "button",
+      "modalButtonText":"Parte 2",
+      "textColor": "white",
+      "backgroundColor": "var(--color-red)",
+      "borderColor": "var(--color-red)",
+      "fontSize":"7.5em",
+      "textX": 80,
+      "textY": 120,
+      "containerIdToOpen": "page37Two",
+      "css":{
+        "right": "40%",
+        "top": "55%"
+      },
+      "content":"<details id='toggle' class='toggle first-modal-p372' open><summary class='title title-p37' id='first-p372'>CARACTERÍSTICAS</summary><div class='content'><ol start='2'><li>El impacto del mensaje sobre las personas</li></ol></div></details><details id='toggle' class='toggle second-modal-p372'><summary class='title title-p37' id='second-p372'>EL MENSAJE EN EL PRINCIPIO EN TIEMPOS DE JESÚS</summary><div class='content'><p style='color: var(--color-red);'>El mensaje de espíritu y de vida</p><p>El mensaje de Jesús enfatiza en la Palabra como fuente de espíritu y de vida. <q class='italic-p37'>El espíritu es el que da vida; la carne para nada aprovecha; las palabras que yo os he hablado son espíritu y son vida</q> (Juan 6:63).</p></div></details><details id='toggle' class='toggle third-modal-p372'><summary class='title title-p37' id='third-p372'>EL MENSAJE EN TIEMPOS DE LOS RABINOS FARISEOS</summary><div class='content'><p style='color: var(--color-red);'>Mensaje basado en la letra</p><p>El mensaje de rabinos y fariseos se basaba en la letra, para obligar el cumplimiento estricto de preceptos que se terminaban asumiendo como formalismos, sin disposición de corazón. Mateo 23:23.<br>La Palabra vivida como mera formalidad causa muerte <q class='italic-p37'>El cual asimismo nos hizo ministros competentes de un nuevo pacto, no de la letra, sino del espíritu; porque la letra mata, mas el espíritu vivifica</q><br>(2 Corintios 3:6).</p></div></details><details id='toggle' class='toggle fourth-modal-p372'><summary class='title title-p37' id='fourth-p372'>EL MENSAJE EN LOS TIEMPOS DE HOY</summary><div class='content'><p style='color: var(--color-red);'>Mensaje basado en las emociones</p><p>El mensaje de los últimos tiempos se propone de manera expresa, influir en las emociones. [Emoción: Alteración del ánimo intensa y pasajera, agradable o penosa, que va acompañada de cierta conmoción somática (RAE).]<br>Nuestro ser se compone de un cuerpo, un espíritu y un alma sensible. 1 Tesalonicenses 5:23. Somos, pues, seres emocionales y por lo tanto, el mensaje debe tener cierto grado de emocionalidad. Sin embargo, eso no significa que el mensaje deba apuntar exclusivamente a despertar emociones.<br>La efectividad del mensaje no puede medirse por las emociones que despierta, sino por su capacidad de hacer crecer frutos dignos de arrepentimiento. Ese fue el mensaje que les transmitió Juan El Bautista a las multitudes que venían a él: <q class='italic-p37'>Al ver él que muchos de los fariseos y de los saduceos venían a su bautismo, les decía: ¡Generación de víboras! ¿Quién os enseñó a huir de la ira venidera? Haced, pues, frutos dignos de arrepentimiento</q> (Mateo 3:7-8).<br>El resultado que produce el mensaje predicado es, entonces, el que define si acertamos al apuntar al blanco.<br>Todos nosotros, al predicar la Palabra, deberíamos preguntarnos: <strong>¿Cuántas conversiones genuinas produjo el mensaje? ¿Cuántos bautizados con el Espíritu Santo? ¿Cuántos sanados por el poder de la Palabra?</strong> Respondiendo afirmativamente a estos puntos podríamos estar satisfechos, entonces, del cumplimiento de nuestra misión. 2 Corintios 10:3-5 afirma: <q class='italic-p37'>...las armas de nuestra milicia no son carnales, sino poderosas en Dios para la destrucción de fortalezas, derribando argumentos y toda altivez que se levanta contra el conocimiento de Dios, y llevando cautivo todo pensamiento a la obediencia a Cristo</q>.</p></div></details><script>let details = document.querySelectorAll('#toggle'); details.forEach((targetDetail) => { targetDetail.addEventListener('click', () => { details.forEach((detail) => { if (detail !== targetDetail) { detail.removeAttribute('open'); }});});});</script>",
+      "state": "false"
+    }
+  },
+  {
+    "id": 6,
+    "buttonsForAudioPrint": {
+      "className": "buttons-audio-print",
+      "audio": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "id": "audioPage4",
+        "idToReproduce": "audioCartaDelPresidente"
+      },
+      "print": {
+        "bgColor": "var(--color-blue)",
+        "border": "var(--color-blue)",
+        "link": "assets/files/fundacion%20educacion%20cristiana.pdf"
+      },
+      "css": {
+        "top": "91%",
+        "right": "42.5%"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>CARACTERÍSTICAS</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37One",
+      "link":"first-p37",
+      "detail":"first-modal-p37",
+      "css":{
+        "left": "15.8%",
+        "top": "26.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>EL MENSAJE EN EL PRINCIPIO EN TIEMPOS DE JESÚS</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37One",
+      "link":"second-p37",
+      "detail":"second-modal-p37",
+      "css":{
+        "left": "15.8%",
+        "top": "33.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>EL MENSAJE EN TIEMPOS DE LOS RABINOS FARISEOS</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37One",
+      "link":"third-p37",
+      "detail":"third-modal-p37",
+      "css":{
+        "left": "15.8%",
+        "top": "40.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>EL MENSAJE EN LOS TIEMPOS DE HOY</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37One",
+      "link":"fourth-p37",
+      "detail":"fourth-modal-p37",
+      "css":{
+        "left": "15.8%",
+        "top": "47.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>CARACTERÍSTICAS</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37Two",
+      "link":"first-p372",
+      "detail":"first-modal-p372",
+      "css":{
+        "left": "15.8%",
+        "top": "62.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>EL MENSAJE EN EL PRINCIPIO EN TIEMPOS DE JESÚS</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37Two",
+      "link":"second-p372",
+      "detail":"second-modal-p372",
+      "css":{
+        "left": "15.8%",
+        "top": "69.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>EL MENSAJE EN TIEMPOS DE LOS RABINOS FARISEOS</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37Two",
+      "link":"third-p372",
+      "detail":"third-modal-p372",
+      "css":{
+        "left": "15.8%",
+        "top": "76.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p37 title-p37'>EL MENSAJE EN LOS TIEMPOS DE HOY</div>",
+      "fontSize":"3.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page37Two",
+      "link":"fourth-p372",
+      "detail":"fourth-modal-p372",
+      "css":{
+        "left": "15.8%",
+        "top": "83.9%",
+        "width": "68%",
+        "height": "2.8%",
+        "animation": "0s"
+      }
+    }
+  },
+  {
+    "id": 15,
+    "stylesForPage": [
+      ".title-p37 { font-family: sans-serif; font-weight: bold; text-transform: UPPERCASE; }",
+      ".italic-p37 { font-style: italic; }",
+      ".div-p37 { border-radius: 100px;width: 107.6%;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; text-align: center; color: var(--color-blue);text-decoration: underline; text-decoration-color: var(--color-red); }"
+    ]
   }
 ]

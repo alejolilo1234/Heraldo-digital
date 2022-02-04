@@ -15,8 +15,8 @@
         "link": "assets/files/la%20fe%20como%20medio%20para%20ser%20salvado.pdf"
       },
       "css": {
-        "bottom": "17%",
-        "right": "43%"
+        "bottom": "17.5%",
+        "right": "42%"
       }
     }
   },
@@ -38,13 +38,114 @@
         "width": "37.5%",
         "font-size": "6.3em"
       },
-      "excerpt":"<h1 style='color:var(--color-red);font-size:3em;font-family: var(--bebas-neue);text-align: center;margin:0;'>Leer más</h1><div style='padding: 0 450px;'><div class='button-p25'>Efectos de la fe salvadora.</div><div class='button-p25'>La fe salvadora se hace visible.</div><div class='button-p25'>La fe salvadora lleva a la persona a abandonar el pecado.</div><div class='button-p25'>La fe salvadora nos lleva a servir con gratitud, sinceridad y compromiso.</div><div class='button-p25'>La fe salvadora nos lleva a querer perseverar y permanecer.</div></div>"
+      "excerpt":"<h1 style='color:var(--color-red);font-size:3em;font-family: var(--bebas-neue);text-align: center;margin:0;'>Leer más</h1><div style='padding: 0 450px;'><div class='button-p25' style='visibility: hidden;'>Efectos de la fe salvadora.</div><div class='button-p25' style='visibility: hidden;'>La fe salvadora se hace visible.</div><div class='button-p25' style='visibility: hidden;'>La fe salvadora lleva a la persona a abandonar el pecado.</div><div class='button-p25' style='visibility: hidden;'>La fe salvadora nos lleva a servir con gratitud, sinceridad y compromiso.</div><div class='button-p25'  style='visibility: hidden;'>La fe salvadora nos lleva a querer perseverar y permanecer.</div></div>"
     }
   },
   {
-    "id": 9,
+    "id": 10,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p25'>Efectos de la fe salvadora.</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page24",
+      "link":"first-p24",
+      "detail":"first-modal-p24",
+      "css":{
+        "left": "23.12%",
+        "top": "22.9%",
+        "width": "55%",
+        "height": "7.8%",
+        "border-radius": "30px"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p25'>La fe salvadora se hace visible.</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page24",
+      "link":"second-p24",
+      "detail":"second-modal-p24",
+      "css":{
+        "left": "23.12%",
+        "top": "32.9%",
+        "width": "55%",
+        "height": "7.8%",
+        "border-radius": "30px"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p25'>La fe salvadora lleva a la persona a abandonar el pecado.</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page24",
+      "link":"third-p24",
+      "detail":"third-modal-p24",
+      "css":{
+        "left": "23.12%",
+        "top": "42.9%",
+        "width": "55%",
+        "height": "7.8%",
+        "border-radius": "30px"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p25'>La fe salvadora nos lleva a servir con gratitud, sinceridad y compromiso.</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page24",
+      "link":"fourth-p24",
+      "detail":"fourth-modal-p24",
+      "css":{
+        "left": "23.12%",
+        "top": "52.9%",
+        "width": "55%",
+        "height": "7.8%",
+        "border-radius": "30px"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "buttonModalHTML": {
+      "className": "button-html",
+      "text":"<div class='div-p25'>La fe salvadora nos lleva a querer perseverar y permanecer.</div>",
+      "fontSize":"4.4em",
+      "widthSVG":"1114",
+      "heightSVG":"100",
+      "containerIdToOpen": "page24",
+      "link":"fifth-p24",
+      "detail":"fifth-modal-p24",
+      "css":{
+        "left": "23.12%",
+        "top": "62.9%",
+        "width": "55%",
+        "height": "7.8%",
+        "border-radius": "30px"
+      }
+    }
+  },
+  {
+    "id": 15,
     "stylesForPage":[
-      ".button-p25 { background-color: var(--color-blue);text-align:center;padding:100px;border-radius:500px;margin:50px 0;color:white;font-family:var(--times-new-roman) }"
+      ".button-p25 { background-color: var(--color-blue);text-align:center;padding:100px;border-radius:500px;margin:50px 0;color:white;font-family:var(--times-new-roman) }",
+      ".div-p25 { background-color: var(--color-blue);border-radius: 150px; width: 107.6%;padding: 6% 8%;white-space: nowrap; text-overflow: ellipsis; overflow: hidden; text-align: center; color: white; }"
     ]
   }
 ]
