@@ -23,14 +23,14 @@
       "ViewX": "900",
       "ViewY": "2800",
       "foreignX": "135%",
-      "foreignY": "50%",
+      "foreignY": "150%",
       "css": {
         "right": "15.5%",
         "top": "3.2%",
         "width": "30.1%",
         "font-size": "3.19em"
       },
-      "excerpt": "<h1 style='font-family:var(--bebas-neue);font-size:3em;margin:0;padding:0;'>CONTENIDO</h1><dl class='description-list'><dt>Carta del Presidente</dt><dd>Álvaro Jesús Torres Forero | Presidente</dd><dt>Notas del Director</dt><dd>Angelmiro Camacho Isaza | Coordinador Nacional DECOM</dd><dt>Familias firmes en la fe</dt><dd>Edilberto Ortiz Sanmartin | Primer Vicepresidente IPUC</dd><dt>El justo por la fe vivirá</dt><dd>Fernando López Pimiento | Segundo Vicepresidente IPUC</dd><dt>Ayuda mi Incredulidad</dt><dd>Héctor Campuzano Fonseca | Secretario General IPUC</dd><dt>La fe como estilo de vida</dt><dd>Reinel Galvis Rueda | Director de Misiones Extranjeras</dd><dt>La fe como don</dt><dd>Plutarco Torres | Pastor IPUC</dd><dt>He guardado la fe</dt><dd>Victor Vergara | Pastor IPUC</dd><dt>Señor ayuda mi incredulidad</dt><dd>Edwin García | Pastor IPUC</dd><dt>Una fe que vence al mundo</dt><dd>Isaac Hernández | Pastor IPUC</dd><dt>Ministrando el don de la fe</dt><dd>Gildardo Gómez | Pastor IPUC</dd><dt>La fe como medio para ser salvo</dt><dd>Plutarco Torres | Pastor IPUC</dd><dt>Fe para ver la gloria de Dios</dt><dd>Jairo Graffe Brand | Pastor IPUC</dd><dt>Fe a pesar de las dificultades</dt><dd>Jairo Barrera | Pastor IPUC</dd><dt>Si crees verás la gloria de Dios</dt><dd>Eliseo Estáper | Pastor IPUC</dd><dt>UDIM</dt><dd>Mariela Forero | Representante legal UDIM</dd><dt>FECP</dt><dd>Fernando Sierra | Director Nacional FECP</dd><dt>El mensaje del principio  el mensaje después, contrastado con el de hoy</dt><dd>Fundación Obra Social Unida | FOSU</dd><dt>Misiones Nacionales</dt><dd>Vicente Arango Varela | Director Misiones Nacionales</dd><dt>Misiones Extranjeras</dt><dd>Reinel Galvis Rueda | Director Misiones Extranjeras</dd>"
+      "excerpt": "<h1 style='font-family:var(--bebas-neue);font-size:3em;margin:0;padding:0;'>CONTENIDO</h1><dl class='description-list'><a class='link-content' href='/#page/4'><dt>Carta del Presidente</dt><dd>Álvaro Jesús Torres Forero | Presidente</dd></a><a class='link-content' href='/#page/6'><dt>Notas del Director</dt><dd>Angelmiro Camacho Isaza | Coordinador Nacional DECOM</dd></a><a class='link-content' href='/#page/7'><dt>Familias firmes en la fe</dt><dd>Edilberto Ortiz Sanmartin | Primer Vicepresidente IPUC</dd></a><a class='link-content' href='/#page/8'><dt>El justo por la fe vivirá</dt><dd>Fernando López Pimiento | Segundo Vicepresidente IPUC</dd></a><a class='link-content' href='/#page/10'><dt>Ayuda mi Incredulidad</dt><dd>Héctor Campuzano Fonseca | Secretario General IPUC</dd></a><a class='link-content' href='/#page/12'><dt>La fe como estilo de vida</dt><dd>Reinel Galvis Rueda | Director de Misiones Extranjeras</dd></a><a class='link-content' href='/#page/14'><dt>La fe como don</dt><dd>Plutarco Torres | Pastor IPUC</dd></a><a class='link-content' href='/#page/16'><dt>He guardado la fe</dt><dd>Victor Vergara | Pastor IPUC</dd></a><a class='link-content' href='/#page/18'><dt>Señor ayuda mi incredulidad</dt><dd>Edwin García | Pastor IPUC</dd></a><a class='link-content' href='/#page/20'><dt>Una fe que vence al mundo</dt><dd>Isaac Hernández | Pastor IPUC</dd></a><a class='link-content' href='/#page/22'><dt>Ministrando el don de la fe</dt><dd>Gildardo Gómez | Pastor IPUC</dd></a><a class='link-content' href='/#page/24'><dt>La fe como medio para ser salvo</dt><dd>Plutarco Torres | Pastor IPUC</dd></a><a class='link-content' href='/#page/26'><dt>Fe para ver la gloria de Dios</dt><dd>Jairo Graffe Brand | Pastor IPUC</dd></a><a class='link-content' href='/#page/28'><dt>Fe a pesar de las dificultades</dt><dd>Jairo Barrera | Pastor IPUC</dd></a><a class='link-content' href='/#page/30'><dt>Si crees verás la gloria de Dios</dt><dd>Eliseo Estáper | Pastor IPUC</dd></a><a class='link-content' href='/#page/32'><dt>UDIM</dt><dd>Mariela Forero | Representante legal UDIM</dd></a><a class='link-content' href='/#page/34'><dt>FECP</dt><dd>Fernando Sierra | Director Nacional FECP</dd></a><a class='link-content' href='/#page/36'><dt>El mensaje del principio el mensaje después, contrastado con el de hoy</dt><dd>Fundación Obra Social Unida | FOSU</dd></a><a class='link-content' href='/#page/38'><dt>Misiones Nacionales</dt><dd>Vicente Arango Varela | Director Misiones Nacionales</dd></a><a class='link-content' href='/#page/39'><dt>Misiones Extranjeras</dt><dd>Reinel Galvis Rueda | Director Misiones Extranjeras</dd></a>"
     }
   },
   {
@@ -40,7 +40,8 @@
       ".bold-p3 { font-weight: bold; }",
       ".description-list { font-family: sans-serif; }",
       ".description-list dt { font-weight: bold; }",
-      ".description-list dd { margin-bottom: 30px; }"
+      ".description-list dd { margin-bottom: 30px; }",
+      ".link-content { color: var(--color-text); text-decoration: none; cursor: pointer; }"
     ]
   }
 ]

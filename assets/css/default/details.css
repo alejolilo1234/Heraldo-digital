@@ -1,5 +1,5 @@
 summary:target{
-  background-color:var(--color-red)!important;
+  background-color: var(--color-red)!important;
 }
 
 details.toggle[open] {

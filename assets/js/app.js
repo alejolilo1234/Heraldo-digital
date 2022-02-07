@@ -510,11 +510,10 @@
 
         if(attr.buttonModal){
           $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
-        }  
-        else if(attr.buttonModalHTML){
+        } else if(attr.buttonModalHTML){
           $("#" + attr.buttonModalHTML.containerIdToOpen).modal({fadeDuration: 500});
 
-          let detail = document.querySelector("." + attr.buttonModalHTML.detail);
+          var detail = document.querySelector("." + attr.buttonModalHTML.detail);
 
           let elements = document.querySelectorAll('#toggle'); 
           elements.forEach(element => {
@@ -522,10 +521,9 @@
           });
 
           detail.setAttribute("open","");
-        
+
           setTimeout(function(){window.location.hash = '#' + attr.buttonModalHTML.link;},600);
-        }  
-        else if(attr.pagesNumber){
+        } else if(attr.pagesNumber){
           $('#flipbook').turn('page', 3);
         }
     
