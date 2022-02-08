@@ -1,5 +1,19 @@
 [
   {
+    "id": 1,
+    "articleAuthor":{
+      "className": "author",
+      "direction": "right",
+      "XPosition": "150",
+      "text": "Isaac Hernández. Pastor IPUC",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "top": "53.5%",
+        "right": "-30%"
+      }
+    }
+  },
+  {
     "id": 2,
     "contentArticle": {
       "className": "content-article",

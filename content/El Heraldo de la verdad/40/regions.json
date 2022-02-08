@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": 1,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/40/title.png')",
+        "-webkit-animation": "puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both",
+	      "animation": "puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "900",
+      "ViewY": "2200",
+      "foreignX": "100%",
+      "foreignY": "100%",
+      "css": {
+        "left": "10.5%",
+        "top": "87.2%",
+        "width": "80.1%",
+        "font-size": "2.4em"
+      },
+      "excerpt": "<div class='content-p40'><a target='_blank' href='https://www.facebook.com/IPUC.IglesiaPentecostalUnidadeColombiaOficial'><div class='sub-content-p40'><i class='fab fa-facebook-f'></i><p style='font-size: .3em;'>Iglesia pentecostal unida de Colombia</p></div></a><a target='_blank' href='https://www.instagram.com/ipucoficial/'><div class='sub-content-p40'><i class='fab fa-instagram'></i><p style='font-size: .56em;'>@ipucoficial</p></div></a><a target='_blank' href='https://www.youtube.com/c/IglesiaPentecostalUnidadeColombia'><div class='sub-content-p40'><i class='fab fa-youtube'></i><p style='font-size: .3em;'>Iglesia pentecostal unida de Colombia</p></div></a><a target='_blank' href='https://twitter.com/IpucOficial'><div class='sub-content-p40'><i class='fab fa-twitter'></i><p style='font-size: .56em;'>@ipucoficial</p></div></a></div>",
+      "state": "false"
+    }
+  },
+  {
+    "id": 3,
+    "stylesForPage": [
+      ".content-p40 { display: grid; grid-template-columns: 2fr 1fr 2fr 1fr; grid-gap: 50px; }",
+      ".content-p40 a { text-decoration: none; }",
+      ".content-p40 i { background-color: var(--color-red); color: white; padding: 15px; width: 70px; height: 70px; display: flex; place-content: center; border-radius: 50%; }",
+      ".content-p40 p { margin-top: -15px; color: white; text-transform: UPPERCASE; background-color: var(--color-red); font-family: sans-serif; padding: 10px 20px; border-radius: 55px; text-align: center; }",
+      ".sub-content-p40 { display: flex; align-items: center; flex-direction: column; }"
+    ]
+  }
+]

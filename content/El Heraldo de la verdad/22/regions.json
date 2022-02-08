@@ -12,6 +12,20 @@
   },
   {
     "id": 2,
+    "articleAuthor":{
+      "className": "author",
+      "direction": "left",
+      "XPosition": "1150",
+      "text": "Gildardo Gómez Ramirez. Pastor IPUC",
+      "backgroundColor": "var(--color-blue)",
+      "css": {
+        "top": "31.5%",
+        "left": "-25%"
+      }
+    }
+  },
+  {
+    "id": 3,
     "contentArticle": {
       "className": "content-article",
       "ViewX": "1200",
@@ -20,7 +34,7 @@
       "foreignY": "50%",
       "css": {
         "left": "9%",
-        "top": "34.9%",
+        "top": "37.9%",
         "width": "37.5%",
         "font-size": "6.3em"
       },
@@ -28,7 +42,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "buttonModal": {
       "className": "button",
       "modalButtonText": "Leer más",
@@ -41,18 +55,18 @@
       "containerIdToOpen": "page22",
       "css": {
         "right": "40%",
-        "top": "86.5%"
+        "top": "88.5%"
       },
       "content":"<p>El versículo nueve dice que, a algunos creyentes Dios les da el don de la fe, pero este don no se explica aquí de manera específica. Todos los creyentes al creer en Jesucristo y aceptarle como nuestro Salvador, ejercitamos la fe indispensable para agradar a Dios. </p> <p style='text-align: center;'><q class='italic-p22'>Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios</q><br><span class='color-and-bold-p22'>(Efesios 2:8).</span></p> <p>No a todos los creyentes nos es ha dado el don de la fe. La fe como don, consiste en una dotación especial del poder del Espíritu Santo, con la cual, el creyente queda capacitado para creer y actuar, en casos imposibles y sobrenaturales a favor de los hombres. </p> <p>Este don lo observamos obrar, en el ejemplo donde el Apóstol Pedro ejecuta juicio sobre Ananías y Safira.</p> <p style='color: var(--color-blue);'><q class='italic-p22'>Entonces Pedro le dijo: Dime, ¿vendisteis en tanto la heredad? Y ella dijo: Sí, en tanto. Y Pedro le dijo: ¿Por qué convinisteis en tentar al Espíritu del Señor? He aquí a la puerta los pies de los que han sepultado a tu marido, y te sacarán a ti. Al instante ella cayó a los pies de él, y expiró; y cuando entraron los jóvenes, la hallaron muerta; y la sacaron, y la sepultaron junto a su marido</q> (Hechos 5:8-10).</p> <p>En este caso operan varios dones de manera simultánea, el de palabra de ciencia, el de profecía y el de fe.</p> <p><ul><li>Palabra de ciencia para conocer por obra del Espíritu Santo el engaño tramado por esta pareja.</li> <li>El de profecía para, por el poder del Espíritu Santo conocer lo que va a pasar.</li><li>Y el de fe para decretar el juicio en nombre de Dios.</li></ul></p> <p>Igualmente, cuando Pedro declara esa palabra que permite que, un hombre cojo de nacimiento se levante en la puerta del templo la Hermosa; esto es un gran milagro, la Biblia dice que había nacido cojo y al instante se le afirmaron los pies y tobillos, y entró al templo saltando y alabando a Dios. Aquí también operan varios dones del Espíritu:</p> <ul><li> El don de fe.</li><li>El don de sanidades.</li><li> Y el don de milagros.</li></ul> <p><q class='italic-p22'>Este, cuando vio a Pedro y a Juan que iban a entrar en el templo, les rogaba que le diesen limosna. Pedro, con Juan, fijando en él los ojos, le dijo: Míranos. Entonces él les estuvo atento, esperando recibir de ellos algo. Mas Pedro dijo: No tengo plata ni oro, pero lo que tengo te doy; en el nombre de Jesucristo de Nazaret, levántate y anda. Y tomándole por la mano derecha le levantó; y al momento se le afirmaron los pies y tobillos; y saltando, se puso en pie y anduvo; y entró con ellos en el templo, andando, y saltando, y alabando a Dios</q> (Hechos 3:3-8).</p> <p>El don de fe, como todos los dones de Espíritu Santo es operado por creyentes llenos del Espíritu, y su operación es de manera circunstancial; en algunos casos donde por voluntad y dirección directa del Espíritu Santo, el creyente es movido a creer y actuar de esta o aquella manera, con una seguridad y convicción en que las cosas que proclama se actuarán. Con este don, no hay nada imposible, no hay nada que no pueda pasar, todo es posible y se da por que es un regalo (don) de Dios, los dones son operados por el poder de Dios, son dones sobrenaturales.</p><p>No se trata de estar declarando lo que no se va a cumplir, o pensar que se es todopoderoso para obrar en todo lo que el creyente quiera, el creyente con este don, siempre tiene presente la soberanía Divina y depende del mover de su Espíritu en su vida.</p> <p>Aquí no se trata de la fe como requisito indispensable para la salvación, tampoco del conjunto de doctrinas y prácticas de la vida cristiana, este es un don dado al creyente para obrar milagros por dirección del Espíritu Santo.</p> <p><q class='italic-p22'>¿Tienen todos dones de sanidad? ¿hablan todos lenguas? ¿interpretan todos? Procurad, pues, los dones mejores. Mas yo os muestro un camino aun más excelente</q> (1 Corintios 12:30-31).</p> <p>Está claro por la Palabra de Dios, que no todos recibimos los mismos dones, al igual que cada creyente puede procurar los que considere los mejores dones, pero que finalmente es el Señor quien reparte a cada uno en particular y como Él quiere. Esto nos permite afirmar que no se debe enseñar a todos los creyentes a declarar todo lo que quiera que se obre y que eso se debe cumplir, o que algunos no tienen fe, porque no lo hacen; Dios es Soberano para hacer o no hacer, según su voluntad soberana.</p> <p>Pablo fue un varón de Dios, en quien se operó el don de fe en el caso de Elimas.</p> <p><q class='italic-p22'>Pero les resistía Elimas, el mago (pues así se traduce su nombre), procurando apartar de la fe al procónsul. Entonces Saulo, que también es Pablo, lleno del Espíritu Santo, fijando en él los ojos, dijo: !!Oh, lleno de todo engaño y de toda maldad, hijo del diablo, enemigo de toda justicia! ¿No cesarás de trastornar los caminos rectos del Señor? Ahora, pues, he aquí la mano del Señor está contra ti, y serás ciego, y no verás el sol por algún tiempo. E inmediatamente cayeron sobre él oscuridad y tinieblas; y andando alrededor, buscaba quien le condujese de la mano. Entonces el procónsul, viendo lo que había sucedido, creyó, maravillado de la doctrina del Señor</q> (Hechos 13:8-12).</p> <p>Pablo no fue sanando a todos los enfermos, ni haciendo milagros en todas las personas, tampoco operando el don de fe en todas partes, aun en un momento sufrió un aguijón sobre el cual clamó tres veces al Señor, y se le respondió <q class='italic-p22'>bástate mi gracia</q>. Esto nos muestra que este al igual que todos los dones del Espíritu son ministrados solo en la soberana voluntad de Dios, el creyente acepta así el Señorío de Jesús.</p>",
       "state": "true"
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "pagesNumber":"page-number"
   },
   {
-    "id": 5,
+    "id": 6,
     "stylesForPage":[
       ".italic-p22 { font-style: italic; }",
       ".color-and-bold-p22 { color: var(--color-red); font-weight: bold; }",

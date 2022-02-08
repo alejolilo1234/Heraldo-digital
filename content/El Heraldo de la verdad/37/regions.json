@@ -108,7 +108,7 @@
       "detail":"second-modal-p37",
       "css":{
         "left": "15.8%",
-        "top": "33.9%",
+        "top": "32.9%",
         "width": "68%",
         "height": "2.8%",
         "animation": "0s"
@@ -148,7 +148,7 @@
       "detail":"fourth-modal-p37",
       "css":{
         "left": "15.8%",
-        "top": "47.9%",
+        "top": "48.9%",
         "width": "68%",
         "height": "2.8%",
         "animation": "0s"
@@ -188,7 +188,7 @@
       "detail":"second-modal-p372",
       "css":{
         "left": "15.8%",
-        "top": "69.9%",
+        "top": "68.9%",
         "width": "68%",
         "height": "2.8%",
         "animation": "0s"
@@ -228,7 +228,7 @@
       "detail":"fourth-modal-p372",
       "css":{
         "left": "15.8%",
-        "top": "83.9%",
+        "top": "84.9%",
         "width": "68%",
         "height": "2.8%",
         "animation": "0s"
@@ -240,7 +240,7 @@
     "stylesForPage": [
       ".title-p37 { font-family: sans-serif; font-weight: bold; text-transform: UPPERCASE; }",
       ".italic-p37 { font-style: italic; }",
-      ".div-p37 { border-radius: 100px;width: 107.6%;white-space: nowrap;text-overflow: ellipsis;overflow: hidden; text-align: center; color: var(--color-blue);text-decoration: underline; text-decoration-color: var(--color-red); }"
+      ".div-p37 { border-radius: 100px;width: 107.6%; text-align: center; color: var(--color-blue);text-decoration: underline; text-decoration-color: var(--color-red); }"
     ]
   }
 ]

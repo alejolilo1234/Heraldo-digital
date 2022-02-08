@@ -12,10 +12,21 @@
   },
   {
     "id": 2,
-    "pagesNumber": "page-number"
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/34/title-book-01.png')",
+        "-webkit-animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-left 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+      }
+    }
   },
   {
     "id": 3,
+    "pagesNumber": "page-number"
+  },
+  {
+    "id": 4,
     "contentArticle": {
       "className": "content-article",
       "ViewX": "900",

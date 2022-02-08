@@ -1,10 +1,21 @@
 [
-    {
-        "id": 1,
-        "pagesNumber": "page-number"
-    },
+  {
+      "id": 1,
+      "pagesNumber": "page-number"
+  },
   {
     "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/35/title-book-02.png')",
+        "-webkit-animation": "slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
+	      "animation": "slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
+      }
+    }
+  },
+  {
+    "id": 3,
     "contentArticle": {
       "className": "content-article",
       "ViewX": "900",
@@ -21,7 +32,7 @@
     }
   },
     {
-        "id": 3,
+        "id": 4,
         "buttonsForAudioPrint": {
             "className": "buttons-audio-print",
             "audio": {
@@ -42,7 +53,7 @@
         }
     },
   {
-    "id": 4,
+    "id": 5,
     "buttonModal": {
       "className": "button",
       "modalButtonText":"Ver informe",
@@ -62,7 +73,7 @@
         }
     },
     {
-        "id": 5,
+        "id": 6,
         "stylesForPage": [
             ".first-letter-p35 { font-family:var(--bebas-neue);color:var(--color-red); }",
             ".italic-p35 { font-style: italic; }"

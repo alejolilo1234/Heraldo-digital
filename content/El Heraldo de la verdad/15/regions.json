@@ -9,11 +9,11 @@
       "className": "author",
       "direction": "right",
       "XPosition": "150",
-      "text": "Por Reinel Antonio Galvis Rueda. Director de Misiones Extranjeras",
+      "text": "Plutarco Torres Ospino. Pastor IPUC",
       "backgroundColor": "var(--color-blue)",
       "css": {
         "top": "66.5%",
-        "right": "-5%"
+        "right": "-25%"
       }
     }
   },

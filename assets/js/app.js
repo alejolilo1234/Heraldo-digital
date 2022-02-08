@@ -209,7 +209,7 @@
         var $el = $('<div />'),
           settings = window.FlipbookSettings;
         var imgSrc;
-        if(pageNumber == 1 || pageNumber == 8 || pageNumber == 9 || pageNumber == 26 || pageNumber == 27 || pageNumber == 38){
+        if(pageNumber == 1 || pageNumber == 26 || pageNumber == 27 || pageNumber == 38){
           imgSrc = settings.pageFolder+'/'+pageNumber+'/'+pageNumber+'.gif';
         } else {
           imgSrc = settings.pageFolder+'/'+pageNumber+'/'+pageNumber+'.jpg';
@@ -1250,7 +1250,7 @@ function authorLeftSVG(text,bg,x){
 }
 
 function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint){
-  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='enable-background:new 0 0 327.6 150;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span class='audio' id='audioPage4' style='background-color:" + bgColorAudio + ";color:white;box-shadow:0px 0px 0px 10px " + borderColorAudio + " inset;'><i class='fas fa-volume-up'></i></span><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow:0px 0px 0px 10px " + borderColorPrint + " inset;' href='" + linkPrint + "' download='Carta-del-presidente'><i class='fas fa-print'></i></a></div></foreignObject></svg><audio id='audioCartaDelPresidente' src='../../../assets/audio/carta-del-presidente.mp4'></audio><script>let buttonAudio = document.getElementById('audioPage4');let audioPage4 = document.getElementById('audioCartaDelPresidente');buttonAudio.addEventListener('click',() => {audioPage4.play();});</script>";
+  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span class='audio' id='audioPage4' style='background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i class='fas fa-volume-up'></i></span><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download='Carta-del-presidente'><i class='fas fa-print'></i></a></div></foreignObject></svg><audio id='audioCartaDelPresidente' src='../../../assets/audio/carta-del-presidente.mp4'></audio><script>let buttonAudio = document.getElementById('audioPage4');let audioPage4 = document.getElementById('audioCartaDelPresidente');buttonAudio.addEventListener('click',() => {audioPage4.play();});</script>";
 }
 
 let textForArticle = "";
