@@ -1,16 +1,5 @@
 [
   {
-    "id": 1,
-    "tableContent":{
-      "className": "table-content",
-      "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/17/title-02.png')",
-        "-webkit-animation": "fadeIn 2.5s",
-        "animation": "fadeIn 2.5s"
-      }
-    }
-  },
-  {
     "id": 2,
     "contentArticle": {
       "className": "content-article",
@@ -71,7 +60,8 @@
   {
     "id": 5,
     "stylesForPage":[
-      ".italic-p17 { font-style: italic; }"
+      ".italic-p17 { font-style: italic; }",
+      "div#page17 { background-image: url(../../../assets/img/bg-modal-sepia.jpg)!important; }"
     ]
   },
   {

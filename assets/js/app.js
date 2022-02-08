@@ -73,10 +73,6 @@
         this.$el.turn(options);
       },
     
-      // _toggleZoomEvent: function(event) {
-      //   this.$el.turn('toggleZoom', {pageX: event.pageX, pageY: event.pageY, animate: true});
-      // },
-    
       _missingEvent: function(event, pages) {
         for (var i = 0; i < pages.length; i++) {
           this.$el.turn('addPage', this._getPageElement(pages[i]), pages[i]);
@@ -213,7 +209,7 @@
         var $el = $('<div />'),
           settings = window.FlipbookSettings;
         var imgSrc;
-        if(pageNumber == 1){
+        if(pageNumber == 1 || pageNumber == 8 || pageNumber == 9 || pageNumber == 26 || pageNumber == 27 || pageNumber == 38){
           imgSrc = settings.pageFolder+'/'+pageNumber+'/'+pageNumber+'.gif';
         } else {
           imgSrc = settings.pageFolder+'/'+pageNumber+'/'+pageNumber+'.jpg';
@@ -363,7 +359,7 @@
             "height": "100%",
             "background-repeat": "no-repeat",
             "background-size": "contain",
-            "animation-delay": "1s"
+            "animation-delay": "0.8s"
           });
           
           if(attr.tableContent.innerHTML){

@@ -24,7 +24,7 @@
         "width": "37.5%",
         "font-size": "5.3em"
       },
-      "excerpt":"<p><q class='quote-p18 italic-p18'><span class='letter-p18' style='font-style: normal;'>J</span>esús le dijo: Si puedes creer, al que cree todo le es posible. E inmediatamente el padre del muchacho clamó y dijo: Creo; ayuda mi incredulidad</q> (Marcos 9:23-24).</p><p><span style='color: var(--color-red);font-weight: bold;'>Incredulidad</span>, del griego Apisto (no creyente), Apistia (falta de fe), se entiende como la resistencia o la imposibilidad que se reserva una persona a aceptar algo que físicamente no es percibido a la vista humana, tomando una actitud negativa en cuanto al creer en algo; igualmente, es el antónimo de la fe direccionada a Dios o algo intangible, visible o tocable.<span style='visibility: hidden;' class='span-hidden-p18'> Como resultado de ello, produce en el ser humano desconfianza, recelo, sospecha, escepticismo, duda, ateísmo, agnosticismo y repugnancia antagónica a creer en un ser superior e invisible, creador de todas las cosas, rechazando su veracidad y autenticidad.</span></p>"
+      "excerpt":"<p><q class='quote-p18 italic-p18'><span class='letter-p18' style='font-style: normal;'>J</span>esús le dijo: Si puedes creer, al que cree todo le es posible. E inmediatamente el padre del muchacho clamó y dijo: Creo; ayuda mi incredulidad</q> <span style='font-weight: bold;'>(Marcos 9:23-24).</span></p><p><span style='color: var(--color-red);font-weight: bold;'>Incredulidad</span>, del griego Apisto (no creyente), Apistia (falta de fe), se entiende como la resistencia o la imposibilidad que se reserva una persona a aceptar algo que físicamente no es percibido a la vista humana, tomando una actitud negativa en cuanto al creer en algo; igualmente, es el antónimo de la fe direccionada a Dios o algo intangible, visible o tocable.<span style='visibility: hidden;' class='span-hidden-p18'> Como resultado de ello, produce en el ser humano desconfianza, recelo, sospecha, escepticismo, duda, ateísmo, agnosticismo y repugnancia antagónica a creer en un ser superior e invisible, creador de todas las cosas, rechazando su veracidad y autenticidad.</span></p>"
     }
   },
   {
@@ -46,8 +46,8 @@
     "buttonModal": {
       "className": "button",
       "modalButtonText": "Leer más",
-      "textColor": "white",
-      "backgroundColor": "var(--color-blue)",
+      "textColor": "var(--color-blue)",
+      "backgroundColor": "transparent",
       "borderColor": "var(--color-blue)",
       "fontSize": "7.5em",
       "textX": 50,

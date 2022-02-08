@@ -55,7 +55,8 @@
     "id": 5,
     "stylesForPage":[
       ".italic-p22 { font-style: italic; }",
-      ".color-and-bold-p22 { color: var(--color-red); font-weight: bold; }"
+      ".color-and-bold-p22 { color: var(--color-red); font-weight: bold; }",
+      "div#page22 { background-image: url(../../../assets/img/bg-modal-sepia.jpg)!important; }"
     ]
   }
 ]

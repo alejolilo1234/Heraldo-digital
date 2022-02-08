@@ -1,16 +1,5 @@
 [
   {
-    "id": 1,
-    "tableContent":{
-      "className": "table-content",
-      "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/29/title-02.png')",
-        "-webkit-animation": "fade-in 1.5s",
-	      "animation": "fade-in 1.5s"
-      }
-    }
-  },
-  {
     "id": 2,
     "pagesNumber": "page-number"
   },
