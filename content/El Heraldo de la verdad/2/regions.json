@@ -4,29 +4,31 @@
     "contentArticle": {
       "className": "content-article",
       "ViewX": "900",
-      "ViewY": "2800",
-      "foreignX": "135%",
-      "foreignY": "50%",
+      "ViewY": "2200",
+      "foreignX": "100%",
+      "foreignY": "100%",
       "css": {
         "left": "59.5%",
-        "top": "37.2%",
+        "top": "40.2%",
         "width": "30.1%",
         "font-size": "9.4em"
       },
-      "excerpt": "<div class='icons'><a class='link-icon hover' target='_blank' href='https://www.facebook.com/IPUC.IglesiaPentecostalUnidadeColombiaOficial'><i class='fab fa-facebook-f'></i><div class='hovered-tooltip' style='font-size: .3em; line-height: 1.8;'>Iglesia pentecostal unida de colombia</div><div class='triangle tiny'></div></a></div><div class='icons'><a class='link-icon hover' target='_blank' href='https://www.instagram.com/ipucoficial/'><i class='fab fa-instagram'></i><div class='hovered-tooltip'>@Ipucoficial</div><div class='triangle tiny'></div></a></div><div class='icons'><a class='link-icon hover' target='_blank' href='https://www.youtube.com/c/IglesiaPentecostalUnidadeColombia'><i class='fab fa-youtube'></i><div class='hovered-tooltip' style='font-size: .3em; line-height: 1.8;'>Iglesia pentecostal unida de colombia</div><div class='triangle tiny'></div></a></div><div class='icons'><a class='link-icon hover' target='_blank' href='https://twitter.com/IpucOficial'><i class='fab fa-twitter'></i><div class='hovered-tooltip'>@Ipucoficial</div><div class='triangle tiny'></div></a></div><div class='icons'><a class='link-icon hover' target='_blank' href='https://ipuc.org.co'><i class='fas fa-globe'></i><div class='hovered-tooltip' style='font-size: 0.4em; line-height: 2.8;'>www.ipuc.org.co</div><div class='triangle tiny'></div></a></div><div class='icons'><a class='link-icon hover' target='_blank' href='https://elheraldo.ipuc.org.co/'><i class='far fa-newspaper'></i><div class='hovered-tooltip' style='font-size: 0.25em; line-height: 4.5;'>www.elheraldo.ipuc.org.co</div><div class='triangle tiny'></div></a></div><div class='icons'><a class='link-icon hover' target='_blank' href='https://ipuc.org.co/ipucradiotv/'><i class='fas fa-tv'></i><div class='hovered-tooltip' style='font-size: 0.25em; line-height: 4.5;'>www.ipuc.org.co/ipucradiotv</div><div class='triangle tiny'></div></a></div>",
+      "excerpt": "<div class='icon-p2 hover-p2'><a target='_blank' href='https://www.facebook.com/IPUC.IglesiaPentecostalUnidadeColombiaOficial'><i class='fab fa-facebook-f'></i><span class='title-p2'><span class='content-p2'>Iglesia pentecostal unida de colombia</span><span class='triangle-p2'></span></span></a></div><div class='icon-p2 hover-p2'><a target='_blank' href='https://www.instagram.com/ipucoficial/'><i class='fab fa-instagram'></i><span class='title-p2'><span class='content-p2' style='font-size: .47em; line-height: 1.5;'>@Ipucoficial</span><span class='triangle-p2' style='top: 370px;'></span></span></a></div><div class='icon-p2 hover-p2'><a target='_blank' href='https://www.youtube.com/c/IglesiaPentecostalUnidadeColombia'><i class='fab fa-youtube'></i><span class='title-p2'><span class='content-p2'>Iglesia pentecostal unida de colombia</span><span class='triangle-p2' style='top: 620px;'></span></span></a></div><div class='icon-p2 hover-p2'><a target='_blank' href='https://twitter.com/IpucOficial'><i class='fab fa-twitter'></i><span class='title-p2'><span class='content-p2' style='font-size: .47em; line-height: 1.5;'>@ipucoficial</span><span class='triangle-p2' style='top: 870px;'></span></span></a></div><div class='icon-p2 hover-p2'><a target='_blank' href='https://ipuc.org.co'><i class='fas fa-globe'></i><span class='title-p2'><span class='content-p2' style='font-size: .37em; line-height: 2;'>www.ipuc.org.co</span><span class='triangle-p2' style='top: 1120px;'></span></span></a></div><div class='icon-p2 hover-p2'><a target='_blank' href='https://elheraldo.ipuc.org.co/'><i class='far fa-newspaper'></i><span class='title-p2'><span class='content-p2' style='font-size: .22em; line-height: 3.5;'>www.elheraldo.ipuc.org.co</span><span class='triangle-p2' style='top: 1370px;'></span></span></a></div><div class='icon-p2 hover-p2'><a target='_blank' href='https://ipuc.org.co/ipucradiotv/'><i class='fas fa-tv'></i><span class='title-p2'><span class='content-p2' style='font-size: .21em; line-height: 3.5;'>www.ipuc.org.co/ipucradiotv</span><span class='triangle-p2' style='top: 1620px;'></span></span></a></div>",
       "state": "false"
     }
   },
   {
     "id": 2,
     "stylesForPage": [
-      "div.icons { margin: 50px; }",
-      "div.icons a.link-icon i { background-color: var(--color-red); padding: 20px; border-radius: 55%; color: white; display: inline-flex; place-content: center; width: 250px; height: 250px; line-height: 1.8; font-size: 0.8em; }",
-      "a.link-icon { text-decoration: none; position: relative; }",
-      ".hover:hover .hovered-tooltip { opacity: 1!important; left: 130%; }",
-      ".hover:hover .triangle { opacity: 1!important; left: 2.05em!important; }",
-      ".hovered-tooltip { position: absolute; opacity: 0; z-index: 1; left: 100%; top: -10%; color: white; background-color: var(--color-red); padding: 10px 50px; width: 700px; height: 180px; font-size: .5em; display: flex; align-content: center; line-height: 2.3; border-radius: 50px; overflow: hidden; text-transform: UPPERCASE; font-family: sans-serif; transition:opacity 0.25s, left 0.25s; }",
-      ".tiny { opacity: 0; transform: rotate(135deg)!important; top: 0.24em!important; left: 1.5em!important; width: 0.5em!important; height: 0.5em!important; transition:opacity 0.25s, left 0.25s; }"
+      ".icon-p2 a { display: grid; grid-template-columns: 1fr 3fr; grid-gap: 100px; text-decoration: none; margin: 50px 0; }",
+
+      ".icon-p2 i { background-color: var(--color-red); color: white; padding: 55px; width: 200px; height: 200px; border-radius: 50%; display: inline-flex; place-content: center; font-size: .6em; }",
+
+      ".icon-p2 .title-p2 { display: flex; place-content: center; flex-direction: column; }",
+
+      ".icon-p2 .triangle-p2 { background-color: var(--color-red); width: 50px; height: 50px; z-index: -1; transform: rotate(45deg); position: absolute; left: 280px; top: 120px; }",
+
+      ".icon-p2 .content-p2 { background-color: var(--color-red); padding: 20px 30px; font-size: .3em; border-radius: 30px; height: 150px; width: 600px; text-transform: uppercase; font-family: sans-serif; color: white; }"
     ]
   }
 ]
