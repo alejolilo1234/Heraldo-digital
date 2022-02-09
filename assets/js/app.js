@@ -359,7 +359,7 @@
             "height": "100%",
             "background-repeat": "no-repeat",
             "background-size": "contain",
-            "animation-delay": "0.8s"
+            "animation-delay": "0.55s"
           });
           
           if(attr.tableContent.innerHTML){
@@ -477,7 +477,8 @@
           
           this.$el.css(attr.buttonsForAudioPrint.css);
 
-          this.$el.html(audioPrintSVG(attr.buttonsForAudioPrint.audio.bgColor,attr.buttonsForAudioPrint.audio.border,attr.buttonsForAudioPrint.audio.link,attr.buttonsForAudioPrint.print.bgColor,attr.buttonsForAudioPrint.print.border,attr.buttonsForAudioPrint.print.link));
+          this.$el.html(audioPrintSVG(attr.buttonsForAudioPrint.audio.bgColor,attr.buttonsForAudioPrint.audio.border,attr.buttonsForAudioPrint.linkToVideo,attr.buttonsForAudioPrint.print.bgColor,attr.buttonsForAudioPrint.print.border,attr.buttonsForAudioPrint.print.link,
+          attr.buttonsForAudioPrint.displayAudio));
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -1249,9 +1250,12 @@ function authorLeftSVG(text,bg,x){
   return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M11,202.9V13.1h2351.9c52.4,0,94.9,42.5,94.9,94.9l0,0c0,52.4-42.5,94.9-94.9,94.9H11L11,202.9z'/><text x='" + x + "' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
 }
 
-function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint){
-  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span class='audio' id='audioPage4' style='background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i class='fas fa-volume-up'></i></span><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download='Carta-del-presidente'><i class='fas fa-print'></i></a></div></foreignObject></svg><audio id='audioCartaDelPresidente' src='../../../assets/audio/carta-del-presidente.mp4'></audio><script>let buttonAudio = document.getElementById('audioPage4');let audioPage4 = document.getElementById('audioCartaDelPresidente');buttonAudio.addEventListener('click',() => {audioPage4.play();});</script>";
+function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint,display){
+  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><a target='_blank' href='" + linkAudio + "' class='audio' id='audioPage4' style='display: " + display + "; background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i style='font-size: .9em;' class='fas fa-video'></i></a><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download='Carta-del-presidente'><i class='fas fa-print'></i></a></div></foreignObject></svg>";
 }
+
+// Esta parte es para los audios
+// <audio id='audioCartaDelPresidente' src='../../../assets/audio/carta-del-presidente.mp4'></audio><script>let buttonAudio = document.getElementById('audioPage4');let audioPage4 = document.getElementById('audioCartaDelPresidente');buttonAudio.addEventListener('click',() => {audioPage4.play();});</script>
 
 let textForArticle = "";
 let pageForArticle = 0;

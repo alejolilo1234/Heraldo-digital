@@ -1,7 +1,37 @@
 [
   {
     "id": 1,
+    "contentArticle": {
+      "className": "content-article",
+      "ViewX": "900",
+      "ViewY": "2800",
+      "foreignX": "120%",
+      "foreignY": "60%",
+      "css": {
+        "left": "14%",
+        "top": "63%",
+        "width": "60%",
+        "font-size": "3.3em",
+        "line-height": "1em"
+      },
+      "excerpt": "<p>Podemos notar la fe de ellos, en estos momentos el amigo llamado Jesús lo puede sanar; o sea que están confiados que Lázaro sanará, ellas habían visto y oído del poder sanador del Señor quien es su amigo, probablemente dicen: <q class='italic-p27'>Tan pronto Él venga, Lázaro sanará</q>, pero su fe ahora es sometida a prueba.</p>"
+    }
+  },
+  {
+    "id": 2,
+    "tableContent":{
+      "className": "table-content",
+      "css":{
+        "background-image": "url('./content/El Heraldo de la verdad/27/title-02.png')",
+        "-webkit-animation": "fade-in 1.5s",
+	      "animation": "fade-in 1.5s"
+      }
+    }
+  },
+  {
+    "id": 3,
     "buttonsForAudioPrint": {
+      "displayAudio": "none",
       "className": "buttons-audio-print",
       "audio": {
         "bgColor": "var(--color-blue)",
@@ -21,44 +51,15 @@
     }
   },
     {
-        "id": 2,
-        "contentArticle": {
-            "className": "content-article",
-            "ViewX": "900",
-            "ViewY": "2800",
-            "foreignX": "120%",
-            "foreignY": "60%",
-            "css": {
-                "left": "14%",
-                "top": "63%",
-                "width": "60%",
-                "font-size": "3.3em",
-                "line-height": "1em"
-            },
-            "excerpt": "<p>Podemos notar la fe de ellos, en estos momentos el amigo llamado Jesús lo puede sanar; o sea que están confiados que Lázaro sanará, ellas habían visto y oído del poder sanador del Señor quien es su amigo, probablemente dicen: <q class='italic-p27'>Tan pronto Él venga, Lázaro sanará</q>, pero su fe ahora es sometida a prueba.</p>"
-        }
-    },
-    {
-        "id": 3,
+        "id": 4,
         "stylesForPage": [
             ".first-letter-p7 { font-family:var(--bebas-neue);color:var(--color-red); }"
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "pagesNumber": "page-number"
     },
-    {
-    "id": 5,
-    "tableContent":{
-      "className": "table-content",
-      "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/27/title-02.png')",
-        "-webkit-animation": "fade-in 1.5s",
-	      "animation": "fade-in 1.5s"
-      }
-    }
-  },
     {
         "id": 6,
         "buttonModal": {

@@ -12,6 +12,29 @@
   },
   {
     "id": 2,
+    "buttonsForAudioPrint":{
+      "linkToVideo": "https://www.youtube.com/watch?v=SRCrGNcHkYg&feature=youtu.be",
+      "displayAudio": "inline-block",
+      "className":"buttons-audio-print",
+      "audio":{
+        "bgColor":"var(--color-blue)",
+        "border":"var(--color-blue)",
+        "id":"audioPage4",
+        "idToReproduce":"audioCartaDelPresidente"
+      },
+      "print":{
+        "bgColor":"var(--color-blue)",
+        "border":"var(--color-blue)",
+        "link":"assets/files/Carta-del-presidente.pdf"
+      },
+      "css":{
+        "top": "76%",
+        "left": "18%"
+      }
+    }
+  },
+  {
+    "id": 3,
     "contentArticle":{
       "className": "content-article",
       "ViewX":"1200",
@@ -28,7 +51,7 @@
     }
   },
   {
-    "id": 3,
+    "id": 4,
     "buttonModal": {
       "className": "button",
       "modalButtonText":"Leer más",
@@ -48,7 +71,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 5,
     "articleAuthor":{
       "className": "author",
       "direction": "left",
@@ -62,11 +85,11 @@
     }
   },
   {
-    "id": 5,
+    "id": 6,
     "pagesNumber":"page-number"
   },
   {
-    "id": 6,
+    "id": 7,
     "stylesForPage":[
       ".bible-quote-p6 { color:var(--color-blue);text-align:center;line-height:1.24;font-size:1.12em; }",
       ".verse-p6 { color:var(--color-blue);display:block;text-align:center; }",

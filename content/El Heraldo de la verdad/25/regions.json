@@ -2,6 +2,7 @@
   {
     "id": 1,
     "buttonsForAudioPrint": {
+      "displayAudio": "none",
       "className": "buttons-audio-print",
       "audio": {
         "bgColor": "var(--color-blue)",
@@ -16,7 +17,7 @@
       },
       "css": {
         "bottom": "9.5%",
-        "right": "42%"
+        "right": "43%"
       }
     }
   },

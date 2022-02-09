@@ -57,6 +57,7 @@
   {
     "id": 6,
     "buttonsForAudioPrint": {
+      "displayAudio": "none",
       "className": "buttons-audio-print",
       "audio": {
         "bgColor": "var(--color-blue)",

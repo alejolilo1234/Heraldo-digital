@@ -34,6 +34,7 @@
   {
     "id": 4,
     "buttonsForAudioPrint": {
+      "displayAudio": "none",
       "className": "buttons-audio-print",
       "audio": {
         "bgColor": "var(--color-blue)",
@@ -48,7 +49,7 @@
       },
       "css": {
         "top": "60%",
-        "right": "15%"
+        "right": "20%"
       }
     }
   }

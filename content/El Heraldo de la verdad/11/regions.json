@@ -23,6 +23,8 @@
   {
     "id": 3,
     "buttonsForAudioPrint": {
+      "linkToVideo": "https://www.youtube.com/watch?v=_tRzNMj92QY&feature=youtu.be",
+      "displayAudio": "inline-block",
       "className": "buttons-audio-print",
       "audio": {
         "bgColor": "var(--color-blue)",

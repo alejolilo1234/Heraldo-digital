@@ -49,6 +49,8 @@
   {
     "id": 5,
     "buttonsForAudioPrint": {
+      "linkToVideo": "https://www.youtube.com/watch?v=ZplItiDEtic&feature=youtu.be",
+      "displayAudio": "inline-block",
       "className": "buttons-audio-print",
       "audio": {
         "bgColor": "var(--color-blue)",

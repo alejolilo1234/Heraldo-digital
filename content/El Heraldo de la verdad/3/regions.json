@@ -40,10 +40,9 @@
       ".bold-p3 { font-weight: bold; }",
       ".description-list { font-family: sans-serif; }",
       ".description-list dt { font-weight: bold; }",
-      ".description-list dd { margin: 25px 0; opacity: 0; white-space: nowrap; transition: .5s; }",
+      ".description-list dd { margin: 25px 0; white-space: nowrap; }",
       ".hover { color: var(--color-text); text-decoration: none; cursor: pointer; }",
-      ".color-red { color: var(--color-red); }",
-      ".hover:hover dd { opacity: 1; transition: .5s; }"
+      ".color-red { color: var(--color-red); }"
     ]
   }
 ]
