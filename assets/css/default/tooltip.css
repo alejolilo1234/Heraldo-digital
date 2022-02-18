@@ -1,31 +1,31 @@
 .ui-region-page-number:hover svg#pageNumberLeft{
-  opacity:1!important;
-  top:-150%!important;
+  opacity: 1!important;
+  top: -150%!important;
 }
 
 .ui-region-page-number:hover svg#pageNumberRight{
-  opacity:1!important;
-  top:-150%!important;
+  opacity: 1!important;
+  top: -150%!important;
 }
 
 .tooltip {
-  background-color:#9d221b;
-  color:white;
-  padding:.5em 1em;
-  border-radius:.5em;
-  display:inline-block;
-  font-family:sans-serif;
+  background-color: #9d221b;
+  color: white;
+  padding: .5em 1em;
+  border-radius: .5em;
+  display: inline-block;
+  font-family: sans-serif;
 }
 
 .triangle {
   /* content:""; */
-  position:absolute;
-  top:1.6em;
-  left:2.5em;
-  width:1em;
-  height:1em;
-  background-color:#9d221b;
+  position: absolute;
+  top: 1.6em;
+  left: 2.5em;
+  width: 1em;
+  height: 1em;
+  background-color: #9d221b;
   transform: rotate(45deg);
-  z-index:-1;
+  z-index: -1;
   border-top-left-radius: 100%;
 }

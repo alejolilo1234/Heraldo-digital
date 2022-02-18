@@ -1,6 +1,6 @@
 .blocker {
   overflow: hidden!important;
-  z-index:10000!important;
+  z-index: 10000!important;
   background-color: rgba(0,0,0,0.75);
   text-align: center;
 }
@@ -9,12 +9,12 @@
   max-width: 600px!important;
   max-height: 90%!important;
   overflow-y: auto;
-  width:0;
-  text-align:justify!important;
+  width: 0;
+  text-align: justify!important;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right center;
-  background-image:url('../../../assets/img/bg-modal.jpg')!important;
+  background-image: url('../../../assets/img/bg-modal.jpg')!important;
 }
 
 .modal a.close-modal {
@@ -26,7 +26,7 @@ div.container-close-button{
   top: -20px;
   padding: 15px 0 10px;
   margin: -25px -20px;
-  text-align:right;
+  text-align: right;
   z-index: -999;
 }
 
@@ -36,6 +36,6 @@ a.modal-close-button {
   background-repeat: no-repeat;
   background-position: right center;
   background-image: url('../../../assets/img/close.svg');
-  width:15px;
-  height:15px;
+  width: 15px;
+  height: 15px;
 }

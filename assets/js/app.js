@@ -345,6 +345,27 @@
           this.$el.data({view: this});
           $pageElement.append(this.$el);
         }
+        else if(attr.articleTitle) {
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+          this.$el.addClass(attr.articleTitle.className);
+          
+          this.$el.css({
+            "position": "absolute",
+            "z-index": "1",
+            "top": "0",
+            "width": "100%",
+            "height": "100%",
+            "background-repeat": "no-repeat",
+            "background-size": "contain",
+            "background-image": `url("./content/El Heraldo de la verdad/${this.model.pageNumber}/title.png")`,
+            "-webkit-animation": `${attr.articleTitle.animation} 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`,
+            "animation": `${attr.articleTitle.animation} 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both`,
+            "animation-delay": ".55s"
+          });
+          
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
+        }
         else if (attr.tableContent) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.tableContent.className);
@@ -359,7 +380,7 @@
             "height": "100%",
             "background-repeat": "no-repeat",
             "background-size": "contain",
-            "animation-delay": "0.55s"
+            "animation": "0"
           });
           
           if(attr.tableContent.innerHTML){
@@ -409,7 +430,7 @@
 
           this.$el.css(attr.contentArticle.css);
 
-          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 " + attr.contentArticle.ViewX + " " + attr.contentArticle.ViewY + "' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='" + attr.contentArticle.foreignX + "' height='" + attr.contentArticle.foreignY + "' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml'>" + attr.contentArticle.excerpt + "</div></foreignObject></svg>");
+          this.$el.html("<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 " + attr.contentArticle.ViewX + " " + attr.contentArticle.ViewY + "' style='overflow: visible;' xml:space=''><foreignObject x='0' y='0' width='" + attr.contentArticle.foreignX + "' height='" + attr.contentArticle.foreignY + "' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml'>" + attr.contentArticle.excerpt + "</div></foreignObject></svg>");
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);

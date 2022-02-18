@@ -1,11 +1,8 @@
 [
   {
     "id": 1,
-    "tableContent":{
-      "className": "table-content shine",
-      "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/1/1-region.png')"
-      }
+    "articleTitle": {
+      "className": "shine"
     }
   }
 ]

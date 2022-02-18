@@ -1,14 +1,9 @@
 [
   {
     "id": 1,
-    "tableContent":{
-      "className": "table-content",
-      "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/5/title.png')",
-        "-webkit-animation": "slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both",
-	      "animation": "slide-in-right 1.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"
-      }
-    }
+    "articleTitle": {
+      "animation": "slide-in-right"
+    } 
   },
   {
     "id": 2,

@@ -1,6 +1,10 @@
 [
   {
     "id": 1,
+    "articleTitle": {}
+  },
+  {
+    "id": 2,
     "contentArticle": {
       "className": "content-article",
       "ViewX": "900",
@@ -15,17 +19,6 @@
         "line-height": "1em"
       },
       "excerpt": "<p>Podemos notar la fe de ellos, en estos momentos el amigo llamado Jesús lo puede sanar; o sea que están confiados que Lázaro sanará, ellas habían visto y oído del poder sanador del Señor quien es su amigo, probablemente dicen: <q class='italic-p27'>Tan pronto Él venga, Lázaro sanará</q>, pero su fe ahora es sometida a prueba.</p>"
-    }
-  },
-  {
-    "id": 2,
-    "tableContent":{
-      "className": "table-content",
-      "css":{
-        "background-image": "url('./content/El Heraldo de la verdad/27/title-02.png')",
-        "-webkit-animation": "fade-in 1.5s",
-	      "animation": "fade-in 1.5s"
-      }
     }
   },
   {
