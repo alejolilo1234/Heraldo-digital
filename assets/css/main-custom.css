@@ -7,7 +7,7 @@
   --color-text-quote: #a95352;
   /* Fonts */
   --bebas-neue: 'Bebas Neue', cursive;
-  --times-new-roman: 'Times New Roman', Times, serif;
+  --times-new-roman: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
 p, 

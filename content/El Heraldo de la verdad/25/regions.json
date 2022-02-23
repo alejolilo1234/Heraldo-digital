@@ -97,8 +97,9 @@
         "left": "23.12%",
         "top": "40.9%",
         "width": "55%",
-        "height": "10.8%",
-        "border-radius": "30px"
+        "height": "9.7%",
+        "border-radius": "30px",
+        "font-size": ".8em"
       }
     }
   },
@@ -115,10 +116,11 @@
       "detail":"fourth-modal-p24",
       "css":{
         "left": "23.12%",
-        "top": "53.9%",
+        "top": "52.9%",
         "width": "55%",
-        "height": "14.2%",
-        "border-radius": "30px"
+        "height": "9.5%",
+        "border-radius": "30px",
+        "font-size": ".8em"
       }
     }
   },
@@ -135,10 +137,11 @@
       "detail":"fifth-modal-p24",
       "css":{
         "left": "23.12%",
-        "top": "69.9%",
+        "top": "64.9%",
         "width": "55%",
-        "height": "10.8%",
-        "border-radius": "30px"
+        "height": "9.7%",
+        "border-radius": "30px",
+        "font-size": ".8em"
       }
     }
   },

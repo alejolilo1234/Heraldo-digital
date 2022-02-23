@@ -5,18 +5,17 @@
   },
   {
     "id": 2,
-    "contentArticle": {
+    "contentArticle":{
       "className": "content-article",
-      "ViewX": "900",
-      "ViewY": "2800",
-      "foreignX": "120%",
-      "foreignY": "60%",
-      "css": {
-        "left": "14%",
-        "top": "7%",
-        "width": "60%",
-        "font-size": "3.3em",
-        "line-height": "1em"
+      "ViewX":"1852",
+      "ViewY":"1702",
+      "foreignX":"100%",
+      "foreignY":"100%",
+      "css":{
+        "left": "13.5%",
+        "top": "8%",
+        "width": "73%",
+        "font-size": "4.8em"
       },
       "excerpt":"<p class='container' style='color: var(--color-blue); padding: 30px; text-align: center; border: 5px solid var(--color-blue); border-radius: 30px;'><q class='italic-p31'>Respondiendo Simón, le dijo: Maestro, toda la noche hemos estado trabajando, y nada hemos pescado; mas en tu palabra echaré la red. Y habiéndolo hecho, encerraron gran cantidad de peces, y su red se rompía</q><br><span style='color: var(--color-text); font-weight: bold;'>(Lucas 5:5-6).</span></p><p class='paragraph-capitalized'><span class='first-letter-p31'>S</span>i se comprendiera el verdadero significado que tiene la Palabra de Dios, y los efectos extraordinarios que proporciona, sin duda nadie pasaría un día sin tener un buen contacto con ella.</p>"
     }

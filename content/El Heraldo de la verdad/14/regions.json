@@ -6,28 +6,47 @@
     } 
   },
   {
-    "id": 1,
+    "id": 2,
     "pagesNumber":"page-number"
   },
   {
     "id": 3,
-    "contentArticle": {
+    "contentArticle":{
       "className": "content-article",
-      "ViewX": "1200",
-      "ViewY": "1000",
-      "foreignX": "220%",
-      "foreignY": "50%",
-      "css": {
-        "left": "32%",
-        "top": "18.9%",
-        "width": "30.5%",
-        "font-size": "7.3em"
+      "ViewX":"1852",
+      "ViewY":"7302",
+      "foreignX":"100%",
+      "foreignY":"100%",
+      "css":{
+        "left": "32.5%",
+        "top": "21%",
+        "width": "23%",
+        "font-size": "15.5rem",
+        "height": "70%"
       },
-      "excerpt":"<div style='display:grid;grid-template-columns: 1fr 1.6fr;grid-gap:566px;'><p style='text-align:justify;' class='paragraph-capitalized'><span style='color:var(--color-red);font-family:var(--bebas-neue);'>A</span>ntes de hablar de la fe como don, es necesario hacer un análisis del propósito de los dones del Espíritu Santo, el apóstol Pablo trata de los dones del Espíritu Santo dados a la Iglesia como cuerpo de Cristo en 1 Corintios, capítulos 12 al 14. Estamos frente a un tema trascendental, puesto que se trata de algo de procedencia Divina.</p><div style='display:flex;align-items:flex-end;text-align:justify;'><p>El apóstol escribe que no quiere que ignoremos acerca de los dones del Espíritu Santo;</p></div></div>"
+      "excerpt":"<p style='text-align:justify;' class='paragraph-capitalized'><span style='color:var(--color-red);font-family:var(--bebas-neue);'>A</span>ntes de hablar de la fe como don, es necesario hacer un análisis del propósito de los dones del Espíritu Santo, el apóstol Pablo trata de los dones del Espíritu Santo dados a la Iglesia como cuerpo de Cristo en 1 Corintios, capítulos 12 al 14. Estamos frente a un tema trascendental, puesto que se trata de algo de procedencia Divina.</p>"
     }
   },
   {
     "id": 4,
+    "contentArticle":{
+      "className": "content-article",
+      "ViewX":"1852",
+      "ViewY":"7302",
+      "foreignX":"100%",
+      "foreignY":"100%",
+      "css":{
+        "left": "73.5%",
+        "top": "72.5%",
+        "width": "23%",
+        "font-size": "15.5rem",
+        "height": "70%"
+      },
+      "excerpt":"<p>El apóstol escribe que no quiere que ignoremos acerca de los dones del Espíritu Santo;</p>"
+    }
+  },
+  {
+    "id": 5,
     "buttonsForAudioPrint": {
       "displayAudio": "none",
       "className": "buttons-audio-print",

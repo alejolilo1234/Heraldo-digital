@@ -7,15 +7,15 @@
     "id": 2,
     "contentArticle":{
       "className": "content-article",
-      "ViewX":"1200",
-      "ViewY":"1000",
-      "foreignX":"220%",
-      "foreignY":"50%",
+      "ViewX":"1852",
+      "ViewY":"1702",
+      "foreignX":"100%",
+      "foreignY":"100%",
       "css":{
-        "left": "11.5%",
-        "top": "68.2%",
-        "width": "35.5%",
-        "font-size": "6.78em"
+        "left": "13.5%",
+        "top": "68.5%",
+        "width": "73%",
+        "font-size": "4.8em"
       },
       "excerpt":"<p style='line-height:1.22;'>Pensé de inmediato que la fidelidad se constituye en los pies de la fe, recordé lo que la Biblia afirma: La fe sin obras es muerta. Es posible vivir de acuerdo a lo que se cree.</p>"
     }

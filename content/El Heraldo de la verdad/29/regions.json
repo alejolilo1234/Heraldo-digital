@@ -5,20 +5,19 @@
   },
   {
     "id": 3,
-    "contentArticle": {
-    "className": "content-article",
-    "ViewX": "900",
-    "ViewY": "2800",
-    "foreignX": "120%",
-    "foreignY": "60%",
-    "css": {
-      "left": "13%",
-      "top": "33%",
-      "width": "60%",
-      "font-size": "3.3em",
-      "line-height": "1em"
-    },
-    "excerpt": "<p style='text-align: right; color: var(--color-red); font-style: italic; font-weight: bold; padding-bottom: 70px;'>Habacuc, Capítulos 1- 3</p><p>Pero Dios le responde: Estoy a punto de hacer una obra sorprendente. Yo levanto a los caldeos, nación cruel e impetuosa, son espantosos y terribles, imponen su propia justicia y grandeza, aterrorizan y destruyen, ridiculizan a los reyes, se burlan de los gobernantes y se glorían de su fuerza como su dios. Pero Habacuc se sorprende que Dios use a los caldeos para hacer juicio y castigar a su pueblo, y presenta otra queja diciéndole con reverencia: </p> <p style='color: var(--color-blue);'><q class='italic-p29'>Tú, Señor, existes desde la eternidad, mi Dios Santo e Inmortal, Señor y protector mío, tú eres muy limpio de ojos para ver el mal y contemplar la iniquidad ¿Por qué toleras a los traidores?</p>"
+    "contentArticle":{
+      "className": "content-article",
+      "ViewX":"1852",
+      "ViewY":"1702",
+      "foreignX":"100%",
+      "foreignY":"100%",
+      "css":{
+        "left": "13.5%",
+        "top": "38%",
+        "width": "73%",
+        "font-size": "4.8em"
+      },
+      "excerpt": "<p style='text-align: right; color: var(--color-red); font-style: italic; font-weight: bold; padding-bottom: 70px;'>Habacuc, Capítulos 1- 3</p><p>Pero Dios le responde: Estoy a punto de hacer una obra sorprendente. Yo levanto a los caldeos, nación cruel e impetuosa, son espantosos y terribles, imponen su propia justicia y grandeza, aterrorizan y destruyen, ridiculizan a los reyes, se burlan de los gobernantes y se glorían de su fuerza como su dios. Pero Habacuc se sorprende que Dios use a los caldeos para hacer juicio y castigar a su pueblo, y presenta otra queja diciéndole con reverencia: </p> <p style='color: var(--color-blue);'><q class='italic-p29'>Tú, Señor, existes desde la eternidad, mi Dios Santo e Inmortal, Señor y protector mío, tú eres muy limpio de ojos para ver el mal y contemplar la iniquidad ¿Por qué toleras a los traidores?</p>"
     }
   },
   {

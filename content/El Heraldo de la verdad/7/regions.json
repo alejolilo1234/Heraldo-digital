@@ -23,15 +23,15 @@
     "id": 3,
     "contentArticle":{
       "className": "content-article",
-      "ViewX":"1200",
-      "ViewY":"1000",
-      "foreignX":"220%",
-      "foreignY":"50%",
+      "ViewX":"1852",
+      "ViewY":"1702",
+      "foreignX":"100%",
+      "foreignY":"100%",
       "css":{
         "left": "13.5%",
-        "top": "21.2%",
-        "width": "32.5%",
-        "font-size": "5.7em"
+        "top": "21%",
+        "width": "73%",
+        "font-size": "3.8em"
       },
       "excerpt":"<p class='paragraph-capitalized'><span class='first-letter-p7'>D</span>ios se ha acercado a cada persona con su poder y su misericordia, alcanzando incluso a sus respectivas familias. El Señor hizo un milagro en la vida de Pablo y Silas, el carcelero lo vio y creyó, al saberlo toda su familia, también creyeron y fueron bautizados. <q class='italic-p7'>... Cree en el Señor Jesucristo, y serás salvo, tú y tu casa</q> (Hechos 16:31).</p>"
     }

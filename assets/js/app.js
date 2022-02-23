@@ -344,8 +344,7 @@
     
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        }
-        else if(attr.articleTitle) {
+        } else if(attr.articleTitle) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass(attr.articleTitle.className);
           
@@ -365,8 +364,7 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        }
-        else if (attr.tableContent) {
+        } else if (attr.tableContent) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.tableContent.className);
 
@@ -399,8 +397,7 @@
           }
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        }
-        else if(attr.HTMLContent){
+        } else if(attr.HTMLContent){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.HTMLContent.className);
           
@@ -415,8 +412,7 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        }
-        else if(attr.contentArticle){
+        } else if(attr.contentArticle){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.contentArticle.className);
 
@@ -434,8 +430,27 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        }
-        else if(attr.pagesNumber){
+        } else if(attr.SVGPanel) {
+          // TODO SVGPanel
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+          this.$el.addClass(attr.SVGPanel.className);
+          
+          this.$el.css({
+            "position": "absolute",
+            "z-index": "1",
+            "width": "100%",
+            "height": "100%",
+            "top": "0"
+          });
+
+          let html = JSON.stringify([...attr.SVGPanel.content]).replace(/[,"[]/g,'');
+          html = html.substring(0, html.length - 1);
+          
+          this.$el.html("<svg width='100%' height='100%' viewBox='0 0 612 792'><foreignObject width='100%' height='100%'><div style='display: grid; grid-template-columns: repeat(38, .2fr); grid-template-rows: repeat(76, .2fr); height: 150%;'>" + html + "</div></foreignObject></svg>");
+          
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
+        } else if(attr.pagesNumber){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.pagesNumber);
 
@@ -464,8 +479,7 @@
           this.$el.data({view: this});
           $pageElement.append(this.$el);
 
-        } 
-        else if(attr.articleAuthor) {
+        } else if(attr.articleAuthor) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.articleAuthor.className);
 
@@ -485,8 +499,7 @@
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        }
-        else if(attr.buttonsForAudioPrint) {
+        } else if(attr.buttonsForAudioPrint) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.buttonsForAudioPrint.className);
 
@@ -503,8 +516,7 @@
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        }
-        else if(attr.stylesForPage) {
+        } else if(attr.stylesForPage) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + "styles");
 

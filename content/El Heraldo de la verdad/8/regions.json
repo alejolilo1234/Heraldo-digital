@@ -21,17 +21,17 @@
   },
   {
     "id": 3,
-    "contentArticle": {
+    "contentArticle":{
       "className": "content-article",
-      "ViewX": "1200",
-      "ViewY": "1000",
-      "foreignX": "220%",
-      "foreignY": "50%",
-      "css": {
+      "ViewX":"1852",
+      "ViewY":"1702",
+      "foreignX":"100%",
+      "foreignY":"100%",
+      "css":{
         "left": "13.5%",
-        "top": "67.2%",
-        "width": "35.5%",
-        "font-size": "6.78em"
+        "top": "67%",
+        "width": "73%",
+        "font-size": "4.8em"
       },
       "excerpt": "<p class='paragraph-capitalized' style='line-height:1.22;'><span class='first-letter-p8'>U</span>n maestro de la iglesia hizo un aporte etimológico de la expresión fe, afirmando que fe y fidelidad son de la misma familia, y explicó que fe es la convicción, mientras que fidelidad es esa fe en acción. De esto se desprende que un hombre fiel es aquel que está dispuesto a actuar de acuerdo a lo que afirma creer.</p>"
     }
