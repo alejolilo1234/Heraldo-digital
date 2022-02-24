@@ -5,17 +5,17 @@
   },
   {
     "id": 2,
-    "contentArticle":{
+    "contentArticle": {
       "className": "content-article",
-      "ViewX":"1852",
-      "ViewY":"1702",
-      "foreignX":"100%",
-      "foreignY":"100%",
-      "css":{
-        "left": "13.5%",
-        "top": "14%",
-        "width": "73%",
-        "font-size": "4.8em"
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
+      "css": {
+        "left": "11.5%",
+        "top": "11.2%",
+        "width": "35.5%",
+        "font-size": "6.78em"
       },
       "excerpt": "<p>El salmista exclama con tanta seguridad: <q class='italic-p13'>Pero de día mandará Jehová su misericordia, Y de noche su cántico estará conmigo, Y mi oración al Dios de mi vida</q> (Salmos 42:8).</p><p>Una vida que cumple con su deber, una vida de compromiso con Dios durante toda su existencia, así se encuentre solo o acompañado, triste o alegre, enfermo o saludable, angustiado o confiado, su estilo de vida es el mismo, no cambia, pues su vida por fe se alimenta, practica la fe y es una persona que enseña la importancia e inspira a otros a practicar la fe como estilo de vida.</p>"
     }

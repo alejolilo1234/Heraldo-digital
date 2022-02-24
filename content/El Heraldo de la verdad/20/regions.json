@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "contentArticle":{
+    "contentArticle": {
       "className": "content-article",
-      "ViewX":"1852",
-      "ViewY":"1702",
-      "foreignX":"100%",
-      "foreignY":"100%",
-      "css":{
-        "left": "13.5%",
-        "top": "59%",
-        "width": "73%",
-        "font-size": "4.4em"
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
+      "css": {
+        "left": "9%",
+        "top": "56.9%",
+        "width": "37.5%",
+        "font-size": "6.3em"
       },
       "excerpt":"<p style='background-color: var(--color-red);padding: 100px;border-radius: 50px;text-align: center;color: white;'><q class='italic-p20'>Porque todo lo que es nacido de Dios vence al mundo; y esta es la victoria que ha vencido al mundo, nuestra fe</q><br>(1 Juan 5: 4).</p><p>Sería muy bueno que nos hagamos estas preguntas, para que entendamos cuál es <strong>La fe que vence al mundo.</strong></p><p>¿Quién es nacido de Dios?<br>¿Qué es fe?<br>¿En quién tenemos la fe?</p>"
     }

@@ -7,15 +7,15 @@
     "id": 2,
     "contentArticle": {
       "className": "content-article",
-      "ViewX": "1200",
+      "ViewX": "900",
       "ViewY": "2800",
-      "foreignX": "100%",
-      "foreignY": "100%",
+      "foreignX": "120%",
+      "foreignY": "50%",
       "css": {
         "left": "53.5%",
-        "top": "16.2%",
-        "width": "37.1%",
-        "font-size": "5.7em"
+        "bottom": "9.2%",
+        "width": "30.1%",
+        "font-size": "5.4em"
       },
       "excerpt": "<p class='p-modal-11' style='background:var(--color-blue);color:white;padding:50px;border-radius:50px;text-align:center;'><q class='italic-p11'>Y no hizo allí muchos milagros, a causa de la incredulidad de ellos</q><br>(Mateo 13: 58).</p><p class='paragraph-capitalized' style='line-height:1.2em'><span class='first-letter-p11'>U</span>na mirada rápida a esta frase me genera el conocimiento de lo que no muestra el texto, pero sí de lo que Jesús puede hacer cuando alguien solo tiene fe, solo puede creer en Él. Cuando Él no encuentra fe, que es lo único que anhela para obrar, el clamor parece que sobra, así lo demostró cuando a Moisés le dijo ...en el cruce del mar: ...¿Por qué clamas a mí? Dile al pueblo que marche; en otras palabras, la fe es un camino para avanzar donde no podemos detenernos.</p>"
     }

@@ -344,7 +344,8 @@
     
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        } else if(attr.articleTitle) {
+        }
+        else if(attr.articleTitle) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass(attr.articleTitle.className);
           
@@ -364,7 +365,8 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        } else if (attr.tableContent) {
+        }
+        else if (attr.tableContent) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.tableContent.className);
 
@@ -397,7 +399,8 @@
           }
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        } else if(attr.HTMLContent){
+        }
+        else if(attr.HTMLContent){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.HTMLContent.className);
           
@@ -412,7 +415,8 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        } else if(attr.contentArticle){
+        }
+        else if(attr.contentArticle){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.contentArticle.className);
 
@@ -430,28 +434,8 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        } else if(attr.SVGPanel) {
-          // TODO SVGPanel
-          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
-          this.$el.addClass(attr.SVGPanel.className);
-          
-          this.$el.css({
-            "position": "absolute",
-            "z-index": "1",
-            "width": "100%",
-            "height": "100%",
-            "top": "0"
-          });
-
-          let page = "";
-          if (attr.SVGPanel.pageNumber == "true") page = "true"; 
-          else page = "false";
-          
-          this.$el.html(                          "<svg width='100%' height='100%' viewBox='0 0 612 792'><foreignObject width='100%' height='100%'>" + attr.SVGPanel.content + "</foreignObject></svg>");
-          
-          this.$el.data({view: this});
-          $pageElement.append(this.$el);
-        } else if(attr.pagesNumber){
+        }
+        else if(attr.pagesNumber){
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.pagesNumber);
 
@@ -469,18 +453,19 @@
           
 
           if(pageNumberText % 2 == 0){
-            this.$el.css({"left":"-8%"});
+            this.$el.css({"left":"-5%"});
             this.$el.html(pageNumberLeftSVG(pageNumberText) + "<svg version='1.2' baseProfile='tiny' id='pageNumberLeft' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1051.5 416' xml:space='preserve' style='position:absolute;top:-130%;left:55%;width:100%;opacity:0;transition:opacity 0.25s, top 0.25s;'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width: 93%;font-size:7.4em;'><div class='tooltip'>Ir al indice</div><div class='triangle'></div></div></foreignObject></svg>");
             this.$el.addClass("left");
           } else {
             this.$el.html(pageNumberRightSVG(pageNumberText) + "<svg version='1.2' baseProfile='tiny' id='pageNumberRight' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1051.5 416' xml:space='preserve' style='position:absolute;top:-130%;right:25%;width:100%;opacity:0;transition:opacity 0.25s, top 0.25s;'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width: 93%;font-size:7.4em;'><div class='tooltip'>Ir al indice</div><div class='triangle'></div></div></foreignObject></svg>");
-            this.$el.css({"right":"-8%"});
+            this.$el.css({"right":"-5%"});
           }
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
 
-        } else if(attr.articleAuthor) {
+        } 
+        else if(attr.articleAuthor) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.articleAuthor.className);
 
@@ -500,7 +485,8 @@
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        } else if(attr.buttonsForAudioPrint) {
+        }
+        else if(attr.buttonsForAudioPrint) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + attr.buttonsForAudioPrint.className);
 
@@ -517,7 +503,8 @@
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
-        } else if(attr.stylesForPage) {
+        }
+        else if(attr.stylesForPage) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
           this.$el.addClass('ui-region-' + "styles");
 
@@ -1285,7 +1272,7 @@ function authorLeftSVG(text,bg,x){
 }
 
 function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint,display){
-  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><a target='_blank' href='" + linkAudio + "' class='audio' id='audioPage4' style='display: " + display + "; background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i style='font-size: .9em;' class='fas fa-video'></i></a><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download='Carta-del-presidente'><i class='fas fa-print'></i></a></div></foreignObject></svg>";
+  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:inline-flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span style='display: " + display + "; color: white; font-size: .4em; text-align: center; background-color: var(--color-blue); border-radius: 140px; padding: 30px; '>Vídeo relacionado</span><a target='_blank' href='" + linkAudio + "' class='audio' id='audioPage4' style='display: " + display + "; background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i style='font-size: .9em;' class='fas fa-video'></i></a><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download><i class='fas fa-print'></i></a></div></foreignObject></svg>";
 }
 
 // Esta parte es para los audios

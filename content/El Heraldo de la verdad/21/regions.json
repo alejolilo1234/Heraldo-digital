@@ -15,17 +15,17 @@
   },
   {
     "id": 2,
-    "contentArticle":{
+    "contentArticle": {
       "className": "content-article",
-      "ViewX":"1852",
-      "ViewY":"1702",
-      "foreignX":"100%",
-      "foreignY":"100%",
-      "css":{
-        "left": "13.5%",
-        "top": "59%",
-        "width": "73%",
-        "font-size": "4.4em"
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
+      "css": {
+        "left": "9%",
+        "top": "58.9%",
+        "width": "37.5%",
+        "font-size": "6.3em"
       },
       "excerpt":"<p style='color: var(--color-red); font-weight: bold;'>¿Quién es nacido de Dios?</p><p>Nos toca hablar sobre El Nuevo Nacimiento, es el comienzo de una nueva vida, de una persona regenerada por Dios. El apóstol Pedro nos enseña con respecto a los cristianos:</p><p><q class='italic-p21'>Siendo renacidos, no de simiente corruptible, sino de incorruptible, por la palabra de Dios que vive y permanece para siempre</q> (l Pedro 1:23).</p>"
     }

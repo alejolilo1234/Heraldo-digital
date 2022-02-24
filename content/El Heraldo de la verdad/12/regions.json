@@ -25,17 +25,17 @@
   },
   {
     "id": 4,
-    "contentArticle":{
+    "contentArticle": {
       "className": "content-article",
-      "ViewX":"1852",
-      "ViewY":"1702",
-      "foreignX":"100%",
-      "foreignY":"100%",
-      "css":{
-        "left": "13.5%",
-        "top": "54%",
-        "width": "73%",
-        "font-size": "4.8em"
+      "ViewX": "1200",
+      "ViewY": "1000",
+      "foreignX": "220%",
+      "foreignY": "50%",
+      "css": {
+        "left": "11.5%",
+        "bottom": "18.2%",
+        "width": "35.5%",
+        "font-size": "6.78em"
       },
       "excerpt": "<p class='center-p12'><q class='italic-p12'>Fueron apedreados, aserrados, puestos a prueba, muertos a filo de espada; anduvieron de acá para allá cubiertos de pieles de ovejas y de cabras, pobres, angustiados, maltratados; de los cuales el mundo no era digno; errando por los desiertos, por los montes, por las cuevas y por las cavernas de la tierra</q><br>(Hebreos 11:37-38).</p><p class='paragraph-capitalized'><span style='color:var(--color-blue);font-family:var(--bebas-neue);'>S</span>e necesita tener una plena convicción de fe para afrontar tal situación de angustia y dolor, y aún muerte, con tantas persecuciones la fe aquí es un estilo y forma de vida, es existir en completa confianza y seguridad dentro de un orden Divino.</p>"
     }
