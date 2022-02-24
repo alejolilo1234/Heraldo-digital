@@ -447,7 +447,7 @@
           if (attr.SVGPanel.pageNumber == "true") page = "true"; 
           else page = "false";
           
-          this.$el.html("<svg width='100%' height='100%' viewBox='0 0 612 792'><foreignObject width='100%' height='100%'>" + attr.SVGPanel.content + "</foreignObject></svg>");
+          this.$el.html(                          "<svg width='100%' height='100%' viewBox='0 0 612 792'><foreignObject width='100%' height='100%'>" + attr.SVGPanel.content + "</foreignObject></svg>");
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
