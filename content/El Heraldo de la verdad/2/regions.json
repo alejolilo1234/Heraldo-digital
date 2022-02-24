@@ -28,15 +28,23 @@
 
       ".icon-p2 .triangle-p2 { background-color: var(--color-red); width: 50px; height: 50px; z-index: -1; transform: rotate(45deg); position: absolute; left: 280px; top: 120px; }",
 
-      ".icon-p2 .content-p2 { background-color: var(--color-red); padding: 20px 30px; font-size: .3em; border-radius: 30px; height: 150px; width: 600px; text-transform: uppercase; font-family: sans-serif; color: white; }"
+      ".icon-p2 .content-p2 { background-color: var(--color-red); padding: 20px 30px; font-size: .3em; border-radius: 30px; height: 150px; width: 600px; text-transform: uppercase; font-family: sans-serif; color: white; }",
+
+
+
+
+
+
+
+      ".div-p2 { display: grid; grid-gap: 10px; grid-template-columns: 1fr 5fr; text-decoration: none; color: white; margin: 10px 0; }",
+      ".i-p2 { background-color: var(--color-red); padding: 10px; width: 40px; height: 40px; display: flex; place-content: center; border-radius: 50%; line-height: 1.2; font-size: 1.2em; }",
+      ".p-p2 { background-color: var(--color-red);  margin: 0; display: flex; place-content: center; line-height: 1.2; border-radius: 10px; color: white; padding: 6px; text-transform: UPPERCASE; font-size: .7em; text-align: center; }"
     ]
   },
   {
     "id": 3,
     "SVGPanel": {
-      "content": [
-        "<div style='grid-column: 46; grid-column-end: 70; grid-row: 22; grid-row-end: 50;'><p>html1</p></div>"
-      ]
+      "content": "<div style='padding: 200px 200px 0 200px;'><a class='div-p2' target='_blank' href='https://google.com'><i class='fab fa-facebook-f i-p2'></i><p class='p-p2'>Iglesia pentecostal unida de colombia</p></a><a class='div-p2' target='_blank' href='https://google.com'><i class='fab fa-facebook-f i-p2'></i><p class='p-p2'>Iglesia pentecostal unida de colombia</p></a><a class='div-p2' target='_blank' href='https://google.com'><i class='fab fa-facebook-f i-p2'></i><p class='p-p2'>Iglesia pentecostal unida de colombia</p></a><a class='div-p2' target='_blank' href='https://google.com'><i class='fab fa-facebook-f i-p2'></i><p class='p-p2'>Iglesia pentecostal unida de colombia</p></a><a class='div-p2' target='_blank' href='https://google.com'><i class='fab fa-facebook-f i-p2'></i><p class='p-p2'>Iglesia pentecostal unida de colombia</p></a><a class='div-p2' target='_blank' href='https://google.com'><i class='fab fa-facebook-f i-p2'></i><p class='p-p2'>Iglesia pentecostal unida de colombia</p></a><a class='div-p2' target='_blank' href='https://google.com'><i class='fab fa-facebook-f i-p2'></i><p class='p-p2'>Iglesia pentecostal unida de colombia</p></a></div>"
     }
   }
 ]
