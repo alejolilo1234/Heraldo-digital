@@ -499,7 +499,7 @@
           this.$el.css(attr.buttonsForAudioPrint.css);
 
           this.$el.html(audioPrintSVG(attr.buttonsForAudioPrint.audio.bgColor, attr.buttonsForAudioPrint.audio.border, attr.buttonsForAudioPrint.linkToVideo,attr.buttonsForAudioPrint.print.bgColor,attr.buttonsForAudioPrint.print.border,attr.buttonsForAudioPrint.print.link,
-          attr.buttonsForAudioPrint.displayAudio, attr.buttonsForAudioPrint.id) + "<div id='" + attr.buttonsForAudioPrint.id + "' class='modal'><div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div><iframe width='100%' height='300px' src='" + attr.buttonsForAudioPrint.YouTubeLink + "' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><script>let select" + attr.buttonsForAudioPrint.id + " = document.getElementById('" + attr.buttonsForAudioPrint.id + "-modal'); select" + attr.buttonsForAudioPrint.id + ".addEventListener('click', () => { $('" + attr.buttonsForAudioPrint.id2 + "').modal({fadeDuration: 500}); });</script>");
+          attr.buttonsForAudioPrint.displayAudio, attr.buttonsForAudioPrint.id) + "<div id='" + attr.buttonsForAudioPrint.id + "' class='modal'><div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div><iframe width='100%' height='300px' src='" + attr.buttonsForAudioPrint.YouTubeLink + "' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><script>let select" + attr.buttonsForAudioPrint.id + " = document.getElementById('" + attr.buttonsForAudioPrint.id + "-modal'); select" + attr.buttonsForAudioPrint.id + ".addEventListener('click', () => { $('" + attr.buttonsForAudioPrint.id2 + "').modal(); });</script>");
 
           // select = document.getElementById(attr.buttonsForAudioPrint.id + "-modal");
           // console.log(select);
@@ -530,11 +530,11 @@
           data = attr.data;
 
         if(attr.buttonModal){
-          $("#" + attr.buttonModal.containerIdToOpen).modal({fadeDuration: 500});
+          $("#" + attr.buttonModal.containerIdToOpen).modal();
         } else if(attr.buttonModalHTML){
-          $("#" + attr.buttonModalHTML.containerIdToOpen).modal({fadeDuration: 500});
+          $("#" + attr.buttonModalHTML.containerIdToOpen).modal();
 
-          /*var detail = document.querySelector("." + attr.buttonModalHTML.detail);
+          var detail = document.querySelector("." + attr.buttonModalHTML.detail);
 
           let elements = document.querySelectorAll('#toggle'); 
           elements.forEach(element => {
@@ -543,7 +543,8 @@
 
           detail.setAttribute("open","");
 
-          setTimeout(function(){window.location.hash = '#' + attr.buttonModalHTML.link;},600);*/
+          // setTimeout(function(){window.location.hash = '#' + attr.buttonModalHTML.link;},600);
+          window.location.hash = '#' + attr.buttonModalHTML.link;
         } else if(attr.pagesNumber){
           $('#flipbook').turn('page', 3);
         } /*else if (attr.buttonsForAudioPrint) {
