@@ -365,6 +365,22 @@
           
           this.$el.data({view: this});
           $pageElement.append(this.$el);
+        } else if (attr.audioForPage) {
+          var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
+
+          this.$el.css({
+            "position": "absolute",
+            "z-index": "1",
+            "top": "5%",
+            "left": "30%",
+            "width": "10%",
+            "height": "10%"
+          });
+          
+          this.$el.html("<svg viewBox='0 0 500 316' style='overflow: visible;'><foreignObject style='overflow: visible; width: 100%; height: 100%;'>" + attr.audioForPage + "</foreignObject></svg>");
+          
+          this.$el.data({view: this});
+          $pageElement.append(this.$el);
         }
         else if (attr.tableContent) {
           var $pageElement = $('#flipbook').turn('pageElement', this.model.pageNumber);
@@ -499,7 +515,7 @@
           this.$el.css(attr.buttonsForAudioPrint.css);
 
           this.$el.html(audioPrintSVG(attr.buttonsForAudioPrint.audio.bgColor, attr.buttonsForAudioPrint.audio.border, attr.buttonsForAudioPrint.linkToVideo,attr.buttonsForAudioPrint.print.bgColor,attr.buttonsForAudioPrint.print.border,attr.buttonsForAudioPrint.print.link,
-          attr.buttonsForAudioPrint.displayAudio, attr.buttonsForAudioPrint.id) + "<div id='" + attr.buttonsForAudioPrint.id + "' class='modal'><div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div><iframe width='100%' height='300px' src='" + attr.buttonsForAudioPrint.YouTubeLink + "' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><script>let select" + attr.buttonsForAudioPrint.id + " = document.getElementById('" + attr.buttonsForAudioPrint.id + "-modal'); select" + attr.buttonsForAudioPrint.id + ".addEventListener('click', () => { $('" + attr.buttonsForAudioPrint.id2 + "').modal(); });</script>");
+          attr.buttonsForAudioPrint.displayAudio, attr.buttonsForAudioPrint.id, attr.buttonsForAudioPrint.audioForPage) + "<div id='" + attr.buttonsForAudioPrint.id + "' class='modal'><div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div><iframe width='100%' height='300px' src='" + attr.buttonsForAudioPrint.YouTubeLink + "' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><script>let select" + attr.buttonsForAudioPrint.id + " = document.getElementById('" + attr.buttonsForAudioPrint.id + "-modal'); select" + attr.buttonsForAudioPrint.id + ".addEventListener('click', () => { $('" + attr.buttonsForAudioPrint.id2 + "').modal(); });</script>");
 
           // select = document.getElementById(attr.buttonsForAudioPrint.id + "-modal");
           // console.log(select);
@@ -547,6 +563,8 @@
           window.location.hash = '#' + attr.buttonModalHTML.link;
         } else if(attr.pagesNumber){
           $('#flipbook').turn('page', 3);
+        } else if(attr.audioForPage) {
+          playAudio();
         } /*else if (attr.buttonsForAudioPrint) {
           // select = document.getElementById(attr.buttonsForAudioPrint.id + "-modal");
           var select = document.getElementById(attr.buttonsForAudioPrint.id + "-modal");
@@ -1284,8 +1302,8 @@ function authorLeftSVG(text,bg,x){
   return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M11,202.9V13.1h2351.9c52.4,0,94.9,42.5,94.9,94.9l0,0c0,52.4-42.5,94.9-94.9,94.9H11L11,202.9z'/><text x='" + x + "' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
 }
 
-function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint,display, linkToModal){
-  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:inline-flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span style='display: " + display + "; color: white; font-size: .4em; text-align: center; background-color: var(--color-blue); border-radius: 140px; padding: 30px 120px 30px 30px; margin-left: -250px; margin-right: -152px; width: 350px; '>Vídeo relacionado</span><a class='audio' id='" + linkToModal + "-modal' style='display: " + display + "; background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i style='font-size: .9em;' class='fas fa-video'></i></a><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download><i class='fas fa-print'></i></a></div></foreignObject></svg>";
+function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint,display, linkToModal, displayAudio){
+  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:inline-flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span style='display: " + display + "; color: white; font-size: .4em; text-align: center; background-color: var(--color-blue); border-radius: 140px; padding: 30px 120px 30px 30px; margin-left: -250px; margin-right: -152px; width: 350px; '>Vídeo relacionado</span><a class='audio' id='" + linkToModal + "-modal' style='display: " + display + "; background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i style='font-size: .9em;' class='fas fa-video'></i></a><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download><i class='fas fa-print'></i></a><a class='audio2' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3; display: none; display: " + displayAudio + "'><i class='fas fa-volume-up'></i></a></div></foreignObject></svg>";
 }
 
 // Esta parte es para los audios

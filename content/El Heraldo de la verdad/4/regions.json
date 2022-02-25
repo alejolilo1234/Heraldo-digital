@@ -26,6 +26,10 @@
   },
   {
     "id": 2,
+    "audioForPage": "<a href='#' onclick='playAudio()' id='audioForPageCar' class='fas fa-volume-up' style='text-decoration: none; box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-3 2s 3; padding: 5px; background-color: var(--color-blue); border-radius: 55%; width: 330px; height: 330px; display: flex; place-content: center; cursor: pointer; font-size: 13em; line-height: 1.45; color: white;'></a><audio id='audioCar'><source src='assets/audio/carta-del-presidente.mp4' type='audio/mp3'></audio><script>let buttonCar = document.getElementById('audioForPageCar'); let audioCar = document.getElementById('audioCar'); buttonCar.addEventListener('click',() => { audioCar.play(); }); $('#flipbook').bind('turning', function(event, page, view) { audioCar.pause(); }); function playAudio() { audioCar.play(); }</script>"
+  },
+  {
+    "id": 3,
     "pagesNumber":"page-number"
   }
 ]

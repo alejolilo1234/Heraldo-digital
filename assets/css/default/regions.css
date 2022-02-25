@@ -1,6 +1,7 @@
 .audio,
-.print{
-  padding: 25px;
+.print,
+.audio2 {
+  padding: 1.5rem;
   border-radius: 55%;
   text-decoration: none;
   cursor: pointer;
