@@ -43,6 +43,9 @@
   {
     "id": 4,
     "buttonsForAudioPrint": {
+      "id": "page13V",
+      "id2": "#page13V",
+      "YouTubeLink": "https://www.youtube.com/embed/flXCYtAwVqk",
       "linkToVideo": "https://www.youtube.com/watch?v=flXCYtAwVqk&feature=youtu.be",
       "displayAudio": "inline-block",
       "className": "buttons-audio-print",
@@ -59,7 +62,7 @@
       },
       "css": {
         "top": "6%",
-        "right": "40%"
+        "right": "35%"
       }
     }
   },

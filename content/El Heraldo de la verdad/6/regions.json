@@ -8,7 +8,9 @@
   {
     "id": 2,
     "buttonsForAudioPrint":{
-      "linkToVideo": "https://www.youtube.com/watch?v=SRCrGNcHkYg&feature=youtu.be",
+      "id": "page6V",
+      "id2": "#page6V",
+      "YouTubeLink": "https://www.youtube.com/embed/SRCrGNcHkYg",
       "displayAudio": "inline-block",
       "className":"buttons-audio-print",
       "audio":{
@@ -24,7 +26,7 @@
       },
       "css":{
         "top": "76%",
-        "left": "18%"
+        "left": "23%"
       }
     }
   },

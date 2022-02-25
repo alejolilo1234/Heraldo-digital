@@ -42,3 +42,12 @@ blockquote::before {
 blockquote::after {
   content: close-quote;
 }
+
+.noneDiv {
+  opacity: 0;
+  transition: .5s;
+}
+.blockDiv {
+  opacity: 1;
+  transition: .5s;
+}

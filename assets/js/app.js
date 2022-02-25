@@ -498,8 +498,11 @@
           
           this.$el.css(attr.buttonsForAudioPrint.css);
 
-          this.$el.html(audioPrintSVG(attr.buttonsForAudioPrint.audio.bgColor,attr.buttonsForAudioPrint.audio.border,attr.buttonsForAudioPrint.linkToVideo,attr.buttonsForAudioPrint.print.bgColor,attr.buttonsForAudioPrint.print.border,attr.buttonsForAudioPrint.print.link,
-          attr.buttonsForAudioPrint.displayAudio));
+          this.$el.html(audioPrintSVG(attr.buttonsForAudioPrint.audio.bgColor, attr.buttonsForAudioPrint.audio.border, attr.buttonsForAudioPrint.linkToVideo,attr.buttonsForAudioPrint.print.bgColor,attr.buttonsForAudioPrint.print.border,attr.buttonsForAudioPrint.print.link,
+          attr.buttonsForAudioPrint.displayAudio, attr.buttonsForAudioPrint.id) + "<div id='" + attr.buttonsForAudioPrint.id + "' class='modal'><div class='container-close-button'><a href='#close-modal' class='modal-close-button' rel='modal:close'></a></div><div style='height:20px;'></div><iframe width='100%' height='300px' src='" + attr.buttonsForAudioPrint.YouTubeLink + "' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div><script>let select" + attr.buttonsForAudioPrint.id + " = document.getElementById('" + attr.buttonsForAudioPrint.id + "-modal'); select" + attr.buttonsForAudioPrint.id + ".addEventListener('click', () => { $('" + attr.buttonsForAudioPrint.id2 + "').modal({fadeDuration: 500}); });</script>");
+
+          // select = document.getElementById(attr.buttonsForAudioPrint.id + "-modal");
+          // console.log(select);
 
           this.$el.data({view: this});
           $pageElement.append(this.$el);
@@ -531,7 +534,7 @@
         } else if(attr.buttonModalHTML){
           $("#" + attr.buttonModalHTML.containerIdToOpen).modal({fadeDuration: 500});
 
-          var detail = document.querySelector("." + attr.buttonModalHTML.detail);
+          /*var detail = document.querySelector("." + attr.buttonModalHTML.detail);
 
           let elements = document.querySelectorAll('#toggle'); 
           elements.forEach(element => {
@@ -540,10 +543,19 @@
 
           detail.setAttribute("open","");
 
-          setTimeout(function(){window.location.hash = '#' + attr.buttonModalHTML.link;},600);
+          setTimeout(function(){window.location.hash = '#' + attr.buttonModalHTML.link;},600);*/
         } else if(attr.pagesNumber){
           $('#flipbook').turn('page', 3);
-        }
+        } /*else if (attr.buttonsForAudioPrint) {
+          // select = document.getElementById(attr.buttonsForAudioPrint.id + "-modal");
+          var select = document.getElementById(attr.buttonsForAudioPrint.id + "-modal");
+
+          console.log(select);
+          
+          select.addEventListener('click', () => {
+            $("#" + attr.buttonsForAudioPrint.id).modal(); 
+          });
+        } */
     
         $('#flipbook').tooltips('hide');
       }
@@ -1271,8 +1283,8 @@ function authorLeftSVG(text,bg,x){
   return "<svg version='1.1' id='author' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 2470.5 216' style='enable-background:new 0 0 2470.5 216;' xml:space='preserve'><path fill='" + bg + "' d='M11,202.9V13.1h2351.9c52.4,0,94.9,42.5,94.9,94.9l0,0c0,52.4-42.5,94.9-94.9,94.9H11L11,202.9z'/><text x='" + x + "' y='140' style='font-size:4.3em;fill:white;font-family: sans-serif;'>" + text + "</text></svg>";
 }
 
-function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint,display){
-  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:inline-flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span style='display: " + display + "; color: white; font-size: .4em; text-align: center; background-color: var(--color-blue); border-radius: 140px; padding: 30px; '>Vídeo relacionado</span><a target='_blank' href='" + linkAudio + "' class='audio' id='audioPage4' style='display: " + display + "; background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i style='font-size: .9em;' class='fas fa-video'></i></a><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download><i class='fas fa-print'></i></a></div></foreignObject></svg>";
+function audioPrintSVG(bgColorAudio,borderColorAudio,linkAudio,bgColorPrint,borderColorPrint,linkPrint,display, linkToModal){
+  return "<svg version='1.1' id='audioPrint' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 327.6 150' style='overflow: visible;' xml:space='preserve'><foreignObject x='0' y='0' width='100%' height='100%' style='overflow:visible;'><div xmlns='http://www.w3.org/1999/xhtml' style='width:100%;display:inline-flex;place-content:center;margin-top:.5%;font-size: 5.3em;grid-gap:9%;'><span style='display: " + display + "; color: white; font-size: .4em; text-align: center; background-color: var(--color-blue); border-radius: 140px; padding: 30px; margin-left: -250px;'>Vídeo relacionado</span><a class='audio' id='" + linkToModal + "-modal' style='display: " + display + "; background-color:" + bgColorAudio + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;'><i style='font-size: .9em;' class='fas fa-video'></i></a><a class='print' style='background-color:" + bgColorPrint + ";color:white;box-shadow: 0 0 0 0 rgba(0, 0, 0, 0); animation: pulse-2 2s 3;' href='" + linkPrint + "' download><i class='fas fa-print'></i></a></div></foreignObject></svg>";
 }
 
 // Esta parte es para los audios
